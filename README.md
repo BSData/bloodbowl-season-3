@@ -1,4 +1,4 @@
-Blood Bowl - Season 3
+Blood Bowl - Third Season
 ==================
 
 [![Latest release](https://img.shields.io/github/release/BSData/bloodbowl-season-3.svg?style=flat-square)](https://github.com/BSData/bloodbowl-season-3/releases/latest)
