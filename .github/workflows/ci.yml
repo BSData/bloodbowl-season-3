@@ -2,7 +2,7 @@
 # for validity, integrity and bugs in datafiles.
 # For details, visit https://github.com/BSData/check-datafiles
 name: CI
-on: [ push, pull_request ]
+on: [ ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
     - uses: BSData/check-datafiles@v1
       id: check
 
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v4
       with:
         name: artifact
         path: ${{ steps.check.outputs.staging-path }}
