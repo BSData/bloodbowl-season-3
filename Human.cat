@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="34cc-57bf-d579-af26" name="Human" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Human Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3cb9-74ee-ed9e-4ce5">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Tackle</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Blitzer</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3264-a080-672b-9a51">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch, Dodge</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Catcher</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b3f4-dca5-2b85-c329">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">7</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Halfling, Lineman</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1673-fff8-20c1-ccc2">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Sure Hands</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Thrower</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9567-363e-2b29-8ae4">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (3+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Ogre, Big Guy</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="897d-4d8a-bc02-15a0">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Lineman</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Human Blitzer" id="1418-bb76-7ff4-673b" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="3f53-ad4a-9c4a-dd3d" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Human Catcher" id="0521-51f3-bcf5-ab2a" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="9ac0-8b50-c612-5e4b" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Halfling Hopeful" id="0738-c4bc-c035-cc6d" hidden="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="false" id="2501-5673-0061-20a7" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Human Thrower" id="4ef2-5470-9597-3b28" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="4506-5644-20a8-eef1" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Human Lineman" id="eee0-ed41-29b0-d7a6" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="false" id="1076-f284-3f1c-9a2e" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ogre" id="e769-0810-bdb2-882d" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="false" id="166d-75cc-1231-38a4" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Human Blitzer" hidden="false" id="1166-e6db-f59b-0360">
+      <infoLinks>
+        <infoLink name="Human Blitzer" id="81b7-73be-9a3d-894f" hidden="false" type="profile" targetId="3cb9-74ee-ed9e-4ce5"/>
+        <infoLink name="Block" id="2572-edab-80a0-f8d2" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="fcd1-004c-b0cf-b9cb" primary="false" name="Positional"/>
+        <categoryLink targetId="1418-bb76-7ff4-673b" id="3858-e098-d7ad-2c8a" primary="false" name="Human Blitzer"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="85000"/>
+        <cost name="CTV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="86ed-0b03-d283-71be" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="23d7-001e-abdc-6d2a" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="808e-3803-a53f-0204" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="ebab-8a29-28c3-431e" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="71b9-9974-5876-d8e4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="0187-ecaf-e27b-cb32" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Human Catcher" hidden="false" id="7ca3-7743-9a4f-2c0b">
+      <costs>
+        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
+        <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="0521-51f3-bcf5-ab2a" id="0628-6e78-18ce-9607" primary="false" name="Human Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="f665-8926-6f6e-af1b" primary="false" name="Positional"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Human Catcher" id="4057-d587-ccfa-43fb" hidden="false" type="profile" targetId="3264-a080-672b-9a51"/>
+        <infoLink name="Catch" id="0d8e-033a-9eda-ff37" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dodge" id="5a6e-1a32-15d6-baea" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="6840-32c1-eb69-f27a" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5e32-a820-1267-75de" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="d65d-309a-88ae-1824" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="9970-fbe6-1af8-b0ca" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="b8c2-8372-c70e-380a" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="4c4a-1064-5b8c-bb09" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="5d82-aea6-4c83-2894" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Halfling Hopeful" hidden="false" id="3f77-7213-5e5e-3083">
+      <costs>
+        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="30000"/>
+        <cost name="CTV" typeId="c4da-96df-1abd-13be" value="30000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Halfling Hopeful" hidden="false" id="8aaf-fc1f-70f6-cfc9" targetId="0738-c4bc-c035-cc6d" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Halfling Hopeful" id="20b5-d47a-4655-114b" hidden="false" type="profile" targetId="b3f4-dca5-2b85-c329"/>
+        <infoLink name="Dodge" id="6835-93f3-5451-3074" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="8987-836d-d9ee-c6ed" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="69cf-caf1-0490-fd01" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0d76-487e-81b5-ddee" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="88dd-7e35-ebdc-b472" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="b8bc-be44-9067-6e8c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="33f1-0e4c-60e1-e7aa" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Human Thrower" hidden="false" id="79d2-d988-441a-22af">
+      <infoLinks>
+        <infoLink name="Human Thrower" id="6873-057b-1b9c-7cd3" hidden="false" type="profile" targetId="1673-fff8-20c1-ccc2"/>
+        <infoLink name="Pass" id="c10c-cf20-bf0f-ab0a" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Sure Hands" id="1183-6fca-8dbc-9b2e" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="4ef2-5470-9597-3b28" id="5d1a-509d-5553-e73a" primary="false" name="Human Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="d0ca-e0b4-4e33-1d00" primary="false" name="Positional"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
+        <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="44ea-0a5b-32ab-c4f5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="32c5-78f9-130b-7c77" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="3f80-a261-f0a0-808f" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="50cb-3d44-c146-7d38" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="1479-9e0d-503c-2dd5" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="dce4-038a-bd97-b5c9" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="fcd5-b7ff-1836-61b2" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Human Lineman" hidden="false" id="5117-0c6e-af7e-08ac">
+      <costs>
+        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="50000"/>
+        <cost name="CTV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="eee0-ed41-29b0-d7a6" id="3d70-8498-d259-060b" primary="false" name="Human Lineman"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Human Lineman" id="38a4-55dc-ca16-80ab" hidden="false" type="profile" targetId="897d-4d8a-bc02-15a0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="7a2a-057f-d23f-549d" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="1860-d18d-dc7c-257e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="7389-d2a0-93bb-0989" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="dea2-9686-f42d-b6cc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="72b4-e069-8eb6-0622" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="3026-9ab1-91bf-7c11" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="2e5a-08a5-9d9f-e2f2">
+      <costs>
+        <cost name="Cost" typeId="5d81-4bfc-2ff6-66ee" value="140000"/>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ogre" id="d5b9-a5c8-b578-bb82" hidden="false" type="profile" targetId="9567-363e-2b29-8ae4"/>
+        <infoLink name="Mighty Blow" id="523c-3594-d448-702a" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Loner(x+)" id="bd1d-2f95-07dd-923c" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Thick Skull" id="1755-540c-9d87-1c62" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Bone Head" id="fde0-3a6c-8ae1-d809" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Throw Team-mate" id="16cb-b4f3-07ee-c76e" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="6158-f6ff-28cd-0efd" primary="false" name="Positional"/>
+        <categoryLink targetId="e769-0810-bdb2-882d" id="fcbe-a51a-d3b6-f348" primary="false" name="Ogre"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="4bef-0c26-21bd-d54f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="f8c2-3c78-acb8-fcc0" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="58d2-f5cd-5e02-93c6" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="781f-98da-c166-5142" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="1bab-b44f-0fd2-3698" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="e9cb-905b-86b6-c376" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Human Blitzer" hidden="false" id="dc8e-af8f-470e-f717" type="selectionEntry" targetId="1166-e6db-f59b-0360">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="4c8e-b3fc-982e-1538" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Human Catcher" hidden="false" id="cb2b-1728-cebc-2cda" type="selectionEntry" targetId="7ca3-7743-9a4f-2c0b">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="bf77-7e2e-ee8b-9673" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Human Thrower" hidden="false" id="7e23-4e3c-a5bb-ac5e" type="selectionEntry" targetId="79d2-d988-441a-22af">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="52ad-4a28-1ed4-7ec2" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="7f53-16d2-fe72-ce1e" type="selectionEntry" targetId="3f77-7213-5e5e-3083">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5cf2-f2ab-90ce-4696" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Human Lineman" hidden="false" id="897d-2890-e408-f8d6" type="selectionEntry" targetId="5117-0c6e-af7e-08ac">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="233a-6cc2-90eb-a866" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ogre" hidden="false" id="660e-4378-ea6e-782d" type="selectionEntry" targetId="2e5a-08a5-9d9f-e2f2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="3826-dc1a-f1ff-e8b1" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
