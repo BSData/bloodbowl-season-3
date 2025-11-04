@@ -80,7 +80,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sidestep" hidden="false" id="fd16-5b77-2cb1-ae29">
           <infoLinks>
-            <infoLink name="Side Step" id="94d3-e162-fd89-0fc0" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+            <infoLink name="Sidestep" id="94d3-e162-fd89-0fc0" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
           </infoLinks>
           <modifiers>
             <modifier type="append" value="Side Step" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
@@ -903,11 +903,11 @@ Additionally, this player may choose to use this Skill when they are the target 
     <rule name="Team Captain" id="6753-eb3f-0bf5-63ee" hidden="false"/>
     <rule name="Masters of Undeath" id="7f71-cda8-2d0d-b094" hidden="false"/>
     <rule name="Low Cost Linemen" id="5144-7fbb-8adf-ff4f" hidden="false"/>
-    <rule name="Loner(x+)" id="5ca2-1ec1-85bb-e3b5" hidden="false">
-      <alias>Loner(5+)</alias>
-      <alias>Loner(4+)</alias>
-      <alias>Loner(3+)</alias>
-      <alias>Loner(2+)</alias>
+    <rule name="Loner (x+)" id="5ca2-1ec1-85bb-e3b5" hidden="false">
+      <alias>Loner (5+)</alias>
+      <alias>Loner (4+)</alias>
+      <alias>Loner (3+)</alias>
+      <alias>Loner (2+)</alias>
       <description>Testing testing</description>
     </rule>
     <rule name="Bone Head" id="6e98-03d2-86a2-66e2" hidden="false"/>
@@ -988,15 +988,25 @@ Additionally, this player may choose to use this Skill when they are the target 
                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="7aa1-6377-3726-b943" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="50000" field="c4da-96df-1abd-13be"/>
+                <modifier type="set" value="50000" field="c4da-96df-1abd-13be">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="34cc-57bf-d579-af26" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="60000" field="c4da-96df-1abd-13be">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="baeb-dc95-9325-e9a2" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
               </modifiers>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="34cc-57bf-d579-af26" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="baeb-dc95-9325-e9a2" name="Orcs" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Orc Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a8e3-ad12-b03c-36e7">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Orc, Lineman</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Goblin Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="37bb-1865-75c7-1736">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Goblin Lineman</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orc Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d226-ed64-3a2d-d3ce">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Sure Hands</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Orc, Thrower</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orc Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="65fa-b86a-2ab4-14b3">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Break Tackle</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Orc, Blitzer</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Un Blocker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="13a5-60a0-d25b-c8bc">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Taunt, Thick Skull, Unsteady</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Orc, Blocker</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4279-28db-d33a-1127">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Troll, Big Guy</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Big Un Blocker" id="a743-e7b4-85b6-042c" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="3835-455d-6cce-697b" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Goblin Lineman" id="c648-331a-9d54-0ba0" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="false" id="2f11-323f-2361-2da9" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Orc Blitzer" id="fef9-3c33-84fd-0d47" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="dfe1-be59-7786-2830" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Orc Lineman" id="29d9-7751-c776-3b3c" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="false" id="376c-6cb8-86dd-a0cd" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Orc Thrower" id="ffac-bc02-3213-6e06" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="false" id="8d2c-c19f-65db-d003" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Troll" id="8c43-598f-e22a-7fac" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="false" id="221f-c1c4-73cd-983c" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Big Un Blocker" hidden="false" id="7709-7212-2ef8-0bc1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
+        <cost name="SPP" typeId="4e41-91b1-bfc3-fb78" value="0"/>
+        <cost name="Level" typeId="3107-fb54-b795-205e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="a743-e7b4-85b6-042c" id="6e89-ff62-e315-cfc0" primary="false" name="Big Un Blocker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="af59-12c1-2540-092d" primary="false" name="Positional"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="a91f-9891-4b01-2b4d" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="9abc-c59c-3899-dd1c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="96f1-6195-0868-f925" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="e2df-22a7-a31e-5a37" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="19da-9c19-5646-b5cc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="24d6-6cae-fff8-a848" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Big Un Blocker" id="38fd-0efb-e455-4570" hidden="false" type="profile" targetId="13a5-60a0-d25b-c8bc"/>
+        <infoLink name="Mighty Blow" id="2990-d58d-8b65-c0da" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Taunt" id="d375-f15d-0693-c049" hidden="false" type="rule" targetId="9db7-6897-bb3b-24ba"/>
+        <infoLink name="Thick Skull" id="58e9-b3c6-11cb-d48e" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.6c98-ff99-b9c8-73f9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Goblin Lineman" hidden="false" id="bfdd-af34-40c6-a20b">
+      <categoryLinks>
+        <categoryLink targetId="c648-331a-9d54-0ba0" id="e024-90be-41d1-e707" primary="false" name="Goblin Lineman"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="4eaa-b08e-6459-10df" primary="false" name="Positional"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="8519-ba65-3d93-3b31" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="ae79-8f6f-9ffa-8f21" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="0202-c5cb-7790-d00b" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="8f01-5930-fb1e-5bcb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="4b41-65c0-5eba-d509" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="7f00-3363-deb1-b24a" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="c5b6-48d6-498d-be2c" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Goblin Lineman" id="6730-0032-5c54-995f" hidden="false" type="profile" targetId="37bb-1865-75c7-1736"/>
+        <infoLink name="Dodge" id="950d-f3c0-cd63-1253" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Orc Blitzer" hidden="false" id="fd65-457d-6473-fb9e">
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="22b5-b3fd-8175-3587" primary="false" name="Positional"/>
+        <categoryLink targetId="fef9-3c33-84fd-0d47" id="2d9c-b678-2677-cfa7" primary="false" name="Orc Blitzer"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="4e09-162b-1d31-63da" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="838e-82ea-48e5-789c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="b43c-b2a7-899b-03b6" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="6faa-b762-e12c-c9b7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="6fdf-b871-3eba-1718" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="4216-b2bf-ce7d-1d61" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Orc Blitzer" id="d7c3-e423-b32e-3d20" hidden="false" type="profile" targetId="65fa-b86a-2ab4-14b3"/>
+        <infoLink name="Block" id="6e4e-3b0b-34c0-543e" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Break Tackle" id="4c65-d8ef-9142-f1e8" hidden="false" type="rule" targetId="2003-6026-6a4f-38bd"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.bf76-6fef-b1a1-34c8"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Orc Lineman" hidden="false" id="9007-ef35-02a0-bc2a">
+      <categoryLinks>
+        <categoryLink targetId="29d9-7751-c776-3b3c" id="bcf9-691f-c0a1-d667" primary="false" name="Orc Lineman"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ffbb-6e75-59fe-83b9" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="3ff6-a7b9-0620-9c99" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="48fe-73a3-7c40-598c" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3a6f-77cc-fe35-fb74" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="4448-6d8b-bd4e-f85a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="f896-7d53-baa8-77bd" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Orc Lineman" id="9307-874a-dd85-c2b2" hidden="false" type="profile" targetId="a8e3-ad12-b03c-36e7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Orc Thrower" hidden="false" id="4130-4f4d-71fb-feac">
+      <categoryLinks>
+        <categoryLink targetId="ffac-bc02-3213-6e06" id="ccd2-7b8d-fe5a-f186" primary="false" name="Orc Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0237-cfac-37ed-8546" primary="false" name="Positional"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1904-bc21-d07a-8503" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="868f-939d-449c-6668" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="General" hidden="false" id="3da7-8b95-007e-1faf" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="491f-8d0e-32ab-a896" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f8a8-05dd-6afe-5eb4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="de4c-fdd1-222a-6ffa" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="83eb-7516-6706-27b3" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Orc Thrower" id="d6a9-b513-e638-d603" hidden="false" type="profile" targetId="d226-ed64-3a2d-d3ce"/>
+        <infoLink name="Pass" id="526d-e2b4-d944-6ae0" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Sure Hands" id="3efd-5c62-77e2-0681" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Troll" hidden="false" id="96a3-8a9b-19b7-1c14">
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="fe32-76e4-286e-4fce" primary="false" name="Positional"/>
+        <categoryLink targetId="8c43-598f-e22a-7fac" id="0fb2-8cbf-d006-4d18" primary="false" name="Troll"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="2994-96dd-559f-e429" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="3f9c-89fa-7c4d-8660" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="fb76-3326-f6c5-50d7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="52dc-1fe2-705a-5f49" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="eb87-dbc5-5853-8692" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="1b6b-aee6-f478-57b0" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Troll" id="04ae-56ae-e25d-05e5" hidden="false" type="profile" targetId="4279-28db-d33a-1127"/>
+        <infoLink name="Loner (x+)" id="7269-26ce-a796-1272" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow" id="6e1c-6cdf-5c5a-780e" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Big Un Blocker" hidden="false" id="92cf-ed27-ec9a-cb5a" type="selectionEntry" targetId="7709-7212-2ef8-0bc1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="e6d6-3d5c-c7f4-bdd1" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Goblin Lineman" hidden="false" id="7d67-1cc6-dfd6-fd44" type="selectionEntry" targetId="bfdd-af34-40c6-a20b">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="198e-54cb-6634-a60d" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orc Blitzer" hidden="false" id="d32f-b3f7-8205-afab" type="selectionEntry" targetId="fd65-457d-6473-fb9e">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="baeb-6026-9ec6-dac6" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orc Lineman" hidden="false" id="ecd2-54c1-a068-628b" type="selectionEntry" targetId="9007-ef35-02a0-bc2a">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="f3e9-e4ea-49d8-3966" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orc Thrower" hidden="false" id="09f7-7685-deca-e036" type="selectionEntry" targetId="4130-4f4d-71fb-feac">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6c01-622a-451c-6119" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Troll" hidden="false" id="2ec4-2a90-526c-c8f1" type="selectionEntry" targetId="96a3-8a9b-19b7-1c14">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="69ea-9937-733e-ca0a" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
