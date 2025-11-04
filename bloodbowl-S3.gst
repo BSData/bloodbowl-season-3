@@ -78,7 +78,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f29-e00a-607c-3f20"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Side Step" hidden="false" id="fd16-5b77-2cb1-ae29">
+        <selectionEntry type="upgrade" import="true" name="Sidestep" hidden="false" id="fd16-5b77-2cb1-ae29">
           <infoLinks>
             <infoLink name="Side Step" id="94d3-e162-fd89-0fc0" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
           </infoLinks>
@@ -88,6 +88,105 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58d9-e3a8-e060-4938"/>
           </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Diving Catch" hidden="false" id="a823-8e80-3fe9-3c57">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4163-7871-a386-4180" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Diving Catch" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Diving Catch" id="0957-35f2-4b79-d7ec" hidden="false" type="rule" targetId="dd58-42b0-b6c5-2948"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Diving Tackle" hidden="false" id="7dcd-6431-83aa-45ee">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="874e-208b-f9d3-1424" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Diving Tackle" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Diving Tackle" id="0c87-efc0-58d2-35a3" hidden="false" type="rule" targetId="cd69-0caa-585b-3a39"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Defensive" hidden="false" id="2ff8-d21a-4569-a1a9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd90-57d7-5c80-3c47" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Defensive" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Defensive" id="a102-7733-fd8d-60c3" hidden="false" type="rule" targetId="45b3-7be5-2c44-6ae1"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hit and Run" hidden="false" id="d2d1-9a8f-c4a8-2f56">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80f1-f40a-eca8-8824" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Hit and Run" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Hit and Run" id="32f6-8277-1433-8f3a" hidden="false" type="rule" targetId="1517-e3ea-cdf2-c03f"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jump Up" hidden="false" id="b06f-8bce-bfe3-fd7b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e87-a9f2-5f16-682e" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Jump Up" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Jump Up" id="5dce-d6f5-684f-5cc6" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Leap" hidden="false" id="45fc-f179-e755-23e4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6531-4522-321d-b49b" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Leap" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Leap" id="9c63-ec4f-4bf3-3fc3" hidden="false" type="rule" targetId="ea91-91c0-9d4f-9828"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Safe Pair of Hands" hidden="false" id="8273-6297-5860-c1ce">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9073-313b-fcb8-6e4c" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Safe Pair of Hands" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Safe Pair of Hands" id="db06-ffcf-bc50-32fb" hidden="false" type="rule" targetId="03c1-9b60-198b-adef"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sure Feet" hidden="false" id="8de6-19d9-5b42-e667">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44be-5dca-addc-9ceb" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Sure Feet" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Sure Feet" id="64fb-eaf6-7083-a8b3" hidden="false" type="rule" targetId="57d4-9f23-820f-5564"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sprint" hidden="false" id="be8c-ebf4-021c-1083">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce85-438b-9a42-4411" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Sprint" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Sprint" id="1864-6418-44ac-ac23" hidden="false" type="rule" targetId="27c8-91f7-235f-c531"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -137,6 +236,94 @@
             <infoLink name="Fumblerooskie" id="6cb1-b844-21c2-b696" hidden="false" type="rule" targetId="d394-3589-41fd-686a"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Eye Gouge" hidden="false" id="38a5-ea0d-6d11-7ea8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bf1-e5f0-3757-f038" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Eye Gouge" id="0b6b-5a7b-d729-700b" hidden="false" type="rule" targetId="d295-290e-5694-0ff1"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Eye Gouge" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Lethal Flight" hidden="false" id="e3a6-5677-ccf5-314f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4b3-5019-69b2-e563" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lethal Flight" id="a122-8a32-794e-774b" hidden="false" type="rule" targetId="e561-c980-89af-2f71"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Lethal Flight" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Lone Fouler" hidden="false" id="24b5-d622-c54a-9fa0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66fc-2f97-da44-eea1" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Lone Fouler" id="9f7a-6e1d-10e8-9d09" hidden="false" type="rule" targetId="823c-3acc-aa9c-5bd5"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Lone Fouler" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pile Driver" hidden="false" id="4d1b-180b-7d5c-d552">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39b7-30e2-b6c2-09c7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Pile Driver" id="e01d-ac7c-d86b-03c2" hidden="false" type="rule" targetId="2838-71da-f6f5-fb14"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Pile Driver" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Put the Boot In" hidden="false" id="db00-bea0-efd4-a74d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50a1-b57c-d2ba-641b" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Put the Boot In" id="b9c1-022d-b417-2eb0" hidden="false" type="rule" targetId="5c5a-0eb8-d7e7-158c"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Put the Boot In" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Quick Foul" hidden="false" id="3114-a4ca-3905-6327">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3b5-27ba-fdd5-be09" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Quick Foul" id="f612-0e46-2677-66e7" hidden="false" type="rule" targetId="10f6-086d-9bcf-7e6e"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Quick Foul" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Saboteur" hidden="false" id="a473-ceb3-3a71-09d7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebac-ed69-026b-68c8" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Saboteur" id="b8fe-e209-cacf-63f8" hidden="false" type="rule" targetId="a30f-161d-4e2c-ab3a"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Saboteur" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Violent Innovator" hidden="false" id="dfe8-5eb3-062f-beb0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe2f-301c-e301-21b2" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Violent Innovator" id="83c0-7763-b108-64a5" hidden="false" type="rule" targetId="a014-5ef8-d8d2-cb66"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Violent Innovator" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="General" id="f7fd-b955-21d7-90d4" hidden="false">
@@ -163,6 +350,116 @@
             <infoLink name="Sure Hands" id="91be-6c62-b7fa-2b3c" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dauntless" hidden="false" id="4d11-85d3-4e6b-2ca1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a552-8c25-bb18-02d4" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Dauntless" id="24c7-e07f-b2b1-f7b3" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Dauntless" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fend" hidden="false" id="53f7-15ef-fbe0-9031">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7b8-832b-fc20-01d7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Fend" id="6840-d7d2-b22c-a0dd" hidden="false" type="rule" targetId="055f-a433-190e-79be"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Fend" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Frenzy" hidden="false" id="174f-5c4a-d02f-096e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5af6-35fa-184c-f5d7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Violent Innovator" id="d3d6-36a0-8ee2-b026" hidden="false" type="rule" targetId="a014-5ef8-d8d2-cb66"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Violent Innovator" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kick" hidden="false" id="9d54-cb56-52d0-f34c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3019-dbbe-af5c-d1b7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Kick" id="80a0-daeb-a33d-7200" hidden="false" type="rule" targetId="c4ba-5bd4-e787-b839"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Kick" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pro" hidden="false" id="c01a-f957-98ac-92b5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d82-6d03-648f-b493" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Pro" id="c896-793b-9467-6edd" hidden="false" type="rule" targetId="0280-69e1-9d1c-3838"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Pro" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Steady Footing" hidden="false" id="09ba-cd46-c151-4e45">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c09f-1852-30e8-6b83" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Steady Footing" id="1ca0-9bfa-c78e-6a70" hidden="false" type="rule" targetId="6a53-7189-b23e-1778"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Steady Footing" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Strip Ball" hidden="false" id="8af2-7a8b-ed7d-8a54">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7a6-bb89-7b4d-1776" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Strip Ball" id="8c4c-3c54-2717-6ffb" hidden="false" type="rule" targetId="e805-e82f-a03e-99a9"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Strip Ball" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tackle" hidden="false" id="730f-16ec-313f-88ce">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c699-af33-79c4-ae96" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Tackle" id="eee8-d3bf-75c0-2644" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Tackle" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="6c98-ff99-b9c8-73f9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f12c-6165-3777-5282" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Taunt" id="5df5-d8d1-cbe5-6c5f" hidden="false" type="rule" targetId="9db7-6897-bb3b-24ba"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Taunt" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Wrestle" hidden="false" id="a648-03ec-727a-921a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b03-563a-d65e-a8fd" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Wrestle" id="a052-c5d9-b047-7377" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Wrestle" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Mutation" id="cc5f-a16a-3abc-1266" hidden="false">
@@ -188,6 +485,116 @@
           <infoLinks>
             <infoLink name="Iron Hard Skin" id="dd43-90be-5d0a-d92d" hidden="false" type="rule" targetId="cd02-03fb-ff2b-a74a"/>
           </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Big Hand" hidden="false" id="576a-494c-763f-491b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="811a-3efc-4d3c-2f37" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Big Hand" id="39d4-4cca-c704-8e51" hidden="false" type="rule" targetId="d10a-de03-524c-4227"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Big Hand" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Disturbing Presence" hidden="false" id="6f4e-09ba-73c2-9fcc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd91-1199-af3d-c1ba" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Disturbing Presence" id="96bc-23b7-a7f5-ee1f" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Disturbing Presence" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Extra Arms" hidden="false" id="90ad-773b-73fe-9902">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d41d-1bb0-8582-18f3" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Extra Arms" id="447b-4f7a-7833-452c" hidden="false" type="rule" targetId="fa78-7a40-0ec7-7dc4"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Extra Arms" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Foul Appearance" hidden="false" id="07a8-cbbc-5267-9a61">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd3f-b435-4d11-4c3b" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Foul Appearance" id="cc1c-362f-227a-4095" hidden="false" type="rule" targetId="efba-85d4-8842-adb5"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Foul Appearance" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Horns" hidden="false" id="b392-9974-2af9-bcf0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58fd-c578-0c64-a04e" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Horns" id="28d9-fc33-8fb7-1da8" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Horns" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Monstrous Mouth" hidden="false" id="81e3-bd29-a700-e5b6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bbf-bc5b-90f6-2498" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Monstrous Mouth" id="c5c7-b0ea-57c6-2c73" hidden="false" type="rule" targetId="e126-a8cf-875f-6df9"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Monstrous Mouth" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Prehensile Tail" hidden="false" id="285a-a4da-1ac5-8ba1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a99d-ebf1-57a7-68e7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Prehensile Tail" id="b453-2372-7f01-d086" hidden="false" type="rule" targetId="6290-be3e-96b3-05f2"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Prehensile Tail" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tentacles" hidden="false" id="e774-3a70-5f83-8a6e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75bd-392d-adcb-0aa9" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Tentacles" id="a6b6-8f67-a49d-3373" hidden="false" type="rule" targetId="8804-93c3-e4bd-78ee"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Tentacles" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Two Heads" hidden="false" id="87d5-dd94-021a-691b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="721a-ab16-5182-6493" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Two Heads" id="4813-7c3c-a963-1dae" hidden="false" type="rule" targetId="9716-620b-a518-61c1"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Two Heads" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Very Long Legs" hidden="false" id="17b5-6c5d-3794-9317">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51d7-eee7-026b-b94b" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Very Long Legs" id="1955-3407-490f-f01b" hidden="false" type="rule" targetId="a109-a1fe-a3d8-3a46"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Very Long Legs" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -226,6 +633,105 @@
             <infoLink name="Accurate" id="1b60-c050-a4c9-b742" hidden="false" type="rule" targetId="74e5-41fe-b941-88de"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Cannoneer" hidden="false" id="df74-83b9-476e-eb0e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85da-be49-7de4-f9b5" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Cannoneer" id="1066-683a-f009-1623" hidden="false" type="rule" targetId="dfb8-3a7e-a09e-0e4f"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Cannoneer" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Cloud Burster" hidden="false" id="32dd-25fd-d3a2-9ab7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c07-585c-2818-344d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Cloud Burster" id="c08a-b74e-502c-01e1" hidden="false" type="rule" targetId="b8ac-a6d8-a64b-386a"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Cloud Burster" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dump-off" hidden="false" id="3333-d806-7584-c8e8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cac-967f-a547-af43" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Dump-off" id="b8ee-3f1c-588e-7198" hidden="false" type="rule" targetId="64e7-67e4-6b1d-060a"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Dump-off" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Give and Go" hidden="false" id="205d-9b3b-37b2-4470">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98d6-101d-735c-e717" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Give and Go" id="184f-8d01-b3a5-9301" hidden="false" type="rule" targetId="16f1-99fa-6638-581d"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Give and Go" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hail Mary Pass" hidden="false" id="15f5-63ee-9cdf-76a6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e063-dc8a-2ccd-ddb0" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hail Mary Pass" id="ed78-6f31-6275-f05a" hidden="false" type="rule" targetId="1344-988c-17e0-37a5"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Hail Mary Pass" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="233e-b79b-0792-69d3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9184-4822-a87b-3712" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Leader" id="90d6-6f3d-97ff-fdff" hidden="false" type="rule" targetId="9967-c77f-f92a-7fb6"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Leader" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="On the Ball" hidden="false" id="a279-db7f-7aab-d126">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d73e-78f2-a596-2e9d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="On the Ball" id="81f1-0759-90d3-6342" hidden="false" type="rule" targetId="8a2f-7e41-b532-e70a"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="On the Ball" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Punt" hidden="false" id="fc98-60bc-7bb6-4794">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="679f-1df4-3093-3c56" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Punt" id="9adc-f1f8-7c82-72bd" hidden="false" type="rule" targetId="62ba-0905-65f5-7d94"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Punt" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Safe Pass" hidden="false" id="92fa-d3e4-5627-dce4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="377f-7b4b-5340-0748" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Safe Pass" id="6a90-bb3c-56a9-7720" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Safe Pass" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Strength" id="31a8-34bd-4d79-5269" hidden="false">
@@ -263,6 +769,105 @@
             <modifier type="append" value="Mighty Blow" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Arm Bar" hidden="false" id="cbe1-6acd-9485-681c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c99a-1399-0542-4e17" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Arm Bar" id="6b43-84d6-c728-bc9b" hidden="false" type="rule" targetId="0257-a858-5355-5d9f"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Arm Bar" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brawler" hidden="false" id="9256-339d-7987-49c4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c00-59e0-4af9-0565" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Brawler" id="9b40-f72e-f56b-0ef9" hidden="false" type="rule" targetId="d839-ffbd-92cc-0ec0"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Brawler" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Break Tackle" hidden="false" id="bf76-6fef-b1a1-34c8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45be-921c-252e-5876" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Break Tackle" id="3e29-00eb-adf6-9a3a" hidden="false" type="rule" targetId="2003-6026-6a4f-38bd"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Break Tackle" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bullseye" hidden="false" id="e3a7-b9ce-e83c-bea7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d8-9cc7-b098-6c8c" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Bullseye" id="714f-6127-4892-9ab5" hidden="false" type="rule" targetId="a3a4-2c1c-b545-1872"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Bullseye" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grab" hidden="false" id="ec3a-6308-b916-8e0b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fcd-6dfe-fc08-b3aa" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Grab" id="b5cc-dbae-beb6-ad32" hidden="false" type="rule" targetId="ed62-ba8e-71c7-5a1d"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Grab" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Juggernaut" hidden="false" id="fb62-3fc9-f728-bf0c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c5d-4a33-5237-24f3" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Juggernaut" id="2117-4ec8-b522-637f" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Juggernaut" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Multiple Block" hidden="false" id="ebf5-a871-3b99-91da">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dca-1724-c58a-f435" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Multiple Block" id="8027-c450-b3c4-6ab6" hidden="false" type="rule" targetId="ec86-a9da-e6e6-5e49"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Multiple Block" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Strong Arm" hidden="false" id="9bbc-0b62-5ed8-c316">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e04-3b8a-2a35-6e27" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Strong Arm" id="547a-8a67-8591-ca64" hidden="false" type="rule" targetId="c1df-8664-e3cd-9611"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Strong Arm" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Thick Skull" hidden="false" id="3d15-f50c-c6e3-17e9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3a6-57e1-5186-6e7d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Thick Skull" id="d07c-ea36-88f5-adb7" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="append" value="Thick Skull" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Primary Skill" id="f398-0d58-6146-99f7" hidden="false"/>
@@ -290,7 +895,7 @@ Additionally, this player may choose to use this Skill when they are the target 
     <rule name="Shadowing" id="5263-3b6c-910f-3a9d" hidden="false"/>
     <rule name="Sneaky Git" id="55b8-f8cc-b103-d0a9" hidden="false"/>
     <rule name="Sure Hands" id="ff07-cb36-b759-cfa7" hidden="false"/>
-    <rule name="Side Step" id="f58b-2d8b-99e7-2b1c" hidden="false"/>
+    <rule name="Sidestep" id="f58b-2d8b-99e7-2b1c" hidden="false"/>
     <rule name="Claws" id="6f08-6919-3fb4-77b1" hidden="false"/>
     <rule name="Iron Hard Skin" id="cd02-03fb-ff2b-a74a" hidden="false"/>
     <rule name="Brawlin&apos; Brutes" id="15e6-1d61-20ad-257a" hidden="false"/>
@@ -309,6 +914,60 @@ Additionally, this player may choose to use this Skill when they are the target 
     <rule name="Thick Skull" id="d547-b26d-592c-30e1" hidden="false"/>
     <rule name="Throw Team-mate" id="25e0-225c-008f-bda3" hidden="false"/>
     <rule name="Vampire Lord" id="8a54-e349-020d-9c5f" hidden="false"/>
+    <rule name="Defensive" id="45b3-7be5-2c44-6ae1" hidden="false"/>
+    <rule name="Diving Catch" id="dd58-42b0-b6c5-2948" hidden="false"/>
+    <rule name="Diving Tackle" id="cd69-0caa-585b-3a39" hidden="false"/>
+    <rule name="Hit and Run" id="1517-e3ea-cdf2-c03f" hidden="false"/>
+    <rule name="Jump Up" id="bddd-f778-43af-92d6" hidden="false"/>
+    <rule name="Leap" id="ea91-91c0-9d4f-9828" hidden="false"/>
+    <rule name="Safe Pair of Hands" id="03c1-9b60-198b-adef" hidden="false"/>
+    <rule name="Sprint" id="27c8-91f7-235f-c531" hidden="false"/>
+    <rule name="Sure Feet" id="57d4-9f23-820f-5564" hidden="false"/>
+    <rule name="Eye Gouge" id="d295-290e-5694-0ff1" hidden="false"/>
+    <rule name="Lethal Flight" id="e561-c980-89af-2f71" hidden="false"/>
+    <rule name="Lone Fouler" id="823c-3acc-aa9c-5bd5" hidden="false"/>
+    <rule name="Pile Driver" id="2838-71da-f6f5-fb14" hidden="false"/>
+    <rule name="Put the Boot In" id="5c5a-0eb8-d7e7-158c" hidden="false"/>
+    <rule name="Quick Foul" id="10f6-086d-9bcf-7e6e" hidden="false"/>
+    <rule name="Saboteur" id="a30f-161d-4e2c-ab3a" hidden="false"/>
+    <rule name="Violent Innovator" id="a014-5ef8-d8d2-cb66" hidden="false"/>
+    <rule name="Dauntless" id="9d4e-5fe7-813b-967c" hidden="false"/>
+    <rule name="Fend" id="055f-a433-190e-79be" hidden="false"/>
+    <rule name="Frenzy" id="23bd-8f90-1641-a278" hidden="false"/>
+    <rule name="Kick" id="c4ba-5bd4-e787-b839" hidden="false"/>
+    <rule name="Pro" id="0280-69e1-9d1c-3838" hidden="false"/>
+    <rule name="Steady Footing" id="6a53-7189-b23e-1778" hidden="false"/>
+    <rule name="Strip Ball" id="e805-e82f-a03e-99a9" hidden="false"/>
+    <rule name="Tackle" id="8f90-114d-5eba-8a39" hidden="false"/>
+    <rule name="Taunt" id="9db7-6897-bb3b-24ba" hidden="false"/>
+    <rule name="Wrestle" id="402c-5594-a4de-8404" hidden="false"/>
+    <rule name="Big Hand" id="d10a-de03-524c-4227" hidden="false"/>
+    <rule name="Disturbing Presence" id="7c10-67d5-0349-a4b8" hidden="false"/>
+    <rule name="Extra Arms" id="fa78-7a40-0ec7-7dc4" hidden="false"/>
+    <rule name="Foul Appearance" id="efba-85d4-8842-adb5" hidden="false"/>
+    <rule name="Horns" id="6470-3281-c861-bbae" hidden="false"/>
+    <rule name="Monstrous Mouth" id="e126-a8cf-875f-6df9" hidden="false"/>
+    <rule name="Prehensile Tail" id="6290-be3e-96b3-05f2" hidden="false"/>
+    <rule name="Tentacles" id="8804-93c3-e4bd-78ee" hidden="false"/>
+    <rule name="Two Heads" id="9716-620b-a518-61c1" hidden="false"/>
+    <rule name="Very Long Legs" id="a109-a1fe-a3d8-3a46" hidden="false"/>
+    <rule name="Cannoneer" id="dfb8-3a7e-a09e-0e4f" hidden="false"/>
+    <rule name="Cloud Burster" id="b8ac-a6d8-a64b-386a" hidden="false"/>
+    <rule name="Dump-off" id="64e7-67e4-6b1d-060a" hidden="false"/>
+    <rule name="Give and Go" id="16f1-99fa-6638-581d" hidden="false"/>
+    <rule name="Hail Mary Pass" id="1344-988c-17e0-37a5" hidden="false"/>
+    <rule name="Leader" id="9967-c77f-f92a-7fb6" hidden="false"/>
+    <rule name="On the Ball" id="8a2f-7e41-b532-e70a" hidden="false"/>
+    <rule name="Punt" id="62ba-0905-65f5-7d94" hidden="false"/>
+    <rule name="Safe Pass" id="58c3-5b5a-6799-3086" hidden="false"/>
+    <rule name="Arm Bar" id="0257-a858-5355-5d9f" hidden="false"/>
+    <rule name="Brawler" id="d839-ffbd-92cc-0ec0" hidden="false"/>
+    <rule name="Break Tackle" id="2003-6026-6a4f-38bd" hidden="false"/>
+    <rule name="Bullseye" id="a3a4-2c1c-b545-1872" hidden="false"/>
+    <rule name="Grab" id="ed62-ba8e-71c7-5a1d" hidden="false"/>
+    <rule name="Juggernaut" id="783a-8b57-b4c3-4344" hidden="false"/>
+    <rule name="Multiple Block" id="ec86-a9da-e6e6-5e49" hidden="false"/>
+    <rule name="Strong Arm" id="c1df-8664-e3cd-9611" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Team Re-Rolls" hidden="false" id="9350-0bc7-c2fc-7af5" publicationId="46da-ba61-6439-83e5" collective="false">
