@@ -80,7 +80,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sidestep" hidden="false" id="fd16-5b77-2cb1-ae29">
           <infoLinks>
-            <infoLink name="Side Step" id="94d3-e162-fd89-0fc0" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+            <infoLink name="Sidestep" id="94d3-e162-fd89-0fc0" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
           </infoLinks>
           <modifiers>
             <modifier type="append" value="Side Step" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
@@ -336,7 +336,7 @@
             <modifier type="append" value="Block" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
           </modifiers>
           <infoLinks>
-            <infoLink name="Block" id="e6f0-8f1e-fa53-761a" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+            <infoLink name="Block (Active)" id="e6f0-8f1e-fa53-761a" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sure Hands" hidden="false" id="27b1-e9c4-d427-d2d8">
@@ -491,7 +491,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="811a-3efc-4d3c-2f37" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Big Hand" id="39d4-4cca-c704-8e51" hidden="false" type="rule" targetId="d10a-de03-524c-4227"/>
+            <infoLink name="Big Hand (Active)" id="39d4-4cca-c704-8e51" hidden="false" type="rule" targetId="d10a-de03-524c-4227"/>
           </infoLinks>
           <modifiers>
             <modifier type="append" value="Big Hand" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
@@ -630,7 +630,7 @@
             <modifier type="append" value="Accurate" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
           </modifiers>
           <infoLinks>
-            <infoLink name="Accurate" id="1b60-c050-a4c9-b742" hidden="false" type="rule" targetId="74e5-41fe-b941-88de"/>
+            <infoLink name="Accurate (Active)" id="1b60-c050-a4c9-b742" hidden="false" type="rule" targetId="74e5-41fe-b941-88de"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Cannoneer" hidden="false" id="df74-83b9-476e-eb0e">
@@ -774,7 +774,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c99a-1399-0542-4e17" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Arm Bar" id="6b43-84d6-c728-bc9b" hidden="false" type="rule" targetId="0257-a858-5355-5d9f"/>
+            <infoLink name="Arm Bar (Active)" id="6b43-84d6-c728-bc9b" hidden="false" type="rule" targetId="0257-a858-5355-5d9f"/>
           </infoLinks>
           <modifiers>
             <modifier type="append" value="Arm Bar" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
@@ -874,100 +874,610 @@
     <selectionEntryGroup name="Secondary Skill" id="290c-cda9-c02e-31a1" hidden="false"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule name="Catch" id="098e-6fa4-284c-49ca" hidden="false">
-      <description>This player may re-roll a failed Agility test when attempting to catch the ball.</description>
+    <rule name="Catch (Active)" id="098e-6fa4-284c-49ca" hidden="false">
+      <description>This player may re-roll any failed Agility Test when attempting to Catch the ball.</description>
     </rule>
-    <rule name="Dodge" id="76b8-dd78-3edc-4b16" hidden="false">
-      <description>Once per team turn, during their activation, this player may re-roll a failed Agility test when attempting to Dodge.
+    <rule name="Dodge (Active)" id="76b8-dd78-3edc-4b16" hidden="false">
+      <description>Once per Turn, this player may re-roll a single Agility Test when attempting to Dodge. Additionally, this Skill will impact the Stumble result when an opposition player performs a Block Action against this player, as described on page 62.</description>
+    </rule>
+    <rule name="Block (Active)" id="85b4-cdee-1e19-3038" hidden="false">
+      <description>A player with this Skill may choose not to be Knocked Down when a Both Down result is applied during a Block Action that they are part of.</description>
+    </rule>
+    <rule name="Guard (Active)" id="6772-a834-2b47-9255" hidden="false">
+      <description>This player can provide Offensive and Defensive Assists when a player performs a Block Action regardless of how many opposition players are Marking this player.</description>
+    </rule>
+    <rule name="Stand Firm (Active)" id="b299-5d1e-b26c-cd3b" hidden="false">
+      <description>When this player would be Pushed Back during a Block Action, including during a Chain Push, they can choose to not be Pushed Back and instead remain in their current square. Using this Skill will not prevent a player with the Frenzy Skill from performing a second Block Action, so long as this player is still Standing.</description>
+    </rule>
+    <rule name="Mighty Blow (Active)" id="14aa-a202-4417-3e92" hidden="false">
+      <description>Whenever this player Knocks Down an opposition player during a Block Action, even if this player is also Knocked Down, they may apply a +1 modifier to either the Armour Roll or Injury Roll. This modifier may be applied after the roll has been made.</description>
+    </rule>
+    <rule name="Accurate (Active)" id="74e5-41fe-b941-88de" hidden="false">
+      <description>When this player performs a Pass Action which is a Quick Pass or a Short Pass, this player may apply a +1 modifier to the Passing Ability Test.</description>
+    </rule>
+    <rule name="Fumblerooski (Active)" id="d394-3589-41fd-686a" hidden="false">
+      <description>When this player performs a Move Action whilst they are in possession of the ball, they may choose to place the ball on the ground in any square they move out of during their Move Action. This will not cause a Turnover.</description>
+    </rule>
+    <rule name="Nerves of Steel (Active)" id="b7d6-484c-fffd-8eb4" hidden="false">
+      <description>This player may ignore any modifiers for being Marked when making an Agility Test to Catch the ball, or when making a Passing Ability Test to Pass the ball.</description>
+    </rule>
+    <rule name="Pass (Active)" id="5149-08e1-df59-78bd" hidden="false">
+      <description>This player may re-roll any failed Passing Ability Test when performing a Pass Action.</description>
+    </rule>
+    <rule name="Dirty Player (Active)" id="b9d6-feed-f5da-6864" hidden="false">
+      <description>When this player performs a Foul Action, they may apply a +1 modifier to either the Armour Roll or Injury Roll. This modifier may be applied after the roll has been made.</description>
+    </rule>
+    <rule name="Shadowing (Active)" id="5263-3b6c-910f-3a9d" hidden="false">
+      <description>Each time an opposing player attempts to Dodge out of a square within this player&apos;s Tackle Zone, this player may use this Skill.
 
 
-Additionally, this player may choose to use this Skill when they are the target of a Block action and a Stumble result is applied against them, as described on page 57.</description>
+When this player uses this Skill, roll a D6. On a 1-3, nothing happens. On a 4+, this player is immediately placed into the square that the opposition player vacated. This player may only use this Skill a number of times per Turn equal to their MA.
+
+
+If a player tries to leave the Tackle Zone of multiple players with this Skill at the same time, only one of those players may use this Skill.</description>
     </rule>
-    <rule name="Block" id="85b4-cdee-1e19-3038" hidden="false"/>
-    <rule name="Guard" id="6772-a834-2b47-9255" hidden="false"/>
-    <rule name="Stand Firm" id="b299-5d1e-b26c-cd3b" hidden="false"/>
-    <rule name="Mighty Blow" id="14aa-a202-4417-3e92" hidden="false"/>
-    <rule name="Accurate" id="74e5-41fe-b941-88de" hidden="false"/>
-    <rule name="Fumblerooskie" id="d394-3589-41fd-686a" hidden="false"/>
-    <rule name="Nerves of Steel" id="b7d6-484c-fffd-8eb4" hidden="false"/>
-    <rule name="Pass" id="5149-08e1-df59-78bd" hidden="false"/>
-    <rule name="Dirty Player" id="b9d6-feed-f5da-6864" hidden="false"/>
-    <rule name="Shadowing" id="5263-3b6c-910f-3a9d" hidden="false"/>
-    <rule name="Sneaky Git" id="55b8-f8cc-b103-d0a9" hidden="false"/>
-    <rule name="Sure Hands" id="ff07-cb36-b759-cfa7" hidden="false"/>
-    <rule name="Sidestep" id="f58b-2d8b-99e7-2b1c" hidden="false"/>
-    <rule name="Claws" id="6f08-6919-3fb4-77b1" hidden="false"/>
-    <rule name="Iron Hard Skin" id="cd02-03fb-ff2b-a74a" hidden="false"/>
-    <rule name="Brawlin&apos; Brutes" id="15e6-1d61-20ad-257a" hidden="false"/>
-    <rule name="Bribery &amp; Corruption" id="6fc4-29e3-00cc-86de" hidden="false"/>
-    <rule name="Team Captain" id="6753-eb3f-0bf5-63ee" hidden="false"/>
-    <rule name="Masters of Undeath" id="7f71-cda8-2d0d-b094" hidden="false"/>
-    <rule name="Low Cost Linemen" id="5144-7fbb-8adf-ff4f" hidden="false"/>
-    <rule name="Loner(x+)" id="5ca2-1ec1-85bb-e3b5" hidden="false">
-      <alias>Loner(5+)</alias>
-      <alias>Loner(4+)</alias>
-      <alias>Loner(3+)</alias>
-      <alias>Loner(2+)</alias>
-      <description>Testing testing</description>
+    <rule name="Sneaky Git (Active)" id="55b8-f8cc-b103-d0a9" hidden="false">
+      <description>This player is not Sent-off when performing a Foul Action if a natural double is rolled for the Armour Roll, so long as the target player&apos;s Armour is not broken. If the target player&apos;s Armour is broken, this player will be sent off as normal.</description>
     </rule>
-    <rule name="Bone Head" id="6e98-03d2-86a2-66e2" hidden="false"/>
-    <rule name="Thick Skull" id="d547-b26d-592c-30e1" hidden="false"/>
-    <rule name="Throw Team-mate" id="25e0-225c-008f-bda3" hidden="false"/>
-    <rule name="Vampire Lord" id="8a54-e349-020d-9c5f" hidden="false"/>
-    <rule name="Defensive" id="45b3-7be5-2c44-6ae1" hidden="false"/>
-    <rule name="Diving Catch" id="dd58-42b0-b6c5-2948" hidden="false"/>
-    <rule name="Diving Tackle" id="cd69-0caa-585b-3a39" hidden="false"/>
-    <rule name="Hit and Run" id="1517-e3ea-cdf2-c03f" hidden="false"/>
-    <rule name="Jump Up" id="bddd-f778-43af-92d6" hidden="false"/>
-    <rule name="Leap" id="ea91-91c0-9d4f-9828" hidden="false"/>
-    <rule name="Safe Pair of Hands" id="03c1-9b60-198b-adef" hidden="false"/>
-    <rule name="Sprint" id="27c8-91f7-235f-c531" hidden="false"/>
-    <rule name="Sure Feet" id="57d4-9f23-820f-5564" hidden="false"/>
-    <rule name="Eye Gouge" id="d295-290e-5694-0ff1" hidden="false"/>
-    <rule name="Lethal Flight" id="e561-c980-89af-2f71" hidden="false"/>
-    <rule name="Lone Fouler" id="823c-3acc-aa9c-5bd5" hidden="false"/>
-    <rule name="Pile Driver" id="2838-71da-f6f5-fb14" hidden="false"/>
-    <rule name="Put the Boot In" id="5c5a-0eb8-d7e7-158c" hidden="false"/>
-    <rule name="Quick Foul" id="10f6-086d-9bcf-7e6e" hidden="false"/>
-    <rule name="Saboteur" id="a30f-161d-4e2c-ab3a" hidden="false"/>
-    <rule name="Violent Innovator" id="a014-5ef8-d8d2-cb66" hidden="false"/>
-    <rule name="Dauntless" id="9d4e-5fe7-813b-967c" hidden="false"/>
-    <rule name="Fend" id="055f-a433-190e-79be" hidden="false"/>
-    <rule name="Frenzy" id="23bd-8f90-1641-a278" hidden="false"/>
-    <rule name="Kick" id="c4ba-5bd4-e787-b839" hidden="false"/>
-    <rule name="Pro" id="0280-69e1-9d1c-3838" hidden="false"/>
-    <rule name="Steady Footing" id="6a53-7189-b23e-1778" hidden="false"/>
-    <rule name="Strip Ball" id="e805-e82f-a03e-99a9" hidden="false"/>
-    <rule name="Tackle" id="8f90-114d-5eba-8a39" hidden="false"/>
-    <rule name="Taunt" id="9db7-6897-bb3b-24ba" hidden="false"/>
-    <rule name="Wrestle" id="402c-5594-a4de-8404" hidden="false"/>
-    <rule name="Big Hand" id="d10a-de03-524c-4227" hidden="false"/>
-    <rule name="Disturbing Presence" id="7c10-67d5-0349-a4b8" hidden="false"/>
-    <rule name="Extra Arms" id="fa78-7a40-0ec7-7dc4" hidden="false"/>
-    <rule name="Foul Appearance" id="efba-85d4-8842-adb5" hidden="false"/>
-    <rule name="Horns" id="6470-3281-c861-bbae" hidden="false"/>
-    <rule name="Monstrous Mouth" id="e126-a8cf-875f-6df9" hidden="false"/>
-    <rule name="Prehensile Tail" id="6290-be3e-96b3-05f2" hidden="false"/>
-    <rule name="Tentacles" id="8804-93c3-e4bd-78ee" hidden="false"/>
-    <rule name="Two Heads" id="9716-620b-a518-61c1" hidden="false"/>
-    <rule name="Very Long Legs" id="a109-a1fe-a3d8-3a46" hidden="false"/>
-    <rule name="Cannoneer" id="dfb8-3a7e-a09e-0e4f" hidden="false"/>
-    <rule name="Cloud Burster" id="b8ac-a6d8-a64b-386a" hidden="false"/>
-    <rule name="Dump-off" id="64e7-67e4-6b1d-060a" hidden="false"/>
-    <rule name="Give and Go" id="16f1-99fa-6638-581d" hidden="false"/>
-    <rule name="Hail Mary Pass" id="1344-988c-17e0-37a5" hidden="false"/>
-    <rule name="Leader" id="9967-c77f-f92a-7fb6" hidden="false"/>
-    <rule name="On the Ball" id="8a2f-7e41-b532-e70a" hidden="false"/>
-    <rule name="Punt" id="62ba-0905-65f5-7d94" hidden="false"/>
-    <rule name="Safe Pass" id="58c3-5b5a-6799-3086" hidden="false"/>
-    <rule name="Arm Bar" id="0257-a858-5355-5d9f" hidden="false"/>
-    <rule name="Brawler" id="d839-ffbd-92cc-0ec0" hidden="false"/>
-    <rule name="Break Tackle" id="2003-6026-6a4f-38bd" hidden="false"/>
-    <rule name="Bullseye" id="a3a4-2c1c-b545-1872" hidden="false"/>
-    <rule name="Grab" id="ed62-ba8e-71c7-5a1d" hidden="false"/>
-    <rule name="Juggernaut" id="783a-8b57-b4c3-4344" hidden="false"/>
-    <rule name="Multiple Block" id="ec86-a9da-e6e6-5e49" hidden="false"/>
-    <rule name="Strong Arm" id="c1df-8664-e3cd-9611" hidden="false"/>
+    <rule name="Sure Hands (Active)" id="ff07-cb36-b759-cfa7" hidden="false">
+      <description>This player may re-roll the D6 when attempting to pick up the ball, though not when making a Secure the Ball Action. Additionally, the Strip Ball Skill cannot be used against this player.</description>
+    </rule>
+    <rule name="Sidestep (Active)" id="f58b-2d8b-99e7-2b1c" hidden="false">
+      <description>Whenever this player is Pushed Back for any reason, then instead of the opposing coach choosing where this player is Pushed Back to, this player&apos;s Coach may choose any adjacent unoccupied square for this player to be Pushed Back into instead. If there are no adjacent unoccupied squares, then this Skill cannot be used.</description>
+    </rule>
+    <rule name="Claws (Passive)" id="6f08-6919-3fb4-77b1" hidden="false">
+      <description>Whenever an Armour Roll is made for an opposition player that has been Knocked Down by this player during a Block Action, even if this player is also Knocked Down, then any roll of a natural 8+ on the Armour Roll will break the opposition player&apos;s armour regardless of their actual Armour Value.</description>
+    </rule>
+    <rule name="Iron Hard Skin (Passive)" id="cd02-03fb-ff2b-a74a" hidden="false">
+      <description>Opposition players cannot apply any modifiers when making an Armour Roll against this player. Additionally, the Claws Skill cannot be used against this player.</description>
+    </rule>
+    <rule name="Brawlin&apos; Brutes" id="15e6-1d61-20ad-257a" hidden="false">
+      <comment>Special Rule</comment>
+      <description>During League Play, a team with this special rule will earn SPP slightly differently. Players on this team will earn 3 SPP for causing a Casualty rather than the usual 2. Additionally, players on this team will only earn 2 SPP for scoring a Touchdown rather than the usual 3.</description>
+    </rule>
+    <rule name="Bribery and Corruption" id="6fc4-29e3-00cc-86de" hidden="false">
+      <comment>Special Rule</comment>
+      <description>Once per game, when a team with this special rule rolls a 1 to Argue the Call, they may re-roll the D6.</description>
+    </rule>
+    <rule name="Team Captain" id="6753-eb3f-0bf5-63ee" hidden="false">
+      <comment>Special Rule</comment>
+      <description>When drafting a Team Draft Roster for a team with this special rule, you may nominate any player on your starting roster (with the exception of a **Big Guy**) to be your Team Captain. A Team Captain immediately gains the Pro Skill without increasing their cost. Additionally, while your Team Captain is on the pitch, whenever you use a Team Re-roll you may roll a D6; on the roll of a natural 6 the Team Re-roll is free.
+
+
+When setting up at the start of a Drive, you must choose to field your Team Captain if able. A Team Captain can only ever be fired from your roster if they have suffered an injury that has reduced one of their characteristics. However, should a Team Captain ever be killed during a game then you may appoint a new Team Captain at the end of the game.</description>
+    </rule>
+    <rule name="Masters of Undeath" id="7f71-cda8-2d0d-b094" hidden="false">
+      <comment>Special Rule</comment>
+      <description>Once per game, if an opposition player with an ST of 4 or less that does not have the Stunty Trait suffers a Dead result when rolling on the Casualty Table, a team with this special rule can Raise the Dead. If they do, immediately add a single **Lineman** player from their team&apos;s Team Roster to their Reserves Box. This may cause a team to temporarily have more than 16 players for the remainder of the game.
+
+
+During the Post-game Sequence, when hiring any new players to your team, you may permanently hire the new **Lineman** player to your team for free, so long as your Team Draft List doesn&apos;t already have 16 players on it, otherwise it will be lost. The player will still add its full value to the team&apos;s Team Value</description>
+    </rule>
+    <rule name="Low Cost Linemen" id="5144-7fbb-8adf-ff4f" hidden="false">
+      <comment>Special Rule</comment>
+      <description>In League Play, when a team with this special rule calculates its Current Team Value, treat the Hiring Fee of any **Lineman** players on the team as 0 gold pieces. Any value increase is included as normal.</description>
+    </rule>
+    <rule name="Loner (x+)* (Passive)" id="5ca2-1ec1-85bb-e3b5" hidden="false">
+      <alias>Loner (5+)* (Passive)</alias>
+      <alias>Loner (4+)* (Passive)</alias>
+      <alias>Loner (3+)* (Passive)</alias>
+      <alias>Loner (2+)* (Passive)</alias>
+      <description>Whenever this player wishes to use a Team Re-roll, they must roll a D6. If they roll equal to or higher than the number shown in brackets, then they may use the Team Re-roll as normal.
+
+
+If they roll lower than the number shown in brackets, then they may not re-roll the dice and the Team Re-roll is lost just as if it had been used.</description>
+    </rule>
+    <rule name="Bone Head* (Passive)" id="6e98-03d2-86a2-66e2" hidden="false">
+      <description>Whenever this player is activated, after declaring their Action they must roll a D6. On a 2+ the player may perform the declared Action as normal. On a 1, the player becomes Distracted.</description>
+    </rule>
+    <rule name="Thick Skull (Passive)" id="d547-b26d-592c-30e1" hidden="false">
+      <description>When an Injury Roll is made for this player, they will only be Knocked-out on the roll of a 9; a roll of an 8 will be treated as a Stunned result. If this player also has the Stunty Trait, then they will only be Knocked-out on the roll of an 8; a roll of a 7 will be treated as a Stunned result.</description>
+    </rule>
+    <rule name="Throw Team-mate (Active)" id="25e0-225c-008f-bda3" hidden="false">
+      <description>This player may declare the Throw Team-mate Action as described on page 76.</description>
+    </rule>
+    <rule name="Defensive (Active)" id="45b3-7be5-2c44-6ae1" hidden="false">
+      <description>During your opponent&apos;s Turns, opposition players Marked by this player cannot use the Guard or Put the Boot In Skills.</description>
+    </rule>
+    <rule name="Diving Catch (Active)" id="dd58-42b0-b6c5-2948" hidden="false">
+      <description>This player may attempt to Catch the ball if it lands in a square in their Tackle Zone as a result of a Pass, Throw-in or Kick-off. They may not use this Skill to attempt to Catch the ball if it lands in a square in their Tackle Zone as a result of a Bounce.
+
+
+Additionally, this player may apply a +1 modifier to their Agility Test when attempting to Catch the ball as part of a Pass Action if they are in the target square.</description>
+    </rule>
+    <rule name="Diving Tackle (Active)" id="cd69-0caa-585b-3a39" hidden="false">
+      <description>When an opposition player attempts to leave this player&apos;s Tackle Zone as a result of a Dodge, Leap or Jump, after the Agility Test has been rolled and any modifiers and re-rolls have been applied, this player may use this Skill. Immediately apply a -2 modifier to the opposition player&apos;s Agility Test and place this player Prone in the square the opposition player vacated.
+
+
+If this player tries to leave the Tackle Zone of multiple players with this Skill at the same time, only one of those players may use this Skill.</description>
+    </rule>
+    <rule name="Hit and Run (Active)" id="1517-e3ea-cdf2-c03f" hidden="false">
+      <description>When a player with this Skill performs a Block Action or a Stab Action, after fully resolving the Action, they may immediately move one free square ignoring Tackle Zones, so long as they are still Standing. The player must ensure that after this free move they are not Marked by or Marking any opposition players.
+
+
+A player with this Skill cannot also have the Frenzy Skill.</description>
+    </rule>
+    <rule name="Jump Up (Active)" id="bddd-f778-43af-92d6" hidden="false">
+      <description>This Skill can be used whilst a player is Prone. A Prone player with this Skill can stand up for free without having to spend 3 squares of movement to do so.
+
+
+Additionally, a Prone player with this Skill can declare a Block Action whilst Prone. If they do, they must make an Agility Test, applying a +1 modifier to the result. If the Agility Test is passed, they may immediately stand up and perform the Block Action. If the Agility Test is failed, the player remains Prone and their activation immediately ends.</description>
+    </rule>
+    <rule name="Leap (Active)" id="ea91-91c0-9d4f-9828" hidden="false">
+      <description>During their Move Action, a player with this Skill can attempt to Leap over a single adjacent square regardless of what is in the square. Leaping works the same way as Jumping, as described on page 56, with the exception that the Leaping player may reduce the negative modifiers they would receive by Leaping by 1, to a minimum of -1.
+
+
+A player with this Skill cannot also have the Pogo Trait.</description>
+    </rule>
+    <rule name="Safe Pair of Hands (Active)" id="03c1-9b60-198b-adef" hidden="false">
+      <description>If this player would be Knocked Down, Fall Over or be Placed Prone whilst in possession of the ball then, before they become Prone, they may place the ball in any adjacent unoccupied square to the square they will become Prone in instead of Bouncing the ball as normal.</description>
+    </rule>
+    <rule name="Sprint (Active)" id="27c8-91f7-235f-c531" hidden="false">
+      <description>When this player performs a Move Action they may attempt to Rush one additional time than they would normally be allowed to.</description>
+    </rule>
+    <rule name="Sure Feet (Active)" id="57d4-9f23-820f-5564" hidden="false">
+      <description>Once per Turn, this player may re-roll a single D6 when attempting to Rush.</description>
+    </rule>
+    <rule name="Eye Gouge (Active)" id="d295-290e-5694-0ff1" hidden="false">
+      <description>When an opposition player is Pushed Back by this player, the opposition player cannot provide Offensive or Defensive Assists until after they are next activated.</description>
+    </rule>
+    <rule name="Lethal Flight (Active)" id="e561-c980-89af-2f71" hidden="false">
+      <description>When this player is thrown as part of a Throw Team-mate Action, if they land in a square that contains an opposition player, including if they Bounce into a square containing an opposition player, and the opposition player is Knocked Down, then they may apply a +1 modifier to either the Armour Roll or Injury Roll. This modifier may be applied after the roll has been made. If an opposition player suffers a Casualty as a result of being Knocked Down by the thrown player with this Skill, then this player will count as having caused that Casualty and will receive Star Player Points as appropriate.
+
+
+A player without the Right Stuff Trait cannot have this Skill.</description>
+    </rule>
+    <rule name="Lone Fouler (Active)" id="823c-3acc-aa9c-5bd5" hidden="false">
+      <description>When this player performs a Foul Action, if there are no players providing an Offensive or Defensive Assist, then this player may re-roll a failed Armour Roll.</description>
+    </rule>
+    <rule name="Pile Driver (Active)" id="2838-71da-f6f5-fb14" hidden="false">
+      <description>When an opposition player is Knocked Down by this player during a Block Action, this player may perform a free Foul Action against the opposition player so long as they are still Marking the opposition player. This player is then Placed Prone and their activation immediately ends.</description>
+    </rule>
+    <rule name="Put the Boot In (Active)" id="5c5a-0eb8-d7e7-158c" hidden="false">
+      <description>This player can provide Offensive Assists when a team-mate performs a Foul Action regardless of how many opposition players are Marking this player.</description>
+    </rule>
+    <rule name="Quick Foul (Active)" id="10f6-086d-9bcf-7e6e" hidden="false">
+      <description>This player&apos;s activation does not end after performing a Foul Action, and they may continue with their Move Action with any movement they have remaining.</description>
+    </rule>
+    <rule name="Saboteur (Active)" id="a30f-161d-4e2c-ab3a" hidden="false">
+      <description>When this player is Knocked Down as a result of an opposition player&apos;s Block Action, before the Armour Roll is made, they may roll a D6. On a 1-3, nothing happens and the Armour Roll is made as normal. On a 4+, this player&apos;s sabotaged weapon goes off and the opposition player is also Knocked Down, though this will not cause a Turnover unless the opposition player was holding the ball. If this player&apos;s sabotaged weapon goes off, then they are automatically Knocked Out and the Armour Roll is not made for them.
+
+
+A player without the Secret Weapon Trait cannot have this Skill.</description>
+    </rule>
+    <rule name="Violent Innovator (Active)" id="a014-5ef8-d8d2-cb66" hidden="false">
+      <description>If an opposition player suffers a Casualty as a result of a Special Action this player performed, this player will earn Star Player Points for causing a Casualty as appropriate.
+
+
+A player can only have this Skill if they have a Trait that allows them to perform a Special Action.</description>
+    </rule>
+    <rule name="Dauntless (Active)" id="9d4e-5fe7-813b-967c" hidden="false">
+      <description>When a player with this skill performs a Block Action against an opposition player with a higher Strength Characteristic (before any modifiers are applied to either player), this player may roll a D6 and add their own Strength Characteristic. If the result is higher than the opposition player&apos;s unmodified Strength Characteristic, then this player increases their unmodified Strength Characteristic to match that of the opposition player for the duration of the Block Action. Modifiers are then applied as normal.
+
+
+If this player also has a Skill that allows them to perform multiple Block Actions, such as the Frenzy Skill, then they must make a separate roll for each Block Action.</description>
+    </rule>
+    <rule name="Fend (Active)" id="055f-a433-190e-79be" hidden="false">
+      <description>When a player with this skill is Pushed Back as a result of a Block Action performed against them, then the opposition player may not Follow-up.
+
+
+This Skill cannot be used against a player with the Ball &amp; Chain Trait or against a player with the Juggernaut Skill that is performing a Blitz Action.</description>
+    </rule>
+    <rule name="Frenzy* (Active)" id="23bd-8f90-1641-a278" hidden="false">
+      <description>Every time this player performs a Block Action, if the target is Pushed Back, then this player must Follow-up if able. Additionally if after the target is Pushed Back they are still standing, then this player must perform a second Block Action targeting the same opposition player and must again Follow-up if the target is pushed back.
+
+
+If this player is performing a Blitz Action, performing a second Block Action will also cost the player a square of movement. If this player has no movement left, then they must Rush. If this player cannot Rush then they cannot perform the second Block Action.
+
+
+A player with this Skill cannot have the Grab, Hit &amp; Run or Multiple Block Skills.</description>
+    </rule>
+    <rule name="Kick (Active)" id="c4ba-5bd4-e787-b839" hidden="false">
+      <description>If this player is nominated as the kicking player, then when the kick Deviates this player&apos;s Coach may choose for it to only Deviate D3 squares rather than the usual D6.</description>
+    </rule>
+    <rule name="Pro (Active)" id="0280-69e1-9d1c-3838" hidden="false">
+      <description>During this player&apos;s activation, they may attempt to re-roll a single dice. This can be a dice rolled on its own, as part of a multiple dice roll or as a dice pool. To use this Skill, the player must roll a D6; on a 3+ the dice may be re-rolled, on a 1-2 the dice may not be re-rolled.
+
+
+This skill cannot be used to re-roll a dice made as part of an Armour Roll, Injury Roll, Casualty Roll, a roll made outside of the player&apos;s activation, or any dice not made on the player&apos;s behalf (such as Argue the Call or if the Crowd Takes Action).
+
+
+Once a player has attempted to use this Skill, they cannot use a re-roll from any other source to re-roll the dice.</description>
+    </rule>
+    <rule name="Steady Footing (Active)" id="6a53-7189-b23e-1778" hidden="false">
+      <description>Whenever this player would be Knocked Down or Fall Over, roll a D6. On a 6, this player does not get Knocked Down or Fall Over. If this happens during their activation, they may continue their activation as normal and no Turnover will be caused.</description>
+    </rule>
+    <rule name="Strip Ball (Active)" id="e805-e82f-a03e-99a9" hidden="false">
+      <description>When this player performs a Block Action against an opposition player holding the ball, if the opposition player is Pushed Back then they will drop the ball in the square they are Pushed Back into, at which point it will Bounce from that square. This Bounce will happen before the opposition player becomes Prone (if applicable) but after this player chooses to Follow-up.</description>
+    </rule>
+    <rule name="Tackle (Active)" id="8f90-114d-5eba-8a39" hidden="false">
+      <description>When an opposition player attempts to Dodge away from a square in this player&apos;s Tackle Zone, they cannot use the Dodge Skill.
+
+
+Additionally, when this player performs a Block Action against an opposition player, the opposition player does not count as having the Dodge Skill if a Stumble result is selected.</description>
+    </rule>
+    <rule name="Taunt (Active)" id="9db7-6897-bb3b-24ba" hidden="false">
+      <description>When a player with this Skill is Pushed Back as a result of a Block Action performed against them, this player&apos;s Coach may choose to make the opposition player Follow-up.
+
+
+This Skill cannot be used against an opposition player with the Take Root Trait that has become Rooted.</description>
+    </rule>
+    <rule name="Wrestle (Active)" id="402c-5594-a4de-8404" hidden="false">
+      <description>When this player performs a Block Action, or is the target of a Block Action, if the Both Down result is selected then this player can choose to use this Skill. If they do, both players in the Block Action are Placed Prone, regardless of any other Skills they may possess.</description>
+    </rule>
+    <rule name="Big Hand (Active)" id="d10a-de03-524c-4227" hidden="false">
+      <description>This player ignores all negative modifiers when attempting to pick up the ball.</description>
+    </rule>
+    <rule name="Disturbing Presence* (Active)" id="7c10-67d5-0349-a4b8" hidden="false">
+      <description>Any opposition player that performs a Pass Action, Throw Team-mate Action, or a Throw Bomb Special Action, or attempts to Intercept or Catch the ball, applies a -1 modifier to the Passing Ability Test or Agility Test for each player on your team with this Skill within 3 squares of them.</description>
+    </rule>
+    <rule name="Extra Arms (Active)" id="fa78-7a40-0ec7-7dc4" hidden="false">
+      <description>This player applies a +1 modifier to the Agility Test whenever they attempt to Catch, Pick Up or Intercept the ball.</description>
+    </rule>
+    <rule name="Foul Appearance* (Passive)" id="efba-85d4-8842-adb5" hidden="false">
+      <description>Whenever an opposition player attempts to perform a Block Action against this player, or a Special Action that targets this player directly, they must roll a D6 before any other dice are rolled. On a 2+, the Block Action continues as normal. On a 1, the Block Action is immediately cancelled and the opposition player&apos;s activation immediately ends.</description>
+    </rule>
+    <rule name="Horns (Active)" id="6470-3281-c861-bbae" hidden="false">
+      <description>Whenever this player declares a Blitz Action, then they apply a +1 modifier to their Strength Characteristic for any Block Actions performed during that Blitz Action.</description>
+    </rule>
+    <rule name="Monstrous Mouth (Active)" id="e126-a8cf-875f-6df9" hidden="false">
+      <description>When this player is activated, they may declare a Chomp Special Action; there is no limit to the number of players that can declare this Special Action each Turn. When this player declares a Chomp Special Action, they may select one Standing opposition player they are Marking and roll a D6. On a 1-2 nothing happens. On a 3+, the opposition player is considered to be Chomped. Whilst Chomped, the opposition player cannot leave the square they are in whilst this player remains Marking them. This condition ends immediately if this player is no longer Marking the opposition player for any reason.
+
+
+This player may use the Chomp Special Action to replace the Block Action made as part of a Blitz Action if they wish.
+
+
+Additionally, the Strip Ball Skill cannot be used against this player.</description>
+    </rule>
+    <rule name="Prehensile Tail (Active)" id="6290-be3e-96b3-05f2" hidden="false">
+      <description>When an opposition player attempts to Dodge, Jump or Leap away from a square in this player&apos;s Tackle Zone, they apply an additional -1 modifier to the Agility Test.
+
+
+If a player tries to leave the Tackle Zone of multiple players with this Skill at the same time, only one of those players may use this Skill.</description>
+    </rule>
+    <rule name="Tentacles (Active)" id="8804-93c3-e4bd-78ee" hidden="false">
+      <description>When an opposition player attempts to Dodge, Jump or Leap away from a square in this player&apos;s Tackle Zone, this player may use this Skill. When a player uses this Skill they roll a D6 and add their Strength Characteristic to the roll; then they subtract the Strength Characteristic of the opposition player from the result. If the result is 6 or higher, or the roll is a natural 6, then the opposition player does not leave the square they attempted to leave and their activation comes to an end. If the result is 5 or lower, or the roll is a natural 1, this Skill has no effect.
+
+
+If a player tries to leave the Tackle Zone of multiple players with this Skill at the same time, only one of those players may use this Skill.</description>
+    </rule>
+    <rule name="Two Heads (Active)" id="9716-620b-a518-61c1" hidden="false">
+      <description>This player may apply a +1 modifier to the Agility Test whenever they attempt to Dodge.</description>
+    </rule>
+    <rule name="Very Long Legs (Active)" id="a109-a1fe-a3d8-3a46" hidden="false">
+      <description>This player may apply a +1 modifier to the Agility Test whenever they attempt to Leap or Jump, and may apply a +2 modifier to the Agility Test when they attempt to Intercept the ball.
+
+
+Additionally, this player ignores the Cloud Burster Skill.</description>
+    </rule>
+    <rule name="Cannoneer (Active)" id="dfb8-3a7e-a09e-0e4f" hidden="false">
+      <description>When this player performs a Pass Action which is a Long Pass or a Long Bomb, this player may apply a +1 modifier to the Passing Ability Test.</description>
+    </rule>
+    <rule name="Cloud Burster (Active)" id="b8ac-a6d8-a64b-386a" hidden="false">
+      <description>When this player performs a Pass Action, opposition players may not attempt to Intercept the ball.</description>
+    </rule>
+    <rule name="Dump-off (Active)" id="64e7-67e4-6b1d-060a" hidden="false">
+      <description>Whenever an opposition player attempts to perform a Block Action against this player, or a Special Action that targets this player directly, this player may use this Skill. When they do, this player may immediately perform a Quick Pass before the Action targeting them is resolved. This Quick Pass cannot cause a Turnover, but otherwise follows all the normal rules for making a Quick Pass. Once the Quick Pass has been resolved, this Action targeting this player continues.</description>
+    </rule>
+    <rule name="Give and Go (Active)" id="16f1-99fa-6638-581d" hidden="false">
+      <description>If this player performs a Pass Action that is a Quick Pass, or performs a Hand-off Action, then, so long as a Turnover isn&apos;t caused, their activation does not end once the Pass or Hand-off is resolved. Instead, they may continue with their Move Action using any movement they have remaining.</description>
+    </rule>
+    <rule name="Hail Mary Pass (Active)" id="1344-988c-17e0-37a5" hidden="false">
+      <description>When this player performs a Pass Action or a Throw Bomb Special Action, they may declare any square on the pitch as the target square rather than using the Range Ruler. Make a Passing Ability Test as normal, treating the throw as a Long Bomb, and treating any result of an Accurate Pass as an Inaccurate Pass. A Hail Mary Pass cannot be Intercepted.</description>
+    </rule>
+    <rule name="Leader (Passive)" id="9967-c77f-f92a-7fb6" hidden="false">
+      <description>A team that has one or more players with this Skill on the pitch a the start of a half may gain a single extra Team Re-roll - this is called a Leader Re-roll. A team can only use a Leader Re-roll if they have a player with the Leader Skill on the pitch, and if all players with the Leader Skill are removed from play, either as a Casualty or being Sent-off, before the Leader Re-roll is used then it is lost.
+
+
+A Leader Re-roll follows all of the usual rules for standard Team Re-rolls, with the exception that it cannot be lost as a result of a Halfling Master Chef.</description>
+    </rule>
+    <rule name="On the Ball (Active)" id="8a2f-7e41-b532-e70a" hidden="false">
+      <description>When an opposition player performs a Pass Action, after the target square has been declared but before the Passing Ability Test is rolled, this player may move up to 3 squares, following all the usual rules for a Move Action, with the exception that they cannot Rush. Should this player Fall Over during this move, then their move immediately ends and the Pass Action resumes. If multiple players have this Skill, then they may all use it during the same Pass Action, though they must do so one at a time, and if one of them Falls Over before the others have had the chance to move, then they may not do so.
+
+
+Additionally, during the Start of Drive sequence, after the Kick Deviates but before the Kick-off Event is rolled, a single Open player on the receiving team with this Skill may move up to 3 squares, following all the usual rules for a Move Action, with the exception that they cannot Rush. A player may not use this Skill if a Touchback is caused and may not move into the opposition half. Should this player Fall Over during this move, then their move immediately ends and the Kick-off Event is rolled.</description>
+    </rule>
+    <rule name="Punt (Active)" id="62ba-0905-65f5-7d94" hidden="false">
+      <description>This player may declare a Punt Special Action; only a single player may declare a Punt Special Action each Turn. When a player declares a Punt Special Action they are first allowed to make a Move Action, though they cannot continue to move after the Punt Special Action has been resolved.
+
+
+If after their Move Action this player is in possession of the ball, they can Punt it downfield. Position the Throw-in Template over this player so it faces one of the two End Zones or either Sideline. Roll a D6 to determine the direction the ball is kicked, and then a second D6 to determine how many squares in that direction the ball will travel. If this player has the Kick skill, they may re-roll either one or both of these dice - though they must decide whether to re-roll the direction or not before rolling for the distance.
+
+
+If the ball lands in a square containing a player, then they must attempt to Catch the ball, otherwise it will Bounce.
+
+
+When performing a Punt Special Action, no Turnover is caused if the ball comes to rest on the ground; however, if after the Punt Special Action is resolved the ball is in possession of an opposition player or the crowd, a Turnover is caused.</description>
+    </rule>
+    <rule name="Safe Pass (Active)" id="58c3-5b5a-6799-3086" hidden="false">
+      <description>If this player rolls a natural 1 when making a Passing Ability Test, then it will not result in a Fumbled Pass. Instead, the player retains possession of the ball and their activation immediately ends. No Turnover is caused.</description>
+    </rule>
+    <rule name="Arm Bar (Active)" id="0257-a858-5355-5d9f" hidden="false">
+      <description>If an opposing player Falls Over as a result of attempting to Dodge, Leap or Jump away from a square in this player&apos;s Tackle Zone, this player may use this Skill. If they do, they may apply a +1 modifier to either the Armour Roll or Injury Roll. This modifier may be applied after the roll has been made. If the opposition player suffers a Casualty as a result of a failed Dodge, Leap or Jump away from a square in this player&apos;s Tackle Zone, then this player will count as having caused that Casualty and will receive Star Player Points as appropriate.
+
+
+If a player tries to leave the Tackle Zone of multiple players with this Skill at the same time, only one of those players may use this Skill.</description>
+    </rule>
+    <rule name="Brawler (Active)" id="d839-ffbd-92cc-0ec0" hidden="false">
+      <description>When this player declares a Block Action, they may re-roll a single Both Down result.</description>
+    </rule>
+    <rule name="Break Tackle (Active)" id="2003-6026-6a4f-38bd" hidden="false">
+      <description>Once per Turn, when this player attempts to Dodge, they may apply a +1 modifier to the Agility Test if they have a Strength Characteristic of 3 or lower, a +2 modifier to the Agility Test if they have a Strength Characteristic of 4, or a +3 modifier to the Agility Test if they have a Strength Characteristic of 5 or higher.</description>
+    </rule>
+    <rule name="Bullseye (Active)" id="a3a4-2c1c-b545-1872" hidden="false">
+      <description>When this player performs a Throw Team-mate Action, if the result of the throw is a Superb Throw then the thrown player will not Scatter before landing and will instead land in the target square.
+
+
+A player without the Throw Team-mate Trait cannot have this skill.</description>
+    </rule>
+    <rule name="Grab (Active)" id="ed62-ba8e-71c7-5a1d" hidden="false">
+      <description>When this player declares a Block Action, if the opposition player is Pushed Back, then this player&apos;s Coach may choose any unoccupied square adjacent to the target for them to be pushed back into. If there are no adjacent unoccupied squares, then this Skill cannot be used.
+
+
+Additionally, when this player performs a Block Action, opposition players cannot use the Sidestep Skill.
+
+
+A player with this Skill cannot have the Frenzy Skill.</description>
+    </rule>
+    <rule name="Juggernaut (Active)" id="783a-8b57-b4c3-4344" hidden="false">
+      <description>When this player declares a Blitz Action, they may treat any result of Both Down as Pushed Back during any Block Action they perform during the Blitz Action.
+
+
+Additionally, when this player performs a Block Action as part of a Blitz Action, opposition players cannot use Fend, Stand Firm or Wrestle Skills.</description>
+    </rule>
+    <rule name="Multiple Block (Active)" id="ec86-a9da-e6e6-5e49" hidden="false">
+      <description>When this player declares a Block Action, they may perform two Block Actions each targeting a different opposition player they are Marking. If they do, then this player will reduce their Strength Characteristic by 2 for the duration of the Block Actions. These Block Actions happen simultaneously, though you may wish to roll them separately for clarity. This means that both Block Actions are resolved in full, even if one of them results in a Turnover. This player cannot Follow-up during either of these Block Actions.
+
+
+A player with this Skill cannot also have the Frenzy Skill.</description>
+    </rule>
+    <rule name="Strong Arm (Active)" id="c1df-8664-e3cd-9611" hidden="false">
+      <description>When this player performs a Throw Team-mate Action, this player may apply a +1 modifier to the Passing Ability Test.
+
+
+A player without the Throw Team-mate Trait cannot have this Skill.</description>
+    </rule>
+    <rule name="Always Hungry* (Active)" id="e071-25e9-5e97-ad86" hidden="false">
+      <description>Whenever this player performs a Throw Team-mate Action, before making the Passing Ability Test, they must roll a D6. On a 2+, they may continue with the Throw Team-mate Action as normal. On a 1, the player will attempt to eat their team-mate - they must roll a further D6.
+
+
+On a 2+, the team-mate will squirm free and the Throw Team-mate Action will automatically result in a Fumbled Throw. On a 1, the player will eat their team-mate - immediately remove them from your Team Draft List. No Apothecary can be used to try and save them, and no Regeneration rolls can be made. If the team-mate was in possession of the ball, it will Bounce from the square this player occupies. A Turnover is then caused.</description>
+    </rule>
+    <rule name="Animal Savagery* (Passive)" id="6820-cb49-ce8b-6357" hidden="false">
+      <description>Whenever this player is activated, after declaring their action they must roll a D6. They may apply a +2 modifier to the roll if they have declared a Block Action or a Blitz Action. On a 4+, the player may perform the declared action as normal.
+
+
+On a 1-3, this player lashes out at one of their team-mates. Choose one Standing team-mate adjacent to this player; the chosen player is immediately Knocked Down. This will not cause a Turnover unless the player was holding the ball. If this player has either the Claws or Mighty Blow Skill, then they must use them when making the Armour Roll for the Knocked Down player.
+
+
+If this player rolls a 1-3 and there are no Standing team-mates adjacent to them, then they are Distracted.</description>
+    </rule>
+    <rule name="Animosity (X)* (Active)" id="aa6c-6271-5286-2826" hidden="false">
+      <description>Whenever this player attempt to perform a Pass Action or a Hand-off Action to a team-mate with the same Keyword as the one shown in brackets, roll a D6. On a 1, the player refuses to perform the action and their activation immediately ends.
+
+
+Some players may have the Animosity (all) Trait, in which case they will apply this rule to all of their team-mates, regardless of the Keywords they have.</description>
+    </rule>
+    <rule name="Ball &amp; Chain* (Active)" id="f967-3541-f8bd-ae21" hidden="false">
+      <description>When this player is activated, the only action they can declare is a Ball &amp; Chain Special Action; there is no limit to the number of players that can declare this Special Action each turn.
+
+
+When a player performs a Ball &amp; Chain Special Action, position the Throw-in Template over this player so it faces one of the two End Zones or either Sideline. Then roll a D6 and move this player into the square as indicated by the Throw-in Template.
+
+
+A player that moves in this manner does not have to make an Agility Test to Dodge away from another player&apos;s Tackle Zone; they will automatically pass. Opposition players cannot use the Shadowing or Tentacles Skills against a player performing a Ball &amp; Chain Action.
+
+
+• If this move takes this player off the pitch, they will risk injury by the Crowd.
+• If this move takes this player into a square containing a standing player (from either team) they will automatically perform a Block Action against that player; this Block Action will ignore the Foul Appearance Skill. If this is a team-mate, then this player&apos;s coach will choose which result to apply after the Block Dice have been rolled.
+• If this move takes this player into a square containing a Prone or Stunned player, that player is Pushed Back and an Armour Roll is made against them.
+• If this move takes this player into a square containing the ball, it will immediately Bounce. This will not cause a Turnover.
+
+
+A player performing a Ball &amp; Chain Special Action can move a number of squares up to their MA. They may Rush as normal, though if they roll a 1, they will move into the square as normal first, including performing any Block Actions, Pushing Back any players or causing the ball to Bounce, before Falling Over in the square they have moved into.
+
+
+If this player is Knocked Down, Falls Over or Placed Prone for any reason, immediately make an Injury Roll for them treating any result of Stunned as Knocked-out instead.
+
+
+A player with this Trait cannot have any of the following Skills: Diving Tackle, Eye Gouge, Frenzy, Grab, Hit &amp; Run, Leap, Multiple Block, On the Ball, Shadowing, Steady Footing.</description>
+    </rule>
+    <rule name="Bloodlust (X+)* (Passive)" id="c562-61cd-9947-a08a" hidden="false">
+      <description>Whenever this player is activated, after declaring their action, they must roll a D6, adding 1 to the roll if they declared a Block Action or a Blitz Action. If they roll equal to or higher than the number show in brackets, they may activate as normal.
+
+
+If the player rolls lower than the number shown in brackets, or rolls a natural 1, they may continue their activation as normal though they may change their declared action to a Move Action if they wish. If the player declared an Action that can only be performed once per Turn (such as a Blitz Action), this will still count as the one Blitz action for the Turn. At the end of their activation, this player may bite an adjacent **Thrall Lineman** team-mate regardless of the status of the **Thrall Lineman**.
+
+
+If they do, immediately make an Injury Roll the **Thrall Lineman**, treating any Casualty result as Badly Hurt; this will not cause a Turnover unless the **Thrall Lineman** was holding the ball. If this player does not bite a **Thrall Lineman** for any reason, then a Turnover is caused, this player becomes Distracted, and will immediately drop the ball if they were holding it. If this player was in the opposing End Zone, no Touchdown is scored. If a player who failed this roll wants to perform a Pass Action, Hand-off Action, or score, then they must bite a **Thrall Lineman** before they perform the Action or Score.</description>
+    </rule>
+    <rule name="Bombardier (Active)" id="e4ed-bda8-9e43-f1a8" hidden="false">
+      <description>When this player is activated, they can declare a Throw Bomb Special Action; only one player can declare this Special Action each Turn.
+
+
+When a player performs a Throw Bomb Special Action, they throw a bomb in the same manner as when a player performs a Pass Action, following all the usual rules for a Pass Action. Though this is not a Pass Action itself, any Skills or Traits that come into play when a player performs a Pass Action will also apply to a Throw Bomb Special Action, with the exception of the On the Ball Skill. A player that declared a Throw Bomb Special Action may not perform a Move Action before throwing the bomb.
+
+
+If at any point a bomb comes to rest on the ground then it will immediately explode in that square. Should a bomb be Fumbled by the thrower, or dropped when a player attempts to Catch it, then it will not Bounce and will instead explode in that player&apos;s square. When a bomb explodes, any player in the square it exploded in is hit by the explosion. Additionally, roll a D6 for each player adjacent to the square in which the bomb exploded. On a 4+, they are hit by the explosion.
+
+
+Any standing player that is hit by the explosion is Knocked Down. Additionally, make an Armour Roll for any Prone or Stunned players hit by the explosion.
+
+
+If a player successfully Catches or Intercepts a thrown bomb, the player that caught the bomb must immediately throw it again, following all the same rules for making a Throw Bomb Special Action as described above.</description>
+    </rule>
+    <rule name="Breathe Fire (Active)" id="0ee0-932b-f823-c39b" hidden="false">
+      <description>When this player is activated, they can declare a Breathe Fire Special Action; there is no limit to the number of players that can declare this Special Action each Turn.
+
+
+When a player makes a Breathe Fire Special Action, they may choose one Standing opposition player they are Marking and roll a D6, applying a -1 modifier if the target has a ST of 5 or higher. On a 1, this player is immediately Knocked Down. On a 2-3, nothing happens. On a 4+, the opposition player is immediately Placed Prone. If the roll is a natural 6, the opposition player is Knocked Down instead. After the Breathe Fire Special Action has been resolved, this player&apos;s activation immediately ends.
+
+
+This player may use the Breathe Fire Special Action to replace the Block Action made as part of a Blitz Action if they wish, though their activation will still end as soon as they have performed the Breathe Fire Special Action.</description>
+    </rule>
+    <rule name="Chainsaw* (Active)" id="00f8-0da4-7661-0702" hidden="false">
+      <description>When this player is activated, they can declare a Chainsaw Attack Special Action; there is no limit to the number of players that can declare this Special Action each Turn.
+
+
+When a player performs a Chainsaw Attack Special Action, roll a D6. On a 2+, this player may immediately make an Armour Roll against one adjacent Standing opposition player, applying a +3 modifier to the Armour Roll.
+
+
+On a 1, the Chainsaw will Kick-back and this player is Knocked Down instead.
+
+
+If this player is Knocked Down or Falls Over for any reason, regardless of how it occurred, then a +3 modifier is applied when the opposition Coach makes an Armour Roll for this player, this +3 modifier must always be applied.
+
+
+Should they wish, this player may also use their chainsaw when performing a Foul Action, in which case they may apply a +3 modifier when making the Armour Roll for the opposition player. They will still need to roll for Kick-back as normal.
+
+
+This player may use the Chainsaw Attack Special Action to replace the Block Action made as part of a Blitz Action if they wish, though their activation will still end as soon as they have performed the Chainsaw Attack Special Action.</description>
+    </rule>
+    <rule name="Decay* (Passive)" id="8cc8-2b98-e566-6f05" hidden="false">
+      <description>Apply a +1 modifier to any Casualty Roll made against this player.</description>
+    </rule>
+    <rule name="Drunkard* (Passive)" id="4709-fca0-da94-48ed" hidden="false">
+      <description>This player applies a -1 modifier to test whenever they attempt to Rush.</description>
+    </rule>
+    <rule name="Hypnotic Gaze (Active)" id="a73b-6a6f-17f0-d772" hidden="false">
+      <description>When this player is activated, they can declare a Hypnotic Gaze Special Action; there is no limit to the number of players that declare this Special Action each Turn. When a player declares a Hypnotic Gaze Special Action they are first allowed to make a Move Action, though they cannot continue to move after the Hypnotic Gaze Special Action has been attempted.
+
+
+When a player performs a Hypnotic Gaze Special Action, they select a Standing opposition player adjacent to them and roll a D6. On a 1-2, nothing happens and this player&apos;s activation immediately ends. On a 3+, the selected opposition player becomes Distracted and this player&apos;s activation immediately ends.</description>
+    </rule>
+    <rule name="Insignificant* (Passive)" id="c58d-09fb-813a-534e" hidden="false">
+      <description>When creating a Team Draft List, you may not include more players with this Trait than players without this Trait.</description>
+    </rule>
+    <rule name="Kick Team-mate (Passive)" id="03f5-2b56-bcea-abf3" hidden="false">
+      <description>When this player is activated, they can declare a Kick Team-mate Special Action; only one player can declare this Special Action each Turn.
+
+
+A Kick Team-mate Special Action works exactly the same as a Throw Team-mate Action, with the following exceptions:
+
+
+Performing a Kick Team-mate Special Action does not count as a team&apos;s Throw Team-mate Action for the Turn, and so a team can perform both a Kick Team-mate Special Action and a Throw Team-mate Action in the same turn if they wish.
+
+
+However, if a Kick Team-mate Special Action results in a Fumbled Throw, immediately make an Injury Roll for the team-mate being kicked, treating any result of Stunned as Knocked Out. If the kicked player was holding the ball, it will Bounce from the square they were in.
+
+
+Any Skills or Traits that come into play when a player performs a Throw Team-mate Action will also apply to a Kick Team-mate Special Action. This player will also gain Star Player Points in the same manner as a Throw Team-mate Action.</description>
+    </rule>
+    <rule name="My Ball* (Passive)" id="2ae2-059d-39ab-0d1d" hidden="false">
+      <description>A player with this Trait may not willingly give up the ball when in possession of it, and so may not declare Pass Actions, Hand-off Actions, or use any other Skill or Trait that would allow them to relinquish possession of the ball. The only way they can lose possession of the ball is by being Knocked Down, Placed Prone, Falling Over or by the effect of a Skill, Trait, or Special Rule of an opposing model.</description>
+    </rule>
+    <rule name="No Ball* (Passive)" id="dd36-c391-8047-23cf" hidden="false">
+      <description>A player with this Trait may never have possession of the ball. If this player would be required to attempt to Catch or Pick-up the ball, they will automatically fail to do so as if they had rolled a natural 1.
+
+
+A player with this Trait may not attempt to Intercept a Pass.</description>
+    </rule>
+    <rule name="Swarming" id="9b44-f5b3-b98e-1bd5" hidden="false">
+      <comment>Special Rule</comment>
+      <description>During the Start of Drive Sequence, after both teams have set up their players, a team with this special rule can set up and additional D3 **Lineman** players from their Reserves Box on the pitch, following all the usual rules for setting up players. This allows this team to have more than the usual maximum of 11 players on the pitch.</description>
+    </rule>
+    <rule name="Pick-Me-Up (Active)" id="365c-d909-6cb3-2b5b" hidden="false">
+      <description>At the end of each of the opposition&apos;s Turns, roll a D6 for each Prone team-mate within 3 squares of one or more Standing players with this Trait. On a 5+, the Prone player may immediately stand up. Should a player with this Trait stand up as a result of a team-mate using this Trait, they may not also use this Trait during the same Turn.</description>
+    </rule>
+    <rule name="Plague Ridden (Passive)" id="2984-d832-8d05-c67d" hidden="false">
+      <description>Once per game, when a player with this Trait causes a Casualty against an opposition player as a result of a Block Action, and that player suffers a Dead result on their Casualty roll and is not saved by an Apothecary, you may immediately add one new **Lineman** player from your team&apos;s Team Roster to your Reserves Box. This may cause your team to have more than 16 players for the remainder of the game.
+
+
+During the Post-game Sequence, this player may be hired in the same manner as any Journeymen players.
+
+
+This Trait cannot be used against **Big Guy** players, or any player with the Decay, Regeneration, or Stunty Traits.</description>
+    </rule>
+    <rule name="Pogo (Active)" id="a8b8-f47c-ec97-04f3" hidden="false">
+      <description>During their movement, a player with this Trait can attempt to Pogo over a single adjacent square regardless of what is in the square. Pogoing works the same was as Jumping, as described on page 56, with the exception that the Pogoing player may ignore all negative modifiers they would receive by Jumping.
+
+
+A player with this Trait cannot also have the Leap Skill.</description>
+    </rule>
+    <rule name="Projectile Vomit (Active)" id="e7c5-e289-f998-ab71" hidden="false">
+      <description>When this player is activated, they can declare a Projectile Vomit Special Action; there is no limit to the number of players that can declare this Special Action each turn.
+
+
+When this player performs a Projectile Vomit Special Action, select a Standing opposition player adjacent to this player and roll a D6. On a 2+, this player vomits on their target; make an Armour Roll for the selected player. This Armour Roll cannot be modified in any way. If the player&apos;s armour is broken, make an Injury Roll for them, otherwise nothing happens.
+
+
+On a 1, this player covers themselves in acidic bile; make an Armour Roll for this player. If this player&apos;s armour is broken, make an Injury Roll for them, otherwise nothing happens.
+
+
+This player may use the Projectile Vomit Special Action to replace the Block Action made as part of a Blitz Action if they wish, though their activation will still end as soon as they have performed the Projectile Vomit Special Action.</description>
+    </rule>
+    <rule name="Really Stupid (Passive)" id="07b6-8266-b73c-6a9f" hidden="false">
+      <description>Whenever this player is activated, after declaring their Action, they must roll a D6. They may apply a +2 modifier to the roll if they have any Standing team-mates who are not Distracted, and do not have the Really Stupid Trait, adjacent to them. On a 4+, the player may perform the declared Action as normal. On a 1-3, this player becomes Distracted.</description>
+    </rule>
+    <rule name="Regeneration (Passive)" id="0a40-9de5-524f-aaea" hidden="false">
+      <description>Whenever this player suffers a Casualty, before making the Casualty Roll for them, roll a D6.
+
+
+On a 1-3, this player suffers the Casualty; make the Casualty Roll as normal. On a 4+, this player regenerates and ignores the Casualty (though any Star Player Points earned for causing the Casualty are still earned) and is instead placed in their team&apos;s Reserves Box.</description>
+    </rule>
+    <rule name="Right Stuff* (Passive)" id="021c-5ca4-371f-a36d" hidden="false">
+      <description>This player can be thrown by a team-mate with the Throw Team-mate Trait, even if this player is Prone.</description>
+    </rule>
+    <rule name="Stab (Active)" id="26c3-7c06-95b0-973b" hidden="false">
+      <description>When this player is activated, they can declare a Stab Special Action; there is no limit to the number of players that can declare this Special Action each Turn.
+
+
+When this player performs a Stab Special Action, select a Standing opposition player adjacent to this player and make an Armour Roll for the selected player. This Armour Roll cannot be modified in any way. If the player&apos;s armour is broken, make an Injury Roll for them, otherwise nothing happens.
+
+
+This player may use the Stab Special Action to replace the Block Action made as part of a Blitz Action if they wish, though their activation will still end as soon as they have performed the Stab Special Action.</description>
+    </rule>
+    <rule name="Stunty* (Passive)" id="b4d2-4954-1284-1167" hidden="false">
+      <description>When this player attempts to Dodge, they do not suffer any negative modifiers to their Agility Test for being Marked by opposition players.
+
+
+Additionally, this player applies a -1 modifier to the Agility Test when attempting to Intercept the ball.
+
+
+A player with this Trait is more prone to injury and so if an Injury Roll is made for them, roll on the Stunty Injury Table instead.</description>
+    </rule>
+    <rule name="Swoop (Active)" id="e147-2ded-0ec5-d609" hidden="false">
+      <description>When this player is thrown by a Throw Team-mate Action, they may choose not to Scatter before landing as normal. If they do, position the Throw-in Template over this player so it faces one of the two End Zones or either Sideline. Roll a D6 to determine the direction this player will travel, and then a second D6 to determine how many squares in that direction this player will travel.
+
+
+Additionally, if they choose not to Scatter as normal, this player may re-roll the Agility Test when attempting to land.</description>
+    </rule>
+    <rule name="Take Root* (Passive)" id="a512-ffe3-23ce-c7ea" hidden="false">
+      <description>Whenever this player is activated, after declaring their Action, if they are Standing they must roll a D6. On a 2+, the player may perform the declared Action as Normal.
+
+
+On a 1, the player becomes Rooted. Whilst Rooted, a player cannot perform Move Actions, may not Follow-up after performing a Block Action, cannot be Pushed Back, and may not leave their current square for any reason, with the exception of being Knocked Out or suffering a Casualty.
+
+
+A Rooted player will immediately stop being Rooted at the end of a Drive, or if they are ever Knocked Down or Placed Prone.</description>
+    </rule>
+    <rule name="Timmm-ber! (Passive)" id="926b-0f53-110d-d32d" hidden="false">
+      <description>If this player has an MA of 2 or less and attempts to stand up, apply a +1 modifier to the roll for standing up for each Open Standing team-mate adjacent to this player. A roll of a natural 1 will still fail as normal.</description>
+    </rule>
+    <rule name="Titchy* (Passive)" id="da89-0d47-98a8-44cf" hidden="false">
+      <description>A player with this Trait may apply a +1 modifier to the Agility Test when attempting to Dodge.
+
+
+However, when an opposition player attempts to Dodge into a square within this player&apos;s Tackle Zone, this player will not apply a -1 modifier to the opposition player&apos;s Agility Test for Marking the opposition player.</description>
+    </rule>
+    <rule name="Trickster (Active)" id="da1b-40ee-5c05-38c2" hidden="false">
+      <description>Whenever an opposition player attempts to perform a Block Action against this player, or a Special Action that targets this player directly (with the exception of a Block Action caused by the Ball &amp; Chain Special Action), this player may use this Trait.
+
+
+Before determining how many dice are rolled, this player may be removed from the pitch and placed in any other unoccupied square adjacent to the player performing the Action. The Action then takes place as normal. If the player using this Trait is holding the ball and places themselves in the opposition End Zone, the Action will still be fully resolved before any Touchdown is resolved.
+
+
+If this player uses this trait to be placed on the ball, they may attempt to pick it up before any dice are rolled.</description>
+    </rule>
+    <rule name="Unchanneled Fury* (Active)" id="454e-a6ad-7d72-438f" hidden="false">
+      <description>Whenever this player is activated, after declaring their Action, they must roll a D6. They may apply a +2 modifier to the roll if they have declared a Block Action or Blitz Action. On a 4+, the player may perform the declared Action as normal.
+
+
+On a 1-3, this player rages incoherently but nothing really happens. Their activation immediately ends.</description>
+    </rule>
+    <rule name="Unsteady* (Passive)" id="4a28-69c3-1789-3f44" hidden="false">
+      <description>This player may not declare Secure the Ball Actions.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Team Re-Rolls" hidden="false" id="9350-0bc7-c2fc-7af5" publicationId="46da-ba61-6439-83e5" collective="false">
@@ -1089,12 +1599,6 @@ Additionally, this player may choose to use this Skill when they are the target 
     <selectionEntry type="upgrade" import="true" name="Team Captain" hidden="false" id="b037-bf7f-5a39-c29b">
       <infoLinks>
         <infoLink name="Team Captain" id="a6dc-a199-f2c4-e9e3" hidden="false" type="rule" targetId="6753-eb3f-0bf5-63ee"/>
-      </infoLinks>
-      <comment>Team Special Rules</comment>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vampire Lord" hidden="false" id="f2b9-23d9-931c-53fa">
-      <infoLinks>
-        <infoLink name="Vampire Lord" id="149f-ae36-fd4f-a54d" hidden="false" type="rule" targetId="8a54-e349-020d-9c5f"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
