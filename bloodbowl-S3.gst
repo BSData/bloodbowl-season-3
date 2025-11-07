@@ -36,7 +36,7 @@
         <characteristicType name="Secondary" id="fb9c-ee87-c6b3-9f1d"/>
         <characteristicType name="Cost" id="7b1e-4ff6-3a59-6f21"/>
         <characteristicType name="SPP" id="57d9-dc9e-5331-d2af"/>
-        <characteristicType name="Key Words" id="ac0d-44e2-a884-6d6a"/>
+        <characteristicType name="Keywords" id="ac0d-44e2-a884-6d6a"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Star Player" id="66d1-f293-11ac-eb1c" hidden="false">
@@ -49,7 +49,7 @@
         <characteristicType name="Skills &amp; Traits" id="f974-956a-6c59-800c"/>
         <characteristicType name="Cost" id="13bb-e948-03cd-dd76"/>
         <characteristicType name="Special Rules" id="fa21-46b4-f90c-9fcc"/>
-        <characteristicType name="Key Words" id="3c7f-89be-2bca-8ca7"/>
+        <characteristicType name="Keywords" id="3c7f-89be-2bca-8ca7"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>

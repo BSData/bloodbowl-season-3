@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Blitzer</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Blitzer</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3264-a080-672b-9a51">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Catcher</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Catcher</characteristic>
       </characteristics>
     </profile>
     <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b3f4-dca5-2b85-c329">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Halfling, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Halfling, Lineman</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1673-fff8-20c1-ccc2">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Thrower</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Thrower</characteristic>
       </characteristics>
     </profile>
     <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9567-363e-2b29-8ae4">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Ogre, Big Guy</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Ogre, Big Guy</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="897d-4d8a-bc02-15a0">
@@ -88,7 +88,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">Human, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Lineman</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -128,7 +128,7 @@
     <selectionEntry type="model" import="true" name="Human Blitzer" hidden="false" id="1166-e6db-f59b-0360">
       <infoLinks>
         <infoLink name="Human Blitzer" id="81b7-73be-9a3d-894f" hidden="false" type="profile" targetId="3cb9-74ee-ed9e-4ce5"/>
-        <infoLink name="Block" id="2572-edab-80a0-f8d2" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Block (Active)" id="2572-edab-80a0-f8d2" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="fcd1-004c-b0cf-b9cb" primary="false" name="Positional"/>
@@ -167,8 +167,8 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Human Catcher" id="4057-d587-ccfa-43fb" hidden="false" type="profile" targetId="3264-a080-672b-9a51"/>
-        <infoLink name="Catch" id="0d8e-033a-9eda-ff37" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
-        <infoLink name="Dodge" id="5a6e-1a32-15d6-baea" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Catch (Active)" id="0d8e-033a-9eda-ff37" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dodge (Active)" id="5a6e-1a32-15d6-baea" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
@@ -200,7 +200,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Halfling Hopeful" id="20b5-d47a-4655-114b" hidden="false" type="profile" targetId="b3f4-dca5-2b85-c329"/>
-        <infoLink name="Dodge" id="6835-93f3-5451-3074" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Dodge (Active)" id="6835-93f3-5451-3074" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -223,8 +223,8 @@
     <selectionEntry type="model" import="true" name="Human Thrower" hidden="false" id="79d2-d988-441a-22af">
       <infoLinks>
         <infoLink name="Human Thrower" id="6873-057b-1b9c-7cd3" hidden="false" type="profile" targetId="1673-fff8-20c1-ccc2"/>
-        <infoLink name="Pass" id="c10c-cf20-bf0f-ab0a" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
-        <infoLink name="Sure Hands" id="1183-6fca-8dbc-9b2e" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+        <infoLink name="Pass (Active)" id="c10c-cf20-bf0f-ab0a" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Sure Hands (Active)" id="1183-6fca-8dbc-9b2e" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="4ef2-5470-9597-3b28" id="5d1a-509d-5553-e73a" primary="false" name="Human Thrower"/>
@@ -287,11 +287,11 @@
       </costs>
       <infoLinks>
         <infoLink name="Ogre" id="d5b9-a5c8-b578-bb82" hidden="false" type="profile" targetId="9567-363e-2b29-8ae4"/>
-        <infoLink name="Mighty Blow" id="523c-3594-d448-702a" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
-        <infoLink name="Loner(x+)" id="bd1d-2f95-07dd-923c" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-        <infoLink name="Thick Skull" id="1755-540c-9d87-1c62" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
-        <infoLink name="Bone Head" id="fde0-3a6c-8ae1-d809" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
-        <infoLink name="Throw Team-mate" id="16cb-b4f3-07ee-c76e" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+        <infoLink name="Mighty Blow (Active)" id="523c-3594-d448-702a" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Loner (X+)* (Passive)" id="bd1d-2f95-07dd-923c" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Thick Skull (Passive)" id="1755-540c-9d87-1c62" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Bone Head* (Passive)" id="fde0-3a6c-8ae1-d809" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Throw Team-mate (Active)" id="16cb-b4f3-07ee-c76e" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
