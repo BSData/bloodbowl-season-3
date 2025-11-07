@@ -5,9 +5,6 @@
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="16" field="selections" scope="force" shared="true" id="5bd1-b5e0-0665-bf78" includeChildSelections="false"/>
-      </constraints>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="9f31-51c9-8ef0-1268" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
       </infoLinks>
@@ -44,14 +41,14 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="71fc-809f-d7a6-a371" id="593c-3b3f-6a74-8591" primary="false" name="Eagle Warrior"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Jaguar Warrior" hidden="false" id="d542-666c-fbd9-a321">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="2" field="selections" scope="force" shared="true" id="822b-fe41-b2ad-fd39" includeChildSelections="false"/>
-      </constraints>
       <infoLinks>
         <infoLink name="Defensive (Active)" id="18ce-c452-3662-39a5" hidden="false" type="rule" targetId="45b3-7be5-2c44-6ae1"/>
         <infoLink name="Dodge (Active)" id="4bde-f080-6906-fb05" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -90,14 +87,14 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.2ff8-d21a-4569-a1a9"/>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="c294-bd3b-98f3-51e5" id="212b-9a77-2eea-4095" primary="false" name="Jaguar Warrior"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Python Warrior" hidden="false" id="33bc-fce4-fca6-5738">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="2" field="selections" scope="force" shared="true" id="3719-f327-69f8-6e32" includeChildSelections="false"/>
-      </constraints>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="0328-99aa-ee33-6137" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
         <infoLink name="On the Ball (Active)" id="5384-1243-a792-af1c" hidden="false" type="rule" targetId="8a2f-7e41-b532-e70a"/>
@@ -141,14 +138,14 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
         <modifier type="set" value="true" field="hidden" affects="self.entries.92fa-d3e4-5627-dce4"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="3f9e-fcc8-1600-79df" id="d63d-7c9e-bf53-5e85" primary="false" name="Python Warrior"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Piranha Warrior" hidden="false" id="bd65-f508-b2c8-198d">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7888-f297-6a24-1dec" includeChildSelections="false"/>
-      </constraints>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="8ba5-b271-dce7-04b1" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
         <infoLink name="Hit and Run (Active)" id="f363-7620-7b4e-da60" hidden="false" type="rule" targetId="1517-e3ea-cdf2-c03f"/>
@@ -189,6 +186,9 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.d2d1-9a8f-c4a8-2f56"/>
         <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="93e0-3685-2eca-d17a" id="78d7-ac70-fe92-3946" primary="false" name="Piranha Warrior"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -213,4 +213,26 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Eagle Warrior" id="71fc-809f-d7a6-a371" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="5c13-dbb7-d9e3-3527" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Jaguar Warrior" id="c294-bd3b-98f3-51e5" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b445-bedf-1ef7-e000" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Piranha Warrior" id="93e0-3685-2eca-d17a" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8345-35cf-f2f1-3193" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Python Warrior" id="3f9e-fcc8-1600-79df" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f958-7c87-780a-75b6" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
 </catalogue>
