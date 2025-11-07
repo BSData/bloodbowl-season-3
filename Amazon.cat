@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="65cf-a1aa-f174-cb3f" name="Amazon" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Eagle Warrior" hidden="false" id="a80b-5e2a-39bd-fd79">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="9f31-51c9-8ef0-1268" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Eagle Warrior" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="05ae-ee82-5c67-86b6">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="3d0f-163e-0cbf-b452" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="f05e-f261-771f-99dd" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1cad-d76a-72a4-7223" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="dde1-1595-5a08-3592" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="7bbb-b55b-c2e8-71cf" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="71fc-809f-d7a6-a371" id="593c-3b3f-6a74-8591" primary="false" name="Eagle Warrior"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jaguar Warrior" hidden="false" id="d542-666c-fbd9-a321">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Defensive (Active)" id="18ce-c452-3662-39a5" hidden="false" type="rule" targetId="45b3-7be5-2c44-6ae1"/>
+        <infoLink name="Dodge (Active)" id="4bde-f080-6906-fb05" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Jaguar Warrior" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="57af-32e4-ffb4-590b">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Defensive, Dodge</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="708f-f0fd-87ad-a642" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="1dbf-5cb9-cd01-d161" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="c5ed-fac6-c73f-3cfd" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="ed84-f0d7-8ae9-cf16" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="e98b-c531-b027-3312" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.2ff8-d21a-4569-a1a9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="c294-bd3b-98f3-51e5" id="212b-9a77-2eea-4095" primary="false" name="Jaguar Warrior"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Python Warrior" hidden="false" id="33bc-fce4-fca6-5738">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="0328-99aa-ee33-6137" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="On the Ball (Active)" id="5384-1243-a792-af1c" hidden="false" type="rule" targetId="8a2f-7e41-b532-e70a"/>
+        <infoLink name="Pass (Active)" id="d48b-f962-8c64-6190" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Safe Pass (Active)" id="a47e-53e0-bd2d-7891" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Python Warrior" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="cd8a-5622-a286-480f">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, On the Ball, Pass, Safe Pass</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b6da-4b57-9ec3-69ad" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="4302-bafd-6e04-3911" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="5aaa-dbb7-433e-7b25" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="c438-e58e-b4b8-cb6e" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="90a6-bef1-6e1b-c3b8" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="11ca-805a-2b02-3b20" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a279-db7f-7aab-d126"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.92fa-d3e4-5627-dce4"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="3f9e-fcc8-1600-79df" id="d63d-7c9e-bf53-5e85" primary="false" name="Python Warrior"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Piranha Warrior" hidden="false" id="bd65-f508-b2c8-198d">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="8ba5-b271-dce7-04b1" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Hit and Run (Active)" id="f363-7620-7b4e-da60" hidden="false" type="rule" targetId="1517-e3ea-cdf2-c03f"/>
+        <infoLink name="Jump Up (Active)" id="1f48-7b6e-3632-ced2" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Piranha Warrior" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6459-93fe-bbae-b407">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Hit and Run, Jump Up</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="4be7-3485-8b10-b0e9" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="44c0-de83-2953-5cbc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="378f-87ba-117b-9bb3" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="9712-e7e6-5bb0-71f8" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="24af-9f43-14c7-a655" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d2d1-9a8f-c4a8-2f56"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="93e0-3685-2eca-d17a" id="78d7-ac70-fe92-3946" primary="false" name="Piranha Warrior"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Eagle Warrior" hidden="false" id="5c5f-c210-6154-44e7" type="selectionEntry" targetId="a80b-5e2a-39bd-fd79">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5151-49cf-8257-1503" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Jaguar Warrior" hidden="false" id="796c-bffd-24a8-5f60" type="selectionEntry" targetId="d542-666c-fbd9-a321">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="7bea-ba6c-0504-fc51" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Piranha Warrior" hidden="false" id="0b04-c7e6-7ab5-666f" type="selectionEntry" targetId="bd65-f508-b2c8-198d">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="fd71-37e8-285e-aa98" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Python Warrior" hidden="false" id="d23a-6440-f9ae-226f" type="selectionEntry" targetId="33bc-fce4-fca6-5738">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9cc3-0979-532a-afa7" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Eagle Warrior" id="71fc-809f-d7a6-a371" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="5c13-dbb7-d9e3-3527" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Jaguar Warrior" id="c294-bd3b-98f3-51e5" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b445-bedf-1ef7-e000" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Piranha Warrior" id="93e0-3685-2eca-d17a" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8345-35cf-f2f1-3193" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Python Warrior" id="3f9e-fcc8-1600-79df" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f958-7c87-780a-75b6" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+</catalogue>
