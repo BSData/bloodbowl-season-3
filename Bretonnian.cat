@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="9856-e62f-5c24-2dbe" name="Bretonnian" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Bretonnian Squire" id="1884-76ca-62d1-1201" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="8131-8549-8648-e62d" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Bretonnian Knight Catcher" id="4c77-9f9e-f854-4f5f" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8b5c-3e11-db1c-7121" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Bretonnian Knight Thrower" id="5de4-52a1-1f92-a805" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="88f0-42c3-49fb-b8a0" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Grail Knight" id="b0b6-af92-4867-5166" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="278c-b234-8c51-83f6" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Bretonnian Squire" hidden="false" id="5d84-138c-8886-8fe1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5ed6-66c1-fa17-dfaa" primary="true" name="Player"/>
+        <categoryLink targetId="1884-76ca-62d1-1201" id="6c71-20cf-e58a-e00a" primary="false" name="Bretonnian Squire"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bretonnian Squire" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3d91-bd68-a787-93cb">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Wrestle</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Wrestle (Active)" id="d601-1f7d-c4cf-62aa" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b01d-f6ae-f05b-aaac" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="b5ae-8805-b58a-3f44" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="2bc3-a7b5-6325-a69d" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="542a-c9c5-0ff7-1484" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="4fda-3456-8691-d4a4" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bretonnian Knight Catcher" hidden="false" id="fec1-c1eb-6173-3e6c">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="8cac-36f4-d042-95d9" primary="true" name="Player"/>
+        <categoryLink targetId="4c77-9f9e-f854-4f5f" id="72cc-44b9-d38f-a46b" primary="false" name="Bretonnian Knight Catcher"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bretonnian Knight Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d7b7-a629-6d99-292a">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch, Dauntless, Nerves of Steel</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Catch (Active)" id="ed67-5e13-5d3b-49af" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dauntless (Active)" id="f0b3-1b25-4329-3e2d" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+        <infoLink name="Nerves of Steel (Active)" id="c003-3414-66d8-354c" hidden="false" type="rule" targetId="b7d6-484c-fffd-8eb4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="f322-bb8c-7164-8284" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="491f-975a-7ff9-0ca6" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="b874-87b4-fd8a-50a2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="7878-5de0-b121-dfc0" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="ea91-4372-2467-9e8f" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.1828-768a-3a55-4675"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bretonnian Knight Thrower" hidden="false" id="2c66-02ad-249f-8b0d">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9365-4983-91dd-8e85" primary="true" name="Player"/>
+        <categoryLink targetId="5de4-52a1-1f92-a805" id="cf3b-a634-34ea-b61c" primary="false" name="Bretonnian Knight Thrower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bretonnian Knight Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="84b1-6556-9b27-c473">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dauntless, Nerves of Steel, Pass</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dauntless (Active)" id="5013-7a66-3ae9-f15f" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+        <infoLink name="Nerves of Steel (Active)" id="29d4-9984-78b8-12cc" hidden="false" type="rule" targetId="b7d6-484c-fffd-8eb4"/>
+        <infoLink name="Pass (Active)" id="e699-55d4-bc22-7697" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="2816-f163-9486-44e1" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="8701-684e-c286-ae73" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="cb29-8a28-d6bb-8dfe" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3328-5460-c85a-38c7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="0669-08c0-6952-6eb9" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="751e-3814-17ed-245a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.1828-768a-3a55-4675"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grail Knight" hidden="false" id="ecce-538e-ee93-baa0">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="4d2d-e9ff-4d3d-55e9" primary="true" name="Player"/>
+        <categoryLink targetId="b0b6-af92-4867-5166" id="d64f-6a98-48c4-a7d3" primary="false" name="Grail Knight"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Grail Knight" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="762b-9e20-34c9-4eb1">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Dauntless, Steady Footing</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="da86-4b24-cda2-5305" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="4e90-c7e1-83ab-d564" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="d8bd-458f-4b90-f503" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="cfea-a494-d86c-123d" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5f71-3369-bb8e-2279" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="6587-558f-8dc3-d590" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Dauntless (Active)" id="b6a4-69e8-1ef8-fc06" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+        <infoLink name="Steady Footing (Active)" id="3c01-8270-c769-c691" hidden="false" type="rule" targetId="6a53-7189-b23e-1778"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.09ba-cd46-c151-4e45"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bretonnian Squire" hidden="false" id="3ca4-8b3c-4b57-ff53" type="selectionEntry" targetId="5d84-138c-8886-8fe1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Bretonnian Knight Thrower" hidden="false" id="7313-4be5-ff04-1681" type="selectionEntry" targetId="2c66-02ad-249f-8b0d">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Grail Knight" hidden="false" id="7bf4-a530-7889-4734" type="selectionEntry" targetId="ecce-538e-ee93-baa0">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Bretonnian Knight Catcher" hidden="false" id="42d5-8cf6-3869-5068" type="selectionEntry" targetId="fec1-c1eb-6173-3e6c">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
