@@ -872,6 +872,44 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Primary Skill" id="f398-0d58-6146-99f7" hidden="false"/>
     <selectionEntryGroup name="Secondary Skill" id="290c-cda9-c02e-31a1" hidden="false"/>
+    <selectionEntryGroup name="Chaos Alignment" id="486f-d6fb-4f44-1a32" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Favoured of Hashut" hidden="false" id="149f-17f2-1a3f-139a" type="selectionEntry" targetId="29dc-51bf-a4d4-e460">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ded9-6839-e060-fd18" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Khorne" hidden="false" id="39b5-c870-1a47-35ea" type="selectionEntry" targetId="fff5-8bb0-409e-4125">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1e-8895-ee7e-5c1a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Nurgle" hidden="false" id="0d33-0a59-3441-82f9" type="selectionEntry" targetId="d66c-3805-c337-bbb6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36f4-c143-7dca-31d4" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Slaanesh" hidden="false" id="1d13-941f-1e9b-12a1" type="selectionEntry" targetId="a1f9-87ba-0db6-989a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89fc-eaed-b583-7032" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Tzeentch" hidden="false" id="36cd-d199-0f7d-9f91" type="selectionEntry" targetId="12ee-8bbc-e957-279b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cbc-fe43-d2c4-e5c0" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Undivided" hidden="false" id="daba-761c-c0ac-e50f" type="selectionEntry" targetId="1cd7-0234-b42d-8b5d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f7c-3624-2c7e-26dd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="656f-308c-b966-d713-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="656f-308c-b966-d713-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Catch (Active)" id="098e-6fa4-284c-49ca" hidden="false">
@@ -1585,12 +1623,12 @@ Before determining how many dice are rolled, this player may be removed from the
 If this player uses this trait to be placed on the ball, they may attempt to pick it up before any dice are rolled.</description>
       <alias>Trickster</alias>
     </rule>
-    <rule name="Unchanneled Fury* (Active)" id="454e-a6ad-7d72-438f" hidden="false">
+    <rule name="Unchannelled Fury* (Active)" id="454e-a6ad-7d72-438f" hidden="false">
       <description>Whenever this player is activated, after declaring their Action, they must roll a D6. They may apply a +2 modifier to the roll if they have declared a Block Action or Blitz Action. On a 4+, the player may perform the declared Action as normal.
 
 
 On a 1-3, this player rages incoherently but nothing really happens. Their activation immediately ends.</description>
-      <alias>Unchanneled Fury</alias>
+      <alias>Unchannelled Fury</alias>
     </rule>
     <rule name="Unsteady* (Passive)" id="4a28-69c3-1789-3f44" hidden="false">
       <description>This player may not declare Secure the Ball Actions.</description>
@@ -1605,6 +1643,19 @@ On a 1-3, this player rages incoherently but nothing really happens. Their activ
     <rule name="Secret Weapon* (Passive)" id="2dfd-63dd-cf29-9818" hidden="false">
       <description>At the end of a Drive in which this player took part, even if they are not on the pitch at the end of the Drive, they are Sent-off for committing a Foul.</description>
       <alias>Secret Weapon</alias>
+    </rule>
+    <rule name="Favoured of ..." id="84ac-f521-708b-c779" hidden="false">
+      <description>Some teams may automatically have a specific alignment (e.g., Favoured of Khorne), whilst others may have a choice. If a team has a choice of alignment, it will be listed in brackets following the special rule - for example, Favoured of (Khorne, Nurgle, Slaanesh or Tzeentch).
+
+
+When creating a Team Draft List, a team with this special rule that has a choice must choose an alignment from the options given and cannot change it later on.
+
+
+Some Star Players will only be able to play for teams that are Favoured of specific Chaos Gods. For example, a Star Player&apos;s profile may say they can play for teams with the Favoured of Khorne special rule. Such a Star Player could not therefore play for any team with the Favoured of Nurgle, Slaanesh, etc., special rule.
+
+
+If a team has a choice of any alignment, they can choose from any of the following: Hashut, Khorne, Nurgle, Slaanesh, Tzeentch, Undivided.</description>
+      <alias>Favoured of (choose any)</alias>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -1730,6 +1781,12 @@ On a 1-3, this player rages incoherently but nothing really happens. Their activ
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Hashut" hidden="false" id="29dc-51bf-a4d4-e460"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="fff5-8bb0-409e-4125"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Undivided" hidden="false" id="1cd7-0234-b42d-8b5d"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Team Re-Rolls" hidden="false" id="18e0-709a-8d63-a381" type="selectionEntry" targetId="9350-0bc7-c2fc-7af5">
