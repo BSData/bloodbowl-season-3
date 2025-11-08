@@ -227,4 +227,23 @@
       </costs>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="56b1-47d2-bfe0-8ded">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="6fff-3bf2-e94f-bd7b" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7893-8b51-9d61-79c8-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7893-8b51-9d61-79c8-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Old World Classic" hidden="false" id="ba75-29c0-9bdc-2b3d" type="selectionEntry" targetId="3d18-00d7-c09b-d261">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26cd-fd77-ede2-ac18-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26cd-fd77-ede2-ac18-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

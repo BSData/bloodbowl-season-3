@@ -191,5 +191,22 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="86b8-64b2-8273-bd96-max" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="d7f4-ed40-5258-4986">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="a8a9-f7bb-ff69-f3fa-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8a9-f7bb-ff69-f3fa-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Badlands Brawl" hidden="false" id="122d-b3c8-31d2-6227" type="selectionEntry" targetId="1eb9-891a-5a20-b694">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e7a-af8f-bb52-c751-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e7a-af8f-bb52-c751-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="fff9-252c-dc88-a18a" primary="true" name="Team Management"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
 </catalogue>

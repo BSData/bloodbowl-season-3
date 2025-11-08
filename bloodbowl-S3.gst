@@ -906,8 +906,8 @@
         </entryLink>
       </entryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="656f-308c-b966-d713-min" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="656f-308c-b966-d713-max" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="387a-168b-d622-13d6-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="387a-168b-d622-13d6-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -1748,7 +1748,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
     <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="World&apos;s Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c">
+    <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c">
       <comment>Team Leauge</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8">
@@ -1787,6 +1787,12 @@ If a team has a choice of any alignment, they can choose from any of the followi
     <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b"/>
     <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a"/>
     <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6"/>
+    <selectionEntry type="upgrade" import="true" name="Favored of ..." hidden="false" id="7614-610c-c42c-5a78">
+      <infoLinks>
+        <infoLink name="Favoured of ..." id="f76e-423c-4f15-d2dd" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+      </infoLinks>
+      <comment>Team Special Rules</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Team Re-Rolls" hidden="false" id="18e0-709a-8d63-a381" type="selectionEntry" targetId="9350-0bc7-c2fc-7af5">

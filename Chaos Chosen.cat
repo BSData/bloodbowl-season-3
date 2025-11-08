@@ -116,7 +116,7 @@
       </profiles>
       <infoLinks>
         <infoLink name="Always Hungry* (Active)" id="fa53-cde5-6fd3-5ce9" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
-        <infoLink name="Loner (4+)* (Passive)" id="bcb7-e2a4-6e9d-3035" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Loner (X+)* (Passive)" id="bcb7-e2a4-6e9d-3035" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
         <infoLink name="Mighty Blow (Active)" id="b70e-9855-64f2-540f" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
         <infoLink name="Projectile Vomit (Active)" id="7dd1-0efc-43d3-c31b" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
         <infoLink name="Really Stupid (Passive)" id="a2e6-9981-87fb-ea4c" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
@@ -179,7 +179,7 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Loner (4+)* (Passive)" id="0491-7e8c-e413-9f72" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Loner (X+)* (Passive)" id="0491-7e8c-e413-9f72" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
         <infoLink name="Throw Team-mate (Active)" id="43d7-e5e1-68fa-a124" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
         <infoLink name="Thick Skull (Passive)" id="16c2-c356-ee90-a700" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
         <infoLink name="Bone Head* (Passive)" id="fd6c-2cb2-ec53-8002" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
@@ -213,12 +213,12 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Loner (4+)* (Passive)" id="2b47-8eee-b03d-c8e2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Loner (X+)* (Passive)" id="2b47-8eee-b03d-c8e2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
         <infoLink name="Frenzy* (Active)" id="840c-cfe9-5b2c-63fe" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
         <infoLink name="Horns (Active)" id="1220-9f77-0be1-a095" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
         <infoLink name="Mighty Blow (Active)" id="b8f2-1b11-63b8-7bca" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
         <infoLink name="Thick Skull (Passive)" id="ec42-af35-8199-00cf" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
-        <infoLink name="Unchanneled Fury* (Active)" id="c136-9b64-e52d-3842" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
+        <infoLink name="Unchannelled Fury* (Active)" id="c136-9b64-e52d-3842" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="0d0e-c075-bc5e-fdcf" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -264,13 +264,18 @@
       <categoryLinks>
         <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="e1cc-4674-1993-1839" primary="true" name="Team Management"/>
       </categoryLinks>
-      <infoLinks>
-        <infoLink name="Favoured of (choose any)" id="1588-fb7b-e4c3-c9c3" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
-      </infoLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="1fa7-7da4-08b3-0d2c-min" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1fa7-7da4-08b3-0d2c-max" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="9d80-e4bd-dd0e-6b22-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9d80-e4bd-dd0e-6b22-max" includeChildSelections="true"/>
       </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Favored of ..." hidden="false" id="c878-1893-3936-3aaa" type="selectionEntry" targetId="7614-610c-c42c-5a78">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7525-f1fe-8a2e-1b1e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7525-f1fe-8a2e-1b1e-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chaos Alignment" hidden="false" id="c5ec-93a8-ff55-a908">
       <entryLinks>
@@ -280,8 +285,8 @@
         <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0418-cb7b-db90-3b81" primary="true" name="Team Management"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d120-b38b-a3fe-9334-min" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d120-b38b-a3fe-9334-max" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7e23-ce58-eaea-10c3-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e23-ce58-eaea-10c3-max" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
   </selectionEntries>
