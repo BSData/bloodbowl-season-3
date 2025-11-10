@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f9bf-bd84-1c46-be17" name="Chaos Renegade" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Renegade Human" hidden="false" id="8576-ad44-a2de-2f4e">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="40dd-0f56-fe70-0c62" primary="true" name="Player"/>
+        <categoryLink targetId="1402-1b59-0235-5571" id="b50a-3fae-61b7-c7c6" primary="false" name="Renegade Human"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Human" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d054-37be-13ab-b718">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all)</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c2d6-b8f4-99c2-3a72" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="9c6d-2e2b-a358-afb3" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="e344-0bac-ea10-e972" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="4b95-fc33-cb46-90a2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4ff3-d124-4f92-81cc" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="282f-92fa-458c-e5cd" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="b4f0-225d-ed43-3680" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="2a6d-0bc3-e903-bbff" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Renegade Goblin" hidden="false" id="8586-94a7-d53d-7928">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="791a-6cad-779c-d8b9" primary="true" name="Player"/>
+        <categoryLink targetId="b02c-0f96-15a7-a327" id="98fb-80be-3320-e97f" primary="false" name="Renegade Goblin"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Goblin" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="06bf-08d6-cce1-4e84">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all), Dodge, Right Stuff, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="81e2-d368-caf1-8ae7" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+        <infoLink name="Dodge (Active)" id="8cec-0127-ef38-8506" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="7553-88e6-5ac1-a510" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="e9fc-e042-fe25-40b7" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="bda4-83ef-319e-9dbd" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="2f7a-4a5f-9d32-99bf" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="1e2b-5611-c095-cc0b" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="5a6f-cced-aaad-0e64" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="266f-0466-224f-54a7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="0b2c-a9c8-1b14-8d9d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="de86-7d3d-eb92-093b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Renegade Orc" hidden="false" id="5853-ed0d-1c47-fe82">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="103a-5293-fb54-f2f5" primary="true" name="Player"/>
+        <categoryLink targetId="684b-1f22-6c1e-d277" id="cffa-3fbe-1f83-3669" primary="false" name="Renegade Orc"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Orc" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="2a16-7e1c-03ea-01b7">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all)</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Orc**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="e7ef-5285-a681-705e" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="50df-c7a5-05c7-835e" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="5163-87f4-35da-2707" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="b46d-44e2-2472-8b67" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="c01e-e7be-60a2-8741" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0dc1-204e-686d-57d6" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="04bf-b901-6411-7237" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="dcbd-c50a-027e-8e82" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Renegade Skaven" hidden="false" id="6379-00e6-f2ba-42fc">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="730d-6514-90a7-8167" primary="true" name="Player"/>
+        <categoryLink targetId="e2ed-5872-299e-61a1" id="a2df-a19f-2127-a2fc" primary="false" name="Renegade Skaven"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Skaven" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d432-7901-b0b9-d909">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all)</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Skaven**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="6046-3914-70df-e54e" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="518d-8ed3-57ba-5564" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="f5c9-d365-deee-1428" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="3620-cee3-62c3-cd4b" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="fe5a-6554-04c4-18eb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="993e-3f60-37e7-ef9d" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="3ed4-20f7-ddd7-5d98" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="6688-b341-9642-65c1" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Renegade Dark Elf" hidden="false" id="9187-d928-42c7-eb4a">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="81bb-c403-39b7-4496" primary="true" name="Player"/>
+        <categoryLink targetId="d4ff-1868-0383-2f07" id="6067-89cf-205f-d148" primary="false" name="Renegade Dark Elf"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Dark Elf" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="aff3-5810-803f-953e">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all)</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="1206-834a-ba7b-2f1d" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="f8c5-da5a-ad67-3fbc" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="94d5-b999-96d8-36f9" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="0add-a41c-7cbf-8143" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="6579-d8d6-82c2-d615" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="aa33-dc4b-b221-2b3e" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="fad1-2164-d9b5-3c25" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="fb5b-8e0f-3142-55a2" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Renegade Human Thrower" hidden="false" id="968d-884a-98da-9787">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="97c4-d8a5-a22b-da00" primary="true" name="Player"/>
+        <categoryLink targetId="2187-8147-e1fe-3c93" id="e01e-56f7-248c-afc1" primary="false" name="Renegade Human Thrower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Renegade Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4eb4-c3b7-ec8a-7ed0">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (all), Pass, Sure Hands</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGMP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Animosity (X)* (Active)" id="4265-954f-f439-ec78" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+        <infoLink name="Pass (Active)" id="10cd-6363-fd89-497f" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Sure Hands (Active)" id="8079-329a-f180-70ce" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c0ef-7ea4-fb89-1c50" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="5b8f-7eba-d8ee-e6bc" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="56f8-a958-5033-8aa6" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="d78c-d15d-d8ab-b60d" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="8fc0-862c-607f-04e2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="226b-ecaf-16c3-36d6" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="31a3-d7b7-a39e-2c6b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="d2d4-7f6d-9122-9532" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Troll" hidden="false" id="bc34-241a-f480-6b1d">
+      <categoryLinks>
+        <categoryLink targetId="8fd0-62e8-0c35-64c8" id="49c9-c1b7-4f65-854e" primary="false" name="Big Guy"/>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="bdcc-be06-b634-100a" primary="true" name="Player"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4e86-6c81-108d-f07f">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGMP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Always Hungry* (Active)" id="95ed-0e2d-3e4c-f32f" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
+        <infoLink name="Loner (X+)* (Passive)" id="2d48-dae2-b893-354a" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="e05c-47c1-a979-3ad9" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Projectile Vomit (Active)" id="0440-bdb4-f7a6-2ce5" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
+        <infoLink name="Really Stupid (Passive)" id="40bf-81af-bcdd-af3d" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="d33e-fb80-838d-e238" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Throw Team-mate (Active)" id="e372-2568-d3b5-94d0" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="bbb1-990d-1f4b-f8be" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="85d0-3dd7-11f5-74c9" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0f8e-c818-2748-ae9c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="3fa2-0990-16af-0346" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="05d5-210a-f761-49a8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="51a5-5ed7-80b2-94b7" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="4a14-b295-5e66-c745" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="c852-dc88-7211-b2f5">
+      <categoryLinks>
+        <categoryLink targetId="8fd0-62e8-0c35-64c8" id="f3c0-624a-645c-f687" primary="false" name="Big Guy"/>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="61e9-5927-cd6c-8f80" primary="true" name="Player"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3811-ec51-884b-5b3b">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Thick Skull, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bone Head* (Passive)" id="1681-07ca-6146-b6ec" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Loner (X+)* (Passive)" id="ee9a-edfe-768e-7e1d" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Thick Skull (Passive)" id="9bec-604d-8b38-1e35" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Throw Team-mate (Active)" id="4b6d-9f0c-57e6-8639" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="fc84-e041-013d-e857" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="0a5e-03a0-c9e4-8157" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="2f95-de43-6af4-0b55" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="69f4-9909-7f66-0373" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="9453-ad9f-0efd-7b86" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="d012-a536-4caf-b06c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Minotaur" hidden="false" id="1883-da18-d4a7-8e0a">
+      <categoryLinks>
+        <categoryLink targetId="8fd0-62e8-0c35-64c8" id="6c49-b54d-3073-c354" primary="false" name="Big Guy"/>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="c768-e2b9-ce74-5250" primary="true" name="Player"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Minotaur" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1e05-de5a-79b4-a24c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Frenzy, Horns, Loner (4+), Mighty Blow, Thick Skull, Unchannelled Fury</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Minotaur**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Frenzy* (Active)" id="91bf-5aa8-7a59-cd7e" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Horns (Active)" id="6912-951f-6fc9-5f57" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+        <infoLink name="Loner (X+)* (Passive)" id="7ba4-a7f9-7e39-7ab5" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="07ca-04cf-536b-580c" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Thick Skull (Passive)" id="cc5a-3bde-278f-bb03" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Unchannelled Fury* (Active)" id="898b-f688-1c81-5d2e" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ccef-873d-ec9f-f4ff" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="3b29-b020-bd37-4ece" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="71b4-a48c-3e2d-36d2" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="2109-ac67-2965-c20a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="eeba-1ae9-819f-2998" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="22f7-41db-639a-2b13" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b392-9974-2af9-bcf0"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rat Ogre" hidden="false" id="757f-b187-764c-1641">
+      <categoryLinks>
+        <categoryLink targetId="8fd0-62e8-0c35-64c8" id="8237-d76e-2cfd-8a0a" primary="false" name="Big Guy"/>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="cc64-a619-59f4-1c2b" primary="true" name="Player"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rat Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="af30-c5e7-91ec-786c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animal Savagery, Frenzy, Loner (4+), Mighty Blow, Prehensile Tail</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Skaven**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b237-5b1b-54c7-4add" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="429a-482c-db29-c8b5" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="ca62-e628-526b-5f83" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="630f-57b2-122e-b2a2" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="84ec-ce15-ad60-8dc2" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="2343-8408-00c1-7ef6" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Animal Savagery* (Passive)" id="f473-f885-7d16-bb17" hidden="false" type="rule" targetId="6820-cb49-ce8b-6357"/>
+        <infoLink name="Frenzy* (Active)" id="e925-b443-fdb4-ed23" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Loner (X+)* (Passive)" id="6cce-dc77-3b6b-9894" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="e62b-8ad6-b3bd-5884" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Prehensile Tail (Active)" id="4479-5e0c-c5fc-0f5e" hidden="false" type="rule" targetId="6290-be3e-96b3-05f2"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.285a-a4da-1ac5-8ba1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Renegade Human" id="1402-1b59-0235-5571" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="bac3-a3ed-3d05-5206" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Renegade Goblin" id="b02c-0f96-15a7-a327" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="09f2-accf-9633-569d" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Renegade Orc" id="684b-1f22-6c1e-d277" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9659-cfc1-8c71-2d82" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Renegade Skaven" id="e2ed-5872-299e-61a1" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f3a7-bc16-dd85-bf95" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Renegade Dark Elf" id="d4ff-1868-0383-2f07" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3270-e90c-7e8d-69a9" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Renegade Human Thrower" id="2187-8147-e1fe-3c93" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e14-c88c-c8e8-20da" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Big Guy" id="8fd0-62e8-0c35-64c8" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8da0-b236-fb7a-49da" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink import="true" name="Minotaur" hidden="false" id="2803-bbce-cacd-73aa" type="selectionEntry" targetId="1883-da18-d4a7-8e0a">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ogre" hidden="false" id="bcca-b09b-a4af-61a1" type="selectionEntry" targetId="c852-dc88-7211-b2f5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Rat Ogre" hidden="false" id="23e3-8382-4b11-9629" type="selectionEntry" targetId="757f-b187-764c-1641">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Dark Elf" hidden="false" id="1c4c-354e-edf5-b447" type="selectionEntry" targetId="9187-d928-42c7-eb4a">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Goblin" hidden="false" id="d108-6469-5100-65a4" type="selectionEntry" targetId="8586-94a7-d53d-7928">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Human" hidden="false" id="cd2d-6cfb-7605-24b8" type="selectionEntry" targetId="8576-ad44-a2de-2f4e">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Human Thrower" hidden="false" id="0fa4-0cbc-87a2-3939" type="selectionEntry" targetId="968d-884a-98da-9787">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Orc" hidden="false" id="1e4f-57d6-f6f1-a8b0" type="selectionEntry" targetId="5853-ed0d-1c47-fe82">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Renegade Skaven" hidden="false" id="42d4-4b5d-cee1-6651" type="selectionEntry" targetId="6379-00e6-f2ba-42fc">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Troll" hidden="false" id="3915-5741-39e5-58b5" type="selectionEntry" targetId="bc34-241a-f480-6b1d">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="fbde-1a1d-cc3b-0c37">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="81a8-33f6-b3dc-fa0a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Chaos Clash" hidden="false" id="32b0-88b5-76eb-aa09" type="selectionEntry" targetId="59e3-4dbf-4f7b-9276">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c53-ab52-ff7f-faee-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c53-ab52-ff7f-faee-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="a0a3-7921-26a0-73be-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a0a3-7921-26a0-73be-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="6930-c3e7-7f2e-2576">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0507-dc03-c489-1826" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Favoured of ..." id="9e71-ea49-1b55-4528" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Favoured of Khorne" hidden="false" id="2773-2837-9762-9f42" type="selectionEntry" targetId="fff5-8bb0-409e-4125">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8b1-b31c-fd16-20dd" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Favoured of Nurgle" hidden="false" id="d1a3-32f9-b9bd-5990" type="selectionEntry" targetId="d66c-3805-c337-bbb6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07ec-7fda-9463-8bee" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Favoured of Slaanesh" hidden="false" id="7ded-7629-858b-411c" type="selectionEntry" targetId="a1f9-87ba-0db6-989a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9828-d5db-6e6d-36a0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Favoured of Tzeentch" hidden="false" id="cb89-9d84-4a82-dd34" type="selectionEntry" targetId="12ee-8bbc-e957-279b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f20e-8ae0-8ac9-06d0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Favoured of Undivided" hidden="false" id="e53f-183a-fb6d-fdfd" type="selectionEntry" targetId="1cd7-0234-b42d-8b5d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0371-a602-96b3-50c5" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1019-7e37-bd7e-ff96-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1019-7e37-bd7e-ff96-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="b237-3a91-eef5-d49e-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b237-3a91-eef5-d49e-max" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Favoured of ..." id="b196-0889-bada-54d0" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
