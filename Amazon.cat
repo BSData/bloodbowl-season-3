@@ -235,4 +235,23 @@
       </constraints>
     </categoryEntry>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="f872-6f57-c9ad-ed10">
+      <entryLinks>
+        <entryLink import="true" name="Lustrian Superleague" hidden="false" id="fc8d-6da7-70fe-274c" type="selectionEntry" targetId="9e52-21d6-b650-0f2e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4428-3f58-bef8-b527-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4428-3f58-bef8-b527-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="73fa-0765-26a5-86b1" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="84a6-1574-be62-abc5-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="84a6-1574-be62-abc5-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

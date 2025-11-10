@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7acc-b169-4ef0-0d5d" name="Chaos Chosen" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Beastmen Lineman" hidden="false" id="6cb4-dfeb-5c23-ee2e">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="805a-f8bd-e30c-ff32" primary="true" name="Player"/>
+        <categoryLink targetId="95f3-11b7-e672-d70e" id="357c-2b6a-4b13-700d" primary="false" name="Beastmen Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Beastmen Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d28f-9734-1087-dce0">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Horns, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADPS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">55,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Beastman**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="5f36-126b-20b1-d5ef" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="c34b-baf9-3631-1bd4" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="a04b-e22d-f63a-b71b" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="d260-62de-f202-7cf1" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="682c-51f9-9f32-2c95" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="ca01-4e2b-783d-60fa" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="ccfb-6cf7-7c8c-ec8e" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Devious" hidden="false" id="59f0-5523-43fe-4860" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Thick Skull (Passive)" id="8b38-176f-c1bc-586a" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Horns (Active)" id="33e8-a3fa-6087-c225" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b392-9974-2af9-bcf0"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Chosen" hidden="false" id="d53e-affc-22e2-95df">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="e868-117d-2359-35e8" primary="true" name="Player"/>
+        <categoryLink targetId="607a-905a-1f3f-f98e" id="6fc6-49f7-5108-f966" primary="false" name="Chaos Chosen"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Chaos Chosen" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="c405-78b9-a553-2c12">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Arm Bar</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Arm Bar (Active)" id="dceb-b651-7217-5878" hidden="false" type="rule" targetId="0257-a858-5355-5d9f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1f48-ce22-9f7b-01e9" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="8ae1-4ea2-8e84-aecd" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="a1ff-d319-3bee-08b2" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="6431-56e2-cdec-0f13" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="ff0a-9ad0-1eb8-19fb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="005e-bfd8-78ef-ec10" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="fcf1-c7f8-754f-f160" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.cbe1-6acd-9485-681c"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Troll" hidden="false" id="68d2-6156-200b-85e8">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="b028-11bc-f206-d16a" primary="true" name="Player"/>
+        <categoryLink targetId="885c-a787-73ad-c86c" id="390c-ae7e-562d-efa2" primary="false" name="Big Guy"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="84a2-b934-ff19-b7e8">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Always Hungry* (Active)" id="fa53-cde5-6fd3-5ce9" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
+        <infoLink name="Loner (X+)* (Passive)" id="bcb7-e2a4-6e9d-3035" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="b70e-9855-64f2-540f" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Projectile Vomit (Active)" id="7dd1-0efc-43d3-c31b" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
+        <infoLink name="Really Stupid (Passive)" id="a2e6-9981-87fb-ea4c" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="f726-2d99-c119-226d" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Throw Team-mate (Active)" id="ac94-8495-49a6-8816" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="081e-1c12-d87d-a54b" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="0021-24a8-2534-743f" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="ae39-902a-df55-b4bd" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="67db-3111-75c2-2ef7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="98dc-9edb-ac09-4b70" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="795f-f37e-dabd-5da6" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="General" hidden="false" id="b74d-507b-47bc-49ba" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="829f-3abc-9623-762c">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1dc0-300a-5f87-9d7a" primary="true" name="Player"/>
+        <categoryLink targetId="885c-a787-73ad-c86c" id="36e2-863d-e293-b669" primary="false" name="Big Guy"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="de42-51de-4f7d-7bf3">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="aa53-f266-b6cb-6869" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="be30-9e39-1e07-499c" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="65cb-6e82-c615-b1d8" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="779c-fd3d-01d9-8e15" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5cef-fac2-1feb-774a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="04f3-5578-08d9-4647" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Loner (X+)* (Passive)" id="0491-7e8c-e413-9f72" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Throw Team-mate (Active)" id="43d7-e5e1-68fa-a124" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+        <infoLink name="Thick Skull (Passive)" id="16c2-c356-ee90-a700" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Bone Head* (Passive)" id="fd6c-2cb2-ec53-8002" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Mighty Blow (Active)" id="dbbf-23b7-1d0c-e8e1" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Minotaur" hidden="false" id="5532-458b-782e-7b22">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="f257-43e2-0382-2967" primary="true" name="Player"/>
+        <categoryLink targetId="885c-a787-73ad-c86c" id="6f8a-5b01-aff3-e373" primary="false" name="Big Guy"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Minotaur" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3fbe-9fb7-99f8-6a56">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Frenzy, Horns, Loner (4+), Mighty Blow, Thick Skull, Unchannelled Fury</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Minotaur**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Loner (X+)* (Passive)" id="2b47-8eee-b03d-c8e2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Frenzy* (Active)" id="840c-cfe9-5b2c-63fe" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Horns (Active)" id="1220-9f77-0be1-a095" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+        <infoLink name="Mighty Blow (Active)" id="b8f2-1b11-63b8-7bca" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Thick Skull (Passive)" id="ec42-af35-8199-00cf" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Unchannelled Fury* (Active)" id="c136-9b64-e52d-3842" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0d0e-c075-bc5e-fdcf" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="0e2e-dddf-8e47-b6f9" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="8736-d406-2f63-6a9f" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4894-58a2-5884-e7a9" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5fce-6adc-667c-67af" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="3f6a-da9b-7f57-48cb" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b392-9974-2af9-bcf0"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Beastmen Lineman" id="95f3-11b7-e672-d70e" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="d4b1-4e5d-bee9-eeef" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Chaos Chosen" id="607a-905a-1f3f-f98e" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="cd2f-f913-e062-8ef2" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Big Guy" id="885c-a787-73ad-c86c" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f899-f63b-ad49-9c2a" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="fba4-ce54-5480-cc5a">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="e1cc-4674-1993-1839" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="9d80-e4bd-dd0e-6b22-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9d80-e4bd-dd0e-6b22-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Favored of ..." hidden="false" id="c878-1893-3936-3aaa" type="selectionEntry" targetId="7614-610c-c42c-5a78">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7525-f1fe-8a2e-1b1e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7525-f1fe-8a2e-1b1e-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Alignment" hidden="false" id="c5ec-93a8-ff55-a908">
+      <entryLinks>
+        <entryLink import="true" name="Chaos Alignment" hidden="false" id="35c9-c479-00c9-769f" type="selectionEntryGroup" targetId="486f-d6fb-4f44-1a32"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0418-cb7b-db90-3b81" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7e23-ce58-eaea-10c3-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e23-ce58-eaea-10c3-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Beastmen Lineman" hidden="false" id="9c0b-1325-f7b1-584e" type="selectionEntry" targetId="6cb4-dfeb-5c23-ee2e">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="55000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Chaos Chosen" hidden="false" id="4cc1-fbad-9f51-a3a3" type="selectionEntry" targetId="d53e-affc-22e2-95df">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Minotaur" hidden="false" id="868c-a617-7db1-c711" type="selectionEntry" targetId="5532-458b-782e-7b22">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Troll" hidden="false" id="8778-55e9-d573-82b2" type="selectionEntry" targetId="68d2-6156-200b-85e8">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ogre" hidden="false" id="53d8-1e33-a3b5-2620" type="selectionEntry" targetId="829f-3abc-9623-762c">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
