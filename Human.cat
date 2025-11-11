@@ -135,7 +135,6 @@
         <categoryLink targetId="1418-bb76-7ff4-673b" id="3858-e098-d7ad-2c8a" primary="false" name="Human Blitzer"/>
       </categoryLinks>
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="85000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="85000"/>
       </costs>
       <modifiers>
@@ -158,7 +157,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Human Catcher" hidden="false" id="7ca3-7743-9a4f-2c0b">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
       </costs>
       <categoryLinks>
@@ -192,7 +190,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Halfling Hopeful" hidden="false" id="3f77-7213-5e5e-3083">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="30000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="30000"/>
       </costs>
       <categoryLinks>
@@ -231,7 +228,6 @@
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="d0ca-e0b4-4e33-1d00" primary="false" name="Positional"/>
       </categoryLinks>
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
       </costs>
       <modifiers>
@@ -256,7 +252,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Human Lineman" hidden="false" id="5117-0c6e-af7e-08ac">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="50000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
       <categoryLinks>
@@ -282,7 +277,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="2e5a-08a5-9d9f-e2f2">
       <costs>
-        <cost name="Cost" typeId="5d81-4bfc-2ff6-66ee" value="140000"/>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
       </costs>
       <infoLinks>
