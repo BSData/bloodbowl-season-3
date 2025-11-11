@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="19fd-052d-2890-6df4" name="Halfling" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="4af9-5f03-089a-bff1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="1276-0304-da05-f3f8" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="b00b-eff6-9790-75bf-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b00b-eff6-9790-75bf-max" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="ce3b-beb5-03ec-21c7" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6eeb-a0d3-32fc-d925-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eeb-a0d3-32fc-d925-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Halfling Thimble Cup" hidden="false" id="4f56-9d6a-d844-fb04" type="selectionEntry" targetId="a414-eded-2c3f-26bb">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9256-baf2-0840-2a28" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Woodland League" hidden="false" id="b08c-f97b-1484-0bad" type="selectionEntry" targetId="6c75-8f97-472e-204c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc16-b0d5-7d0a-8d67" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Halfling Hopeful" id="e6af-c0fc-30b3-1f6d" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="367b-f68e-a8ce-7e18" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Halfling Hefty" id="b0a6-dc93-0f99-b1aa" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="485c-9fc8-e2cd-9290" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Halfling Catcher" id="f74d-57d1-e29e-70f7" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="ed5a-b1d3-47cd-affd" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Altern Forest Treeman" id="719f-b093-f57f-7f66" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="66e9-abe7-900c-be7c" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Halfling Hopeful" hidden="false" id="8988-6904-784e-55d5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9fc1-85c1-d3a6-82fb" primary="true" name="Player"/>
+        <categoryLink targetId="e6af-c0fc-30b3-1f6d" id="8806-d3ae-dcb8-4603" primary="false" name="Halfling Hopeful"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ddb3-073b-40a7-f81e">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">7+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Halfling**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="7968-fed1-a436-fe5a" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="41b0-bf75-316f-fc9e" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="ba99-9994-608d-3580" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1cb4-d981-b883-241f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="8961-c92a-6f7e-c3e4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="511d-4ab5-1db1-84ef" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="9799-dc71-82b2-8f8f" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="90b0-c92a-3c06-ca21" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="af00-92e0-7c2c-1efb" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Halfling Hefty" hidden="false" id="d50c-19f0-96e8-f661">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9b35-c2c9-4ca8-8e57" primary="true" name="Player"/>
+        <categoryLink targetId="b0a6-dc93-0f99-b1aa" id="7ee2-fb12-ba99-c847" primary="false" name="Halfling Hefty"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Halfling Hefty" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6f79-ce3f-4ade-8c3c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Fend, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Halfling**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0b4b-e577-87ec-040a" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="1136-6bfb-45bf-de7d" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="7ce4-170f-db3e-7f26" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="09bc-49f3-a3de-0bde" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="0b39-229e-9dd6-5a3a" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="29c7-bd9f-5d68-e8f8" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="a8fc-a9cb-47c4-8240" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="7cf1-7d4a-4af2-e8df" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Fend (Active)" id="a9bb-b4dc-00d8-8f17" hidden="false" type="rule" targetId="055f-a433-190e-79be"/>
+        <infoLink name="Stunty* (Passive)" id="386e-4e60-ed65-8e77" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.53f7-15ef-fbe0-9031"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Halfling Catcher" hidden="false" id="0412-4683-f285-fe7a">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="13a8-875d-de22-42f0" primary="true" name="Player"/>
+        <categoryLink targetId="f74d-57d1-e29e-70f7" id="e674-d303-51fa-674e" primary="false" name="Halfling Catcher"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Halfling Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5d4a-3dff-3434-b06a">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">7+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch, Dodge, Right Stuff, Sprint, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">55,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Halfling**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Catch (Active)" id="6c32-7173-d4da-c559" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dodge (Active)" id="ba6e-73d5-db85-e9a6" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="6a9d-f1f6-d323-fcdc" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="b809-3a16-e5ad-8f39" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Sprint (Active)" id="5fff-b0cf-557a-8f01" hidden="false" type="rule" targetId="27c8-91f7-235f-c531"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.be8c-ebf4-021c-1083"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ab3b-8be2-9a06-fee1" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5e39-af81-abf6-4151" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="2421-a529-a5fd-3d40" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="b288-3e20-ddcb-94f8" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="8a10-5d0e-6094-359e" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="550f-06e0-cb9d-5f31" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Altern Forest Treeman" hidden="false" id="9bd5-7095-c9d7-36b7">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="0c28-47af-4483-cca0" primary="true" name="Player"/>
+        <categoryLink targetId="719f-b093-f57f-7f66" id="1036-568c-49af-c45b" primary="false" name="Altern Forest Treeman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Altern Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="353e-b095-7f22-6c3c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">2</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">6</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">11+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-mate, Timmm-ber!</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Treeman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mighty Blow (Active)" id="3f8c-c485-2f91-7231" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Stand Firm (Active)" id="8772-0336-cccc-9b52" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+        <infoLink name="Strong Arm (Active)" id="8464-a608-90c1-72bc" hidden="false" type="rule" targetId="c1df-8664-e3cd-9611"/>
+        <infoLink name="Take Root* (Passive)" id="c06f-7c49-c960-ebfb" hidden="false" type="rule" targetId="a512-ffe3-23ce-c7ea"/>
+        <infoLink name="Thick Skull (Passive)" id="fd17-e815-978d-daac" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Throw Team-mate (Active)" id="af47-03a9-875f-9eac" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+        <infoLink name="Timmm-ber! (Passive)" id="a269-05fe-9108-38b4" hidden="false" type="rule" targetId="926b-0f53-110d-d32d"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.9bbc-0b62-5ed8-c316"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="31ad-fec9-6647-6a65" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="a2f7-8cdc-deee-8c09" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="2dca-a9dc-81de-029b" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="26e6-546f-e953-8214" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="f6f8-b330-2b06-8699" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="d9eb-ca1a-cd12-2cc7" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="ba24-e362-273d-2250" type="selectionEntry" targetId="8988-6904-784e-55d5" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="30000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Halfling Hefty" hidden="false" id="4bfd-0765-5370-a6fe" type="selectionEntry" targetId="d50c-19f0-96e8-f661" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Halfling Catcher" hidden="false" id="aace-6772-af9e-65a5" type="selectionEntry" targetId="0412-4683-f285-fe7a" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="55000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Altern Forest Treeman" hidden="false" id="5a87-ae6e-d936-fb89" type="selectionEntry" targetId="9bd5-7095-c9d7-36b7" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="120000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
