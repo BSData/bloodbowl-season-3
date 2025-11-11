@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b08e-436c-6efa-3651" name="Snotling" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Snotling Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9f48-c565-02d4-38ea">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Insignificant, Right Stuff, Sidestep, Stunty, Titchy</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">15,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Snotling**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fun-hoppa" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="2596-ca1b-c937-1978">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Pogo, Right Stuff, Sidestep, Stunty</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">20,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Snotling**, **Special**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stilty Runna" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="263f-a406-84a6-7b82">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Sidestep, Sprint, Stunty</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">20,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Runner**, **Snotling**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fungus Flinga" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6a30-e30f-7321-1eed">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bombardier, Dodge, Right Stuff, Secret Weapon, Sidestep, Stunty, Titchy</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Snotling**, **Special**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pump Wagon" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="541b-36be-0614-9d9d">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dirty Player, Juggernaut, Mighty Blow, Really Stupid, Stand Firm</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Snotling**, **Special**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trained Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ec68-7efc-82c9-dbd8">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="db09-fce0-1648-08c0">
+      <entryLinks>
+        <entryLink import="true" name="Bribery &amp; Corruption" hidden="false" id="fb8f-c423-c068-0264" type="selectionEntry" targetId="e4b5-6057-7d9c-2e20">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c39-210b-3e66-3d13" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbb8-b5eb-055d-4d54" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Low Cost Linemen" hidden="false" id="c5b6-5d18-6ecf-98b7" type="selectionEntry" targetId="c2c1-b518-69c8-5c91">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57e6-bb1b-0810-9b84" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3529-b119-b673-6c0e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Swarming" hidden="false" id="ccb0-0a6a-db37-257b" type="selectionEntry" targetId="b2f3-aacd-c386-8944">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e84-438c-c48b-5954" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df59-7f09-6aa3-c553" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="759e-d918-8333-522e" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="4e94-ade6-fe53-494e" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="70ab-2609-d6fa-a131" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="8276-b731-871e-e1f5">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="3b49-1105-617a-a598" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a0dc-e60c-2252-2a0a" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Underworld Challenge" hidden="false" id="3520-ddf2-83d5-f8d6" type="selectionEntry" targetId="fdab-28ae-ae4b-eac1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a73-31a9-ea12-df85" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86b6-f943-bcca-009b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="19b1-ba4a-c611-ead9" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Fun-hoppa" id="4bcb-e4ac-27fc-76a2" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="1de4-78db-a650-bdf9" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Trained Troll" id="8cbb-f3b5-5c0b-e395" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="2a21-ecc6-96fe-ea68" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Stilty Runna" id="22e7-8b4b-980c-00e2" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="5daf-3e59-d15c-93da" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Snotling Lineman" id="e3dc-268c-5e35-916a" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="3fa0-0e4d-ed25-88e1" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Pump Wagon" id="1909-5951-bf37-bfeb" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0b7a-0967-816d-501a" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Fungus Flinga" id="b15a-8787-48fd-9c67" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="64b3-80d3-9f84-fd7b" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Snotling Lineman" hidden="false" id="b094-8322-a7ba-0f62">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="15000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="e3dc-268c-5e35-916a" id="fdae-8547-33e3-f78b" primary="false" name="Snotling Lineman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="524d-4c91-58e1-f92f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="9054-3961-af77-942b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="370c-dd24-38f7-dc74" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4520-be32-daf7-a345" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="33e3-5f90-5ac6-2218" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Snotling Lineman" id="480c-3034-9414-5de5" hidden="false" type="profile" targetId="9f48-c565-02d4-38ea"/>
+        <infoLink name="Dodge (Active)" id="8ae2-9cf8-5dcd-cc37" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Insignificant* (Passive)" id="2872-6e00-7972-2e5f" hidden="false" type="rule" targetId="c58d-09fb-813a-534e"/>
+        <infoLink name="Right Stuff* (Passive)" id="2c6e-0f07-ea21-437c" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Sidestep (Active)" id="ed6b-97d9-9970-81c8" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="07b3-4f6a-777b-a953" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Titchy* (Passive)" id="944f-8005-b041-8e63" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fun-hoppa" hidden="false" id="f0cd-9814-3bd1-ed5f">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4bcb-e4ac-27fc-76a2" id="9244-6e92-e63c-77d4" primary="false" name="Fun-hoppa"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="e1fb-efb6-48dd-284b" primary="false" name="Positional"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="bf4c-c52d-1ac6-28be" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="c56b-506d-9518-e077" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="29e3-4dee-0d32-a742" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="5009-c737-4e35-ea6d" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="e603-1c3a-6eea-a41d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fun-hoppa" id="f3fb-f7d0-6e32-2275" hidden="false" type="profile" targetId="2596-ca1b-c937-1978"/>
+        <infoLink name="Dodge (Active)" id="8bc0-6b3c-6cb8-9908" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Pogo (Active)" id="d7e4-f58a-bdcf-537d" hidden="false" type="rule" targetId="a8b8-f47c-ec97-04f3"/>
+        <infoLink name="Right Stuff* (Passive)" id="a714-73e4-651b-a622" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Sidestep (Active)" id="4e4d-49cb-0724-ca97" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="fdc8-cf60-1e39-751c" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stilty Runna" hidden="false" id="6493-99fd-610d-b76b">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="c805-71e2-aaaf-af5d" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="22e7-8b4b-980c-00e2" id="f809-1965-c05e-7c70" primary="false" name="Stilty Runna"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="55cd-7712-e92f-e8fa" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="0527-857f-1ddd-4aae" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="f725-942a-233c-91ac" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="005d-3566-6b03-ca71" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="9581-bd37-bdd2-0096" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Stilty Runna" id="814d-c397-643a-503f" hidden="false" type="profile" targetId="263f-a406-84a6-7b82"/>
+        <infoLink name="Dodge (Active)" id="8611-4043-f762-74d3" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Sprint (Active)" id="3ea6-c569-b45b-f784" hidden="false" type="rule" targetId="27c8-91f7-235f-c531"/>
+        <infoLink name="Right Stuff* (Passive)" id="dc37-73a9-0d62-2f37" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Sidestep (Active)" id="6041-219e-2846-9591" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="7f41-03cd-1bc7-1a91" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.be8c-ebf4-021c-1083"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fungus Flinga" hidden="false" id="7a64-0011-0f69-69c9">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="30000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="ca43-7206-fd2f-f962" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="b15a-8787-48fd-9c67" id="d1d4-16db-1da5-17f0" primary="false" name="Fungus Flinga"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b0c4-7578-1ff9-e7e5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="38e8-66f5-34f5-d923" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="6c5d-4acf-02d5-6211" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="f258-59d1-d94c-d2a2" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="5b07-32e0-6a97-27c9" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="a5a9-9c69-cac1-0de0" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fungus Flinga" id="0876-412d-dd64-0f2e" hidden="false" type="profile" targetId="6a30-e30f-7321-1eed"/>
+        <infoLink name="Dodge (Active)" id="078f-d2a1-2bab-82e4" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="9acd-bb5a-35ac-3e80" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Sidestep (Active)" id="f166-ad6a-3e7f-99d8" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="a03e-ea76-107b-9d08" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Titchy* (Passive)" id="4e46-b98d-5555-fe9b" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
+        <infoLink name="Bombardier (Active)" id="df81-025d-d2bb-40be" hidden="false" type="rule" targetId="e4ed-bda8-9e43-f1a8"/>
+        <infoLink name="Secret Weapon* (Passive)" id="af08-73d4-e99a-f9f1" hidden="false" type="rule" targetId="2dfd-63dd-cf29-9818"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Trained Troll" hidden="false" id="40e7-c77a-e3ac-0508">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="bad8-a59a-b1ca-faea" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="8cbb-f3b5-5c0b-e395" id="06c1-d5a8-837a-4a95" primary="false" name="Trained Troll"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="93d3-4a14-54a1-8fd4" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="693a-94b0-5415-25c5" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="5cb5-c352-987f-a896" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="a410-1550-50db-beaa" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="8daa-eba2-d879-0fbf" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="c985-9862-87c1-af5e" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Trained Troll" id="e671-25fc-f1bb-ed48" hidden="false" type="profile" targetId="ec68-7efc-82c9-dbd8"/>
+        <infoLink name="Always Hungry* (Active)" id="bd4a-0f0f-538d-83ec" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
+        <infoLink name="Mighty Blow (Active)" id="9380-9880-e442-4157" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Projectile Vomit (Active)" id="1e9d-a6f9-01ef-304b" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
+        <infoLink name="Really Stupid (Passive)" id="129a-c386-a139-d470" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="8ec6-fba0-c708-4d95" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Throw Team-mate (Active)" id="380e-3dd8-9e32-10d0" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pump Wagon" hidden="false" id="f3c2-c095-b30e-90ea">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="d376-b3b5-43d0-721c" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="1909-5951-bf37-bfeb" id="7d6d-56ff-a6db-9f43" primary="false" name="Pump Wagon"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b176-4195-7405-124a" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="45ef-2098-4576-3e76" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Devious" hidden="false" id="83bb-c24c-d225-25fc" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b545-409f-fcd7-eee4" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f9ad-1446-a4fb-8631" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="f418-247b-0072-9070" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Pump Wagon" id="20c2-cde4-ca44-23f4" hidden="false" type="profile" targetId="541b-36be-0614-9d9d"/>
+        <infoLink name="Dirty Player (Active)" id="bebe-99f2-a403-4a79" hidden="false" type="rule" targetId="b9d6-feed-f5da-6864"/>
+        <infoLink name="Juggernaut (Active)" id="c6df-1e97-5f30-91ab" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+        <infoLink name="Mighty Blow (Active)" id="3ee4-fb64-d672-dbc8" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Really Stupid (Passive)" id="506c-1b4b-eeb6-6bc1" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Stand Firm (Active)" id="c8c1-1195-ccd5-667e" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.92c5-858a-41fe-287b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fb62-3fc9-f728-bf0c"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Fun-hoppa" hidden="false" id="e62c-7615-45b2-28b3" type="selectionEntry" targetId="f0cd-9814-3bd1-ed5f" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="b038-3474-b840-ecb4" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Snotling Lineman" hidden="false" id="d5cb-caf3-7c5f-920a" type="selectionEntry" targetId="b094-8322-a7ba-0f62" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="a8b9-0652-1619-762b" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stilty Runna" hidden="false" id="f5e6-7867-8ac9-c362" type="selectionEntry" targetId="6493-99fd-610d-b76b" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="cfc1-1484-3390-f0d7" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fungus Flinga" hidden="false" id="cf76-8d93-3cda-43aa" type="selectionEntry" targetId="7a64-0011-0f69-69c9" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="94a1-2359-f496-dc71" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pump Wagon" hidden="false" id="bd3f-7269-719d-5214" type="selectionEntry" targetId="f3c2-c095-b30e-90ea" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="16b7-fce4-a0c7-c098" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trained Troll" hidden="false" id="c84e-845e-574f-aec0" type="selectionEntry" targetId="40e7-c77a-e3ac-0508" sortIndex="6">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d6d7-8363-c82f-9106" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
