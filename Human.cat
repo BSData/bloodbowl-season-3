@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Blitzer</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3264-a080-672b-9a51">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Catcher</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**</characteristic>
       </characteristics>
     </profile>
     <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b3f4-dca5-2b85-c329">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Halfling, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Halfling**, **Lineman**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1673-fff8-20c1-ccc2">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Thrower</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
       </characteristics>
     </profile>
     <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9567-363e-2b29-8ae4">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Ogre, Big Guy</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="897d-4d8a-bc02-15a0">
@@ -88,7 +88,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -135,7 +135,6 @@
         <categoryLink targetId="1418-bb76-7ff4-673b" id="3858-e098-d7ad-2c8a" primary="false" name="Human Blitzer"/>
       </categoryLinks>
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="85000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="85000"/>
       </costs>
       <modifiers>
@@ -158,7 +157,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Human Catcher" hidden="false" id="7ca3-7743-9a4f-2c0b">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
       </costs>
       <categoryLinks>
@@ -192,7 +190,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Halfling Hopeful" hidden="false" id="3f77-7213-5e5e-3083">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="30000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="30000"/>
       </costs>
       <categoryLinks>
@@ -231,7 +228,6 @@
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="d0ca-e0b4-4e33-1d00" primary="false" name="Positional"/>
       </categoryLinks>
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="75000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="75000"/>
       </costs>
       <modifiers>
@@ -256,7 +252,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Human Lineman" hidden="false" id="5117-0c6e-af7e-08ac">
       <costs>
-        <cost name="Gold" typeId="5d81-4bfc-2ff6-66ee" value="50000"/>
         <cost name="CTV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
       <categoryLinks>
@@ -282,7 +277,6 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="2e5a-08a5-9d9f-e2f2">
       <costs>
-        <cost name="Cost" typeId="5d81-4bfc-2ff6-66ee" value="140000"/>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
       </costs>
       <infoLinks>
@@ -317,35 +311,71 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Human Blitzer" hidden="false" id="dc8e-af8f-470e-f717" type="selectionEntry" targetId="1166-e6db-f59b-0360">
+    <entryLink import="true" name="Human Blitzer" hidden="false" id="dc8e-af8f-470e-f717" type="selectionEntry" targetId="1166-e6db-f59b-0360" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="4c8e-b3fc-982e-1538" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Catcher" hidden="false" id="cb2b-1728-cebc-2cda" type="selectionEntry" targetId="7ca3-7743-9a4f-2c0b">
+    <entryLink import="true" name="Human Catcher" hidden="false" id="cb2b-1728-cebc-2cda" type="selectionEntry" targetId="7ca3-7743-9a4f-2c0b" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="bf77-7e2e-ee8b-9673" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Thrower" hidden="false" id="7e23-4e3c-a5bb-ac5e" type="selectionEntry" targetId="79d2-d988-441a-22af">
+    <entryLink import="true" name="Human Thrower" hidden="false" id="7e23-4e3c-a5bb-ac5e" type="selectionEntry" targetId="79d2-d988-441a-22af" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="52ad-4a28-1ed4-7ec2" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="7f53-16d2-fe72-ce1e" type="selectionEntry" targetId="3f77-7213-5e5e-3083">
+    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="7f53-16d2-fe72-ce1e" type="selectionEntry" targetId="3f77-7213-5e5e-3083" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5cf2-f2ab-90ce-4696" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Lineman" hidden="false" id="897d-2890-e408-f8d6" type="selectionEntry" targetId="5117-0c6e-af7e-08ac">
+    <entryLink import="true" name="Human Lineman" hidden="false" id="897d-2890-e408-f8d6" type="selectionEntry" targetId="5117-0c6e-af7e-08ac" sortIndex="1">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="233a-6cc2-90eb-a866" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ogre" hidden="false" id="660e-4378-ea6e-782d" type="selectionEntry" targetId="2e5a-08a5-9d9f-e2f2">
+    <entryLink import="true" name="Ogre" hidden="false" id="660e-4378-ea6e-782d" type="selectionEntry" targetId="2e5a-08a5-9d9f-e2f2" sortIndex="6">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3826-dc1a-f1ff-e8b1" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="fe51-0a70-801e-aaf0">
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="9cf1-92fd-11bd-b564" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="cadd-737d-4c0d-065d" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9e69-d2c4-852e-13c7" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Team Captain" hidden="false" id="2e64-60ac-fabb-8727" type="selectionEntry" targetId="b037-bf7f-5a39-c29b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2130-c690-6110-110d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e523-123e-1c88-4d4f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="07fa-9968-01e3-c23d">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="e397-3e53-7573-c675" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba43-9d26-eca0-c629" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Old World Classic" hidden="false" id="0ba6-2b25-a07b-7f7f" type="selectionEntry" targetId="3d18-00d7-c09b-d261">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2fc-51cd-50cd-8cb0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc3-c873-d915-ecbd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="9a25-9a99-e2ac-dc1f" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
