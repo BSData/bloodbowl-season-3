@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Goblin, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
       </characteristics>
     </profile>
     <profile name="Snotling Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d306-50ab-c4a4-27b0">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">15,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Lineman, Snotling</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Snotling**</characteristic>
       </characteristics>
     </profile>
     <profile name="Skaven Clanrat" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6e26-6374-54f2-003f">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Lineman, Skaven</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Skaven**</characteristic>
       </characteristics>
     </profile>
     <profile name="Skaven Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5964-8b4f-534d-c470">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Skaven, Thrower</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Skaven**, **Thrower**</characteristic>
       </characteristics>
     </profile>
     <profile name="Gutter Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7b03-b102-c0d7-49b3">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Runner, Skaven</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Runner**, **Skaven**</characteristic>
       </characteristics>
     </profile>
     <profile name="Skaven Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="aab5-b4b6-e386-8212">
@@ -88,7 +88,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Skaven</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Skaven**</characteristic>
       </characteristics>
     </profile>
     <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1469-7d31-5466-0252">
@@ -103,7 +103,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Troll</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
       </characteristics>
     </profile>
     <profile name="Rat Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="781e-f44a-451c-2860">
@@ -118,7 +118,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Skaven</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Skaven**</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -429,7 +429,7 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Troll" id="10cf-bf5b-df1f-271d" hidden="false" type="profile" targetId="1469-7d31-5466-0252"/>
+        <infoLink name="Rat Ogre" id="10cf-bf5b-df1f-271d" hidden="false" type="profile" targetId="781e-f44a-451c-2860"/>
         <infoLink name="Loner (X+)* (Passive)" id="a7e5-250e-fcea-67c2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
         <infoLink name="Animal Savagery* (Passive)" id="4f98-4feb-19cb-a25f" hidden="false" type="rule" targetId="6820-cb49-ce8b-6357"/>
         <infoLink name="Mighty Blow (Active)" id="e696-6e45-ce60-fc24" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>

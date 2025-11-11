@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Lineman, Thrall</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**, **Thrall**</characteristic>
       </characteristics>
     </profile>
     <profile name="Vampire Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="23b9-ae1f-9c98-3a59">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Runner, Undead, Vampire</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Runner**, **Undead**, **Vampire**</characteristic>
       </characteristics>
     </profile>
     <profile name="Vampire Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e6f5-cd39-0898-493f">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Thrower, Undead, Vampire</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Thrower**, **Undead**, **Vampire**</characteristic>
       </characteristics>
     </profile>
     <profile name="Vampire Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="fa08-30bf-18f8-b358">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d"/>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Undead, Vampire</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Undead**, **Vampire**</characteristic>
       </characteristics>
     </profile>
     <profile name="Vargheist" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="dc65-796f-8e0c-1d06">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Undead, Vampire</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Undead**, **Vampire**</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Elf, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Lineman**</characteristic>
       </characteristics>
     </profile>
     <profile name="Wood Elf Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e1db-2948-5433-685b">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Elf, Thrower</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Thrower**</characteristic>
       </characteristics>
     </profile>
     <profile name="Wood Elf Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f209-f6c3-7bbd-ec65">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Catcher, Elf</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Elf**</characteristic>
       </characteristics>
     </profile>
     <profile name="Wardancer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ad54-fd9d-a25d-5e5d">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">130,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Elf</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Elf**</characteristic>
       </characteristics>
     </profile>
     <profile name="Loren Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f3cf-dfc6-34e4-847f">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Treeman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Treeman**</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
