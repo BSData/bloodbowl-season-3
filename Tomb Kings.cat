@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="de08-2113-2ccd-49d8" name="Tomb Kings" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Skeleton Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a5d4-490d-1daa-7130">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Regeneration, Thick Skull</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**, **Skeleton**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tomb Kings Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="75bd-bf95-c572-3f3f">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Regeneration, Sure Hands, Thick Skull</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Skeleton**, **Thrower**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tomb Kings Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7e08-e0c7-d9ed-6766">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Regeneration, Thick Skull</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**, **Skeleton**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tomb Guardian" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a0b8-9daa-337b-e043">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Brawler, Decay, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Human**, **Skeleton**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Skeleton Lineman" id="022d-955a-a4a9-77e6" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="7551-15d6-0d2f-913a" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Tomb Guardian" id="c8fa-14a3-c07b-75f3" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="1a18-4e0a-b85f-c743" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Tomb Kings Thrower" id="37db-3b2f-8f36-988b" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0ccc-75a4-cc07-83d7" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Tomb Kings Blitzer" id="222d-8968-7f91-0343" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="97c2-3394-c268-c88f" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Skeleton Lineman" hidden="false" id="a1df-933f-2001-d413">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="022d-955a-a4a9-77e6" id="0698-97b9-5f65-b914" primary="false" name="Skeleton Lineman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1ee6-6d62-2d96-f365" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="575c-c998-1736-c688" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="a3d2-4bd8-2389-6415" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="6e01-6c27-7359-aaaf" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="da8c-48ee-5f06-a0eb" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="f845-d293-f23a-76e1" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Skeleton Lineman" id="09f5-01c3-3b11-ed1e" hidden="false" type="profile" targetId="a5d4-490d-1daa-7130"/>
+        <infoLink name="Regeneration (Passive)" id="228d-9587-1e8a-20b4" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Thick Skull (Passive)" id="ae49-f17b-134e-0556" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tomb Guardian" hidden="false" id="e5ee-375b-cbcd-deeb">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1802-5a70-fb90-c18d" primary="false" name="Positional"/>
+        <categoryLink targetId="c8fa-14a3-c07b-75f3" id="778a-be81-3110-f33f" primary="false" name="Tomb Guardian"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="9f4f-d40d-d2a8-df38" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="0de1-07f9-9a6d-3375" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="03c4-7a23-23ed-51dd" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f4ed-73c2-640b-3bad" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="fcac-41a1-3b66-d611" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Tomb Guardian" id="4774-7bf7-f0b8-6233" hidden="false" type="profile" targetId="a0b8-9daa-337b-e043"/>
+        <infoLink name="Regeneration (Passive)" id="ad32-0c8d-8f53-a039" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Brawler (Active)" id="2174-19ce-3b0f-2e89" hidden="false" type="rule" targetId="d839-ffbd-92cc-0ec0"/>
+        <infoLink name="Decay* (Passive)" id="2893-d04e-79aa-80c3" hidden="false" type="rule" targetId="8cc8-2b98-e566-6f05"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.9256-339d-7987-49c4"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tomb Kings Blitzer" hidden="false" id="4aec-afb2-d9a0-74c1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="1775-6c73-a109-b3ca" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="222d-8968-7f91-0343" id="33bb-8faf-c225-427d" primary="false" name="Tomb Kings Blitzer"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="5a00-02c3-0aaa-4f74" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="aea5-c4e2-fb25-c8af" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="e817-a40c-1ee5-ad4f" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="6a4c-a6b4-a760-9adb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="870b-13f4-b468-1831" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="5e60-2f81-108d-addf" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Tomb Kings Blitzer" id="17e5-5077-1117-f447" hidden="false" type="profile" targetId="7e08-e0c7-d9ed-6766"/>
+        <infoLink name="Regeneration (Passive)" id="2981-d225-b098-cbcd" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Block (Active)" id="9b28-fc4f-b527-59ff" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Thick Skull (Passive)" id="d317-c903-ddc0-f5b3" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tomb Kings Thrower" hidden="false" id="d74a-070b-2ba9-eeeb">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="41a3-1167-6159-cfa7" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="37db-3b2f-8f36-988b" id="2234-26e8-7520-0a41" primary="false" name="Tomb Kings Thrower"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="3d0d-c8d7-2b9e-0d54" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="1e49-3274-188c-7c57" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="5396-c737-08cf-c1fc" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="f6b0-cd2d-cc39-58cb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="b496-cb0a-d6af-fa73" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="483b-d6bd-ca25-c1f0" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="4772-c13d-d7a8-e36e" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Tomb Kings Thrower" id="90ca-ba77-5534-e507" hidden="false" type="profile" targetId="75bd-bf95-c572-3f3f"/>
+        <infoLink name="Regeneration (Passive)" id="231a-2860-eec8-2afb" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Pass (Active)" id="4c23-aa74-927c-de21" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Thick Skull (Passive)" id="0f6f-d314-701a-5970" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Sure Hands (Active)" id="9beb-7e0c-4986-3527" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="5b01-2569-c7e8-4075">
+      <entryLinks>
+        <entryLink import="true" name="Masters of Undeath" hidden="false" id="f791-1499-d351-c924" type="selectionEntry" targetId="4ce9-c686-aec9-b623">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cd4-9913-e2cb-810e" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea07-c7ee-1c37-e14e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="4dd9-271e-e37f-de4a" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="2240-cd66-46b4-0510" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="150f-b793-2c66-65a5" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="ac88-1638-9baf-d591">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7795-5c9b-e8c0-b4bf" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b56b-57be-b4b9-8747" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Sylvanian Spotlight" hidden="false" id="7fd3-014d-f909-7325" type="selectionEntry" targetId="9070-d888-956b-b3f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2ac-001b-d04e-7a5c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b242-8c8f-17e0-fc76" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="ab14-5d9b-e943-cdf3" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Skeleton Lineman" hidden="false" id="81ac-0bba-fc60-77c4" type="selectionEntry" targetId="a1df-933f-2001-d413" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="e34b-530b-953e-19c4" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tomb King Thrower" hidden="false" id="57c0-a9e9-c3f3-0f63" type="selectionEntry" targetId="d74a-070b-2ba9-eeeb" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6cf7-bd01-1f7e-d589" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tomb King Blitzer" hidden="false" id="29b2-f429-bde4-7c66" type="selectionEntry" targetId="4aec-afb2-d9a0-74c1" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6e33-df88-d389-5bd7" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tomb Guardian" hidden="false" id="c7b3-6ed7-3959-2799" type="selectionEntry" targetId="e5ee-375b-cbcd-deeb" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="73eb-ae34-ecd9-7ad1" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
