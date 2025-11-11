@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8a62-57f6-5e2f-9ef7" name="Dwarf" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="0dc0-39de-3e0e-cf35">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="9502-0917-9c51-ec9e" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="cbe6-ba12-252f-82b9-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cbe6-ba12-252f-82b9-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Worlds Edge Superleague" hidden="false" id="fba7-c265-25ac-d1da" type="selectionEntry" targetId="a8a2-1453-da6f-731c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc01-dcd0-c771-160b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc01-dcd0-c771-160b-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="eb38-a89b-4d13-3146">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="9f61-bddd-fe0b-2c94" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="267a-dfb4-365f-b279-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="267a-dfb4-365f-b279-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Brawlin&apos; Brutes" hidden="false" id="5483-d5d9-df65-a8f3" type="selectionEntry" targetId="0d8a-9c12-8664-38e8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e4c-7066-0c02-4799-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e4c-7066-0c02-4799-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bribery &amp; Corruption" hidden="false" id="8e4c-ddd6-2816-c06f" type="selectionEntry" targetId="e4b5-6057-7d9c-2e20">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71ea-697d-7bd5-bc4b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71ea-697d-7bd5-bc4b-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Dawrf Lineman" id="c65e-b7b8-4dc9-7423" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="2882-0115-51fb-6cf8" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dwarf Runner" id="16ab-a251-137c-534b" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8ba4-57da-d46d-e94b" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Dwarf Blitzer" id="bddf-dab2-2a4e-fead" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6d1f-cab8-c3be-7505" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Troll Slayer" id="6aaf-5ab0-ece6-ffe0" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="94b6-7e79-d6bf-3849" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Deathroller" id="042c-9ecd-9f36-f9db" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="92e3-3ffa-cdf3-0ae3" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="b2dd-51e5-6183-0724" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="f466-54ca-504a-d545" primary="true" name="Player"/>
+        <categoryLink targetId="c65e-b7b8-4dc9-7423" id="778d-104d-aac1-afac" primary="false" name="Dawrf Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dwarf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f376-b819-6703-a9ea">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Defensive, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">70,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Dwarf**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="318d-03a2-f325-2464" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Defensive (Active)" id="821e-77e4-7e29-3685" hidden="false" type="rule" targetId="45b3-7be5-2c44-6ae1"/>
+        <infoLink name="Thick Skull (Passive)" id="f552-226d-9c94-4d95" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="da81-5b82-9ffd-3409" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="3fef-018c-505d-974f" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="a958-1228-d43e-7307" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="5a51-1875-7f9c-45ce" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="009b-5e24-26bb-5be9" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.2ff8-d21a-4569-a1a9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="92b7-e877-e21d-074f" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="8ea3-7b1f-8782-4995" primary="true" name="Player"/>
+        <categoryLink targetId="16ab-a251-137c-534b" id="a6a4-5076-41ae-be92" primary="false" name="Dwarf Runner"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dwarf Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e710-120c-9333-9284">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Sprint, Sure Hands, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Dwarf**, **Runner**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sprint (Active)" id="db9f-a981-f757-7d60" hidden="false" type="rule" targetId="27c8-91f7-235f-c531"/>
+        <infoLink name="Sure Hands (Active)" id="eae4-125d-6697-25bc" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+        <infoLink name="Thick Skull (Passive)" id="a5d3-5043-526d-b661" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="d717-8019-bdb3-53e5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="cf5c-59a2-93fa-e7f8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="5a77-23b4-8ca2-e4ae" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b0d2-3f0f-c32a-d5e7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="1316-5355-e32d-3c43" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.be8c-ebf4-021c-1083"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="77f9-5b50-eeb3-0fc7" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="3606-028d-8873-7ac2" primary="true" name="Player"/>
+        <categoryLink targetId="bddf-dab2-2a4e-fead" id="aea1-5ba0-bd9f-2054" primary="false" name="Dwarf Blitzer"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dwarf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9d26-e88f-c324-ef4c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Diving Tackle, Tackle, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">P</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Dwarf**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c82d-99da-b02b-eaf6" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="0307-e945-6410-046c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="ce3d-5edb-0413-5632" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b753-9eec-9449-5db3" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="7cc8-fbb1-fdad-2c13" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="0a8c-5e02-f7d6-fbab" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Diving Tackle (Active)" id="f488-3f8d-bbc3-9821" hidden="false" type="rule" targetId="cd69-0caa-585b-3a39"/>
+        <infoLink name="Tackle (Active)" id="6bb0-9711-043e-c52b" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
+        <infoLink name="Thick Skull (Passive)" id="575b-0af1-e054-ad27" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.7dcd-6431-83aa-45ee"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.730f-16ec-313f-88ce"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="c3ea-16c0-ff68-f4f6" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5941-995c-38dc-6e7c" primary="true" name="Player"/>
+        <categoryLink targetId="6aaf-5ab0-ece6-ffe0" id="1480-34c5-8776-ffee" primary="false" name="Troll Slayer"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Troll Slayer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="c42b-9910-e7c5-2129">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Dauntless, Frenzy, Hatred (**Troll**), Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">D</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Dwarf**, **Special**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c43c-7906-9107-e647" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="7979-362e-0ced-217c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="b7b3-ff5a-9417-4527" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="702d-96f1-ceac-9691" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="89ea-c88e-015a-267f" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="500c-bdd8-b73e-4c38" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Dauntless (Active)" id="6b16-096a-ab18-8f99" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+        <infoLink name="Frenzy* (Active)" id="d634-9649-f204-5cc2" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Hatred (X)* (Passive)" id="2e0b-2ae2-b5f4-43c9" hidden="false" type="rule" targetId="5f05-debd-275e-b972"/>
+        <infoLink name="Thick Skull (Passive)" id="3144-f8a8-dabe-3a9e" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Death Roller" hidden="false" id="1041-75eb-159d-2832" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="53f8-a9a8-1945-55a3" primary="true" name="Player"/>
+        <categoryLink targetId="042c-9ecd-9f36-f9db" id="844b-55d3-07c8-bb52" primary="false" name="Deathroller"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Death Roller" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3108-d1b2-4a44-eb79">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">7</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">-</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">11+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Break Tackle, Dirty Player, Juggernaut, Loner (4+), Mighty Blow, No Ball, Secret Weapon, Stand Firm</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">170,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Dwarf**, **Special**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="464d-8719-1580-4ee7" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="235d-734c-ecdd-2ab3" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="0882-fb45-3f4f-7d9b" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b69c-f979-ee3b-6f3b" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="7c17-9958-c1da-de89" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Break Tackle (Active)" id="7b92-95bc-87c9-e49d" hidden="false" type="rule" targetId="2003-6026-6a4f-38bd"/>
+        <infoLink name="Dirty Player (Active)" id="ad68-b085-808b-2fc3" hidden="false" type="rule" targetId="b9d6-feed-f5da-6864"/>
+        <infoLink name="Juggernaut (Active)" id="a710-85fe-da76-4edd" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+        <infoLink name="Loner (X+)* (Passive)" id="11ce-dc7b-bc3a-6175" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="6b51-57d0-bc49-d495" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="No Ball* (Passive)" id="a47a-9cb7-88cf-92bb" hidden="false" type="rule" targetId="dd36-c391-8047-23cf"/>
+        <infoLink name="Secret Weapon* (Passive)" id="3134-d849-515c-f5d8" hidden="false" type="rule" targetId="2dfd-63dd-cf29-9818"/>
+        <infoLink name="Stand Firm (Active)" id="891f-4eb0-e995-cffc" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.bf76-6fef-b1a1-34c8"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.92c5-858a-41fe-287b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fb62-3fc9-f728-bf0c"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Dwarf Lineman" hidden="false" id="929d-5d60-e579-5d62" type="selectionEntry" targetId="b2dd-51e5-6183-0724" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="70000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Dwarf Runner" hidden="false" id="2535-1869-f4c9-7618" type="selectionEntry" targetId="92b7-e877-e21d-074f" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Troll Slayer" hidden="false" id="344f-50f0-6529-6943" type="selectionEntry" targetId="c3ea-16c0-ff68-f4f6" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Dwarf Blitzer" hidden="false" id="e839-41aa-5b94-c9ca" type="selectionEntry" targetId="77f9-5b50-eeb3-0fc7" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Death Roller" hidden="false" id="a527-1d85-c92e-8271" type="selectionEntry" targetId="1041-75eb-159d-2832" sortIndex="5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="170000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
