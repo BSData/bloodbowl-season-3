@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Human</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3264-a080-672b-9a51">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Catcher, Human</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**</characteristic>
       </characteristics>
     </profile>
     <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b3f4-dca5-2b85-c329">
@@ -43,7 +43,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">30000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Halfling, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Halfling**, **Lineman**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1673-fff8-20c1-ccc2">
@@ -58,7 +58,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Thrower</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
       </characteristics>
     </profile>
     <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9567-363e-2b29-8ae4">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Ogre</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="897d-4d8a-bc02-15a0">
@@ -88,7 +88,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Lineman</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -344,9 +344,6 @@
   </entryLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="fe51-0a70-801e-aaf0">
-      <infoLinks>
-        <infoLink name="Team Captain" id="1683-5635-055e-d6c5" hidden="false" type="rule" targetId="6753-eb3f-0bf5-63ee"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink name="Team Management" hidden="false" id="9cf1-92fd-11bd-b564" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
       </categoryLinks>
@@ -354,6 +351,14 @@
         <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="cadd-737d-4c0d-065d" includeChildSelections="true"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9e69-d2c4-852e-13c7" includeChildSelections="true"/>
       </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Team Captain" hidden="false" id="2e64-60ac-fabb-8727" type="selectionEntry" targetId="b037-bf7f-5a39-c29b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2130-c690-6110-110d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e523-123e-1c88-4d4f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="07fa-9968-01e3-c23d">
       <constraints>
