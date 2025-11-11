@@ -342,4 +342,35 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="fe51-0a70-801e-aaf0">
+      <infoLinks>
+        <infoLink name="Team Captain" id="1683-5635-055e-d6c5" hidden="false" type="rule" targetId="6753-eb3f-0bf5-63ee"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="9cf1-92fd-11bd-b564" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="cadd-737d-4c0d-065d" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9e69-d2c4-852e-13c7" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="07fa-9968-01e3-c23d">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="e397-3e53-7573-c675" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba43-9d26-eca0-c629" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Old World Classic" hidden="false" id="0ba6-2b25-a07b-7f7f" type="selectionEntry" targetId="3d18-00d7-c09b-d261">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2fc-51cd-50cd-8cb0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc3-c873-d915-ecbd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="9a25-9a99-e2ac-dc1f" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
