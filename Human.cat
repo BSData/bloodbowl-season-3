@@ -13,7 +13,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Blitzer</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Human</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3264-a080-672b-9a51">
@@ -28,7 +28,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Catcher</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Catcher, Human</characteristic>
       </characteristics>
     </profile>
     <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b3f4-dca5-2b85-c329">
@@ -73,7 +73,7 @@
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
         <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140000</characteristic>
         <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
-        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Ogre, Big Guy</characteristic>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Ogre</characteristic>
       </characteristics>
     </profile>
     <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="897d-4d8a-bc02-15a0">
