@@ -311,32 +311,32 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Human Blitzer" hidden="false" id="dc8e-af8f-470e-f717" type="selectionEntry" targetId="1166-e6db-f59b-0360">
+    <entryLink import="true" name="Human Blitzer" hidden="false" id="dc8e-af8f-470e-f717" type="selectionEntry" targetId="1166-e6db-f59b-0360" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="4c8e-b3fc-982e-1538" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Catcher" hidden="false" id="cb2b-1728-cebc-2cda" type="selectionEntry" targetId="7ca3-7743-9a4f-2c0b">
+    <entryLink import="true" name="Human Catcher" hidden="false" id="cb2b-1728-cebc-2cda" type="selectionEntry" targetId="7ca3-7743-9a4f-2c0b" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="bf77-7e2e-ee8b-9673" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Thrower" hidden="false" id="7e23-4e3c-a5bb-ac5e" type="selectionEntry" targetId="79d2-d988-441a-22af">
+    <entryLink import="true" name="Human Thrower" hidden="false" id="7e23-4e3c-a5bb-ac5e" type="selectionEntry" targetId="79d2-d988-441a-22af" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="52ad-4a28-1ed4-7ec2" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="7f53-16d2-fe72-ce1e" type="selectionEntry" targetId="3f77-7213-5e5e-3083">
+    <entryLink import="true" name="Halfling Hopeful" hidden="false" id="7f53-16d2-fe72-ce1e" type="selectionEntry" targetId="3f77-7213-5e5e-3083" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5cf2-f2ab-90ce-4696" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Human Lineman" hidden="false" id="897d-2890-e408-f8d6" type="selectionEntry" targetId="5117-0c6e-af7e-08ac">
+    <entryLink import="true" name="Human Lineman" hidden="false" id="897d-2890-e408-f8d6" type="selectionEntry" targetId="5117-0c6e-af7e-08ac" sortIndex="1">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="233a-6cc2-90eb-a866" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ogre" hidden="false" id="660e-4378-ea6e-782d" type="selectionEntry" targetId="2e5a-08a5-9d9f-e2f2">
+    <entryLink import="true" name="Ogre" hidden="false" id="660e-4378-ea6e-782d" type="selectionEntry" targetId="2e5a-08a5-9d9f-e2f2" sortIndex="6">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3826-dc1a-f1ff-e8b1" primary="true" name="Player"/>
       </categoryLinks>
