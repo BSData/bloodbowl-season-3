@@ -357,32 +357,32 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Bull Centaur" hidden="false" id="9aa3-c435-e51b-a154" type="selectionEntry" targetId="4d10-f149-c8b7-9b21">
+    <entryLink import="true" name="Bull Centaur" hidden="false" id="9aa3-c435-e51b-a154" type="selectionEntry" targetId="4d10-f149-c8b7-9b21" sortIndex="5">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="130000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Chaos Dwarf Blocker" hidden="false" id="b24d-8140-cf37-9089" type="selectionEntry" targetId="9ac2-cc89-d21f-b1f2">
+    <entryLink import="true" name="Chaos Dwarf Blocker" hidden="false" id="b24d-8140-cf37-9089" type="selectionEntry" targetId="9ac2-cc89-d21f-b1f2" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="70000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Sneaky Stabba" hidden="false" id="9260-5310-561c-0713" type="selectionEntry" targetId="0d88-2f7d-b8d9-9507">
+    <entryLink import="true" name="Sneaky Stabba" hidden="false" id="9260-5310-561c-0713" type="selectionEntry" targetId="0d88-2f7d-b8d9-9507" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="60000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Minotaur" hidden="false" id="27bc-5aa3-99f9-5736" type="selectionEntry" targetId="e104-28ff-6f3d-77c8">
+    <entryLink import="true" name="Minotaur" hidden="false" id="27bc-5aa3-99f9-5736" type="selectionEntry" targetId="e104-28ff-6f3d-77c8" sortIndex="6">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Hobgoblin Lineman" hidden="false" id="b26e-c20a-f97c-e8ec" type="selectionEntry" targetId="1b41-182d-9b3c-a0b0">
+    <entryLink import="true" name="Hobgoblin Lineman" hidden="false" id="b26e-c20a-f97c-e8ec" type="selectionEntry" targetId="1b41-182d-9b3c-a0b0" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Flamesmith" hidden="false" id="8b23-5a19-8898-2d8f" type="selectionEntry" targetId="082a-05c9-f837-ca5d">
+    <entryLink import="true" name="Flamesmith" hidden="false" id="8b23-5a19-8898-2d8f" type="selectionEntry" targetId="082a-05c9-f837-ca5d" sortIndex="4">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
       </costs>

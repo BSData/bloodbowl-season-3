@@ -495,52 +495,52 @@
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
-    <entryLink import="true" name="Minotaur" hidden="false" id="2803-bbce-cacd-73aa" type="selectionEntry" targetId="1883-da18-d4a7-8e0a">
+    <entryLink import="true" name="Minotaur" hidden="false" id="2803-bbce-cacd-73aa" type="selectionEntry" targetId="1883-da18-d4a7-8e0a" sortIndex="9">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Ogre" hidden="false" id="bcca-b09b-a4af-61a1" type="selectionEntry" targetId="c852-dc88-7211-b2f5">
+    <entryLink import="true" name="Ogre" hidden="false" id="bcca-b09b-a4af-61a1" type="selectionEntry" targetId="c852-dc88-7211-b2f5" sortIndex="8">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Rat Ogre" hidden="false" id="23e3-8382-4b11-9629" type="selectionEntry" targetId="757f-b187-764c-1641">
+    <entryLink import="true" name="Rat Ogre" hidden="false" id="23e3-8382-4b11-9629" type="selectionEntry" targetId="757f-b187-764c-1641" sortIndex="10">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Dark Elf" hidden="false" id="1c4c-354e-edf5-b447" type="selectionEntry" targetId="9187-d928-42c7-eb4a">
+    <entryLink import="true" name="Renegade Dark Elf" hidden="false" id="1c4c-354e-edf5-b447" type="selectionEntry" targetId="9187-d928-42c7-eb4a" sortIndex="5">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Goblin" hidden="false" id="d108-6469-5100-65a4" type="selectionEntry" targetId="8586-94a7-d53d-7928">
+    <entryLink import="true" name="Renegade Goblin" hidden="false" id="d108-6469-5100-65a4" type="selectionEntry" targetId="8586-94a7-d53d-7928" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Human" hidden="false" id="cd2d-6cfb-7605-24b8" type="selectionEntry" targetId="8576-ad44-a2de-2f4e">
+    <entryLink import="true" name="Renegade Human" hidden="false" id="cd2d-6cfb-7605-24b8" type="selectionEntry" targetId="8576-ad44-a2de-2f4e" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Human Thrower" hidden="false" id="0fa4-0cbc-87a2-3939" type="selectionEntry" targetId="968d-884a-98da-9787">
+    <entryLink import="true" name="Renegade Human Thrower" hidden="false" id="0fa4-0cbc-87a2-3939" type="selectionEntry" targetId="968d-884a-98da-9787" sortIndex="6">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Orc" hidden="false" id="1e4f-57d6-f6f1-a8b0" type="selectionEntry" targetId="5853-ed0d-1c47-fe82">
+    <entryLink import="true" name="Renegade Orc" hidden="false" id="1e4f-57d6-f6f1-a8b0" type="selectionEntry" targetId="5853-ed0d-1c47-fe82" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Renegade Skaven" hidden="false" id="42d4-4b5d-cee1-6651" type="selectionEntry" targetId="6379-00e6-f2ba-42fc">
+    <entryLink import="true" name="Renegade Skaven" hidden="false" id="42d4-4b5d-cee1-6651" type="selectionEntry" targetId="6379-00e6-f2ba-42fc" sortIndex="4">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Troll" hidden="false" id="3915-5741-39e5-58b5" type="selectionEntry" targetId="bc34-241a-f480-6b1d">
+    <entryLink import="true" name="Troll" hidden="false" id="3915-5741-39e5-58b5" type="selectionEntry" targetId="bc34-241a-f480-6b1d" sortIndex="7">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
       </costs>

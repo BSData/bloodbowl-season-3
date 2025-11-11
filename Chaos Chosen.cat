@@ -291,27 +291,27 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Beastmen Lineman" hidden="false" id="9c0b-1325-f7b1-584e" type="selectionEntry" targetId="6cb4-dfeb-5c23-ee2e">
+    <entryLink import="true" name="Beastmen Lineman" hidden="false" id="9c0b-1325-f7b1-584e" type="selectionEntry" targetId="6cb4-dfeb-5c23-ee2e" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="55000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Chaos Chosen" hidden="false" id="4cc1-fbad-9f51-a3a3" type="selectionEntry" targetId="d53e-affc-22e2-95df">
+    <entryLink import="true" name="Chaos Chosen" hidden="false" id="4cc1-fbad-9f51-a3a3" type="selectionEntry" targetId="d53e-affc-22e2-95df" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Minotaur" hidden="false" id="868c-a617-7db1-c711" type="selectionEntry" targetId="5532-458b-782e-7b22">
+    <entryLink import="true" name="Minotaur" hidden="false" id="868c-a617-7db1-c711" type="selectionEntry" targetId="5532-458b-782e-7b22" sortIndex="5">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Troll" hidden="false" id="8778-55e9-d573-82b2" type="selectionEntry" targetId="68d2-6156-200b-85e8">
+    <entryLink import="true" name="Troll" hidden="false" id="8778-55e9-d573-82b2" type="selectionEntry" targetId="68d2-6156-200b-85e8" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Ogre" hidden="false" id="53d8-1e33-a3b5-2620" type="selectionEntry" targetId="829f-3abc-9623-762c">
+    <entryLink import="true" name="Ogre" hidden="false" id="53d8-1e33-a3b5-2620" type="selectionEntry" targetId="829f-3abc-9623-762c" sortIndex="4">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
       </costs>

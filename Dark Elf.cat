@@ -269,27 +269,27 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Dark Elf Assassin" hidden="false" id="0e89-cf52-1622-46a0" type="selectionEntry" targetId="672a-deb2-5096-7cd9">
+    <entryLink import="true" name="Dark Elf Assassin" hidden="false" id="0e89-cf52-1622-46a0" type="selectionEntry" targetId="672a-deb2-5096-7cd9" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Dark Elf Blitzer" hidden="false" id="4bf0-86e9-593e-d3ed" type="selectionEntry" targetId="6c73-4d20-8f6a-e569">
+    <entryLink import="true" name="Dark Elf Blitzer" hidden="false" id="4bf0-86e9-593e-d3ed" type="selectionEntry" targetId="6c73-4d20-8f6a-e569" sortIndex="4">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="105000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Dark Elf Lineman" hidden="false" id="9a07-68f0-278f-8709" type="selectionEntry" targetId="88ea-80e3-40d4-da1d">
+    <entryLink import="true" name="Dark Elf Lineman" hidden="false" id="9a07-68f0-278f-8709" type="selectionEntry" targetId="88ea-80e3-40d4-da1d" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Dark Elf Runner" hidden="false" id="1574-697d-d6d3-7d5d" type="selectionEntry" targetId="f370-cf76-f7b7-1e2a">
+    <entryLink import="true" name="Dark Elf Runner" hidden="false" id="1574-697d-d6d3-7d5d" type="selectionEntry" targetId="f370-cf76-f7b7-1e2a" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Witch Elf" hidden="false" id="fff2-7734-c908-41cb" type="selectionEntry" targetId="82bf-de65-c8f1-2514">
+    <entryLink import="true" name="Witch Elf" hidden="false" id="fff2-7734-c908-41cb" type="selectionEntry" targetId="82bf-de65-c8f1-2514" sortIndex="5">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
       </costs>
