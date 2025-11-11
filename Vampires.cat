@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7b37-1e20-bd88-be35" name="Vampires" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Thrall Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9b2e-79e0-b07a-2cdc">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Human, Lineman, Thrall</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vampire Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="23b9-ae1f-9c98-3a59">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (2+), Hypnotic Gaze, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Runner, Undead, Vampire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vampire Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e6f5-cd39-0898-493f">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (2+), Hypnotic Gaze, Pass, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Thrower, Undead, Vampire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vampire Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="fa08-30bf-18f8-b358">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (3+), Hypnotic Gaze, Juggernaut, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d"/>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Blitzer, Undead, Vampire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vargheist" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="dc65-796f-8e0c-1d06">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (3+), Claws, Frenzy, Loner (4+), Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">Big Guy, Undead, Vampire</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Thrall Lineman" id="f4d4-00ec-e871-9632" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="06d1-af4b-65d5-9cc4" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Vampire Blitzer" id="3664-0fa1-4f27-736c" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="d050-9119-0304-13f1" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Vampire Thrower" id="cdb6-6993-4cf6-02d3" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9fcb-747f-d490-2335" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Vargheist" id="1684-9864-8114-12ad" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4fbe-2a79-53ef-be14" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Vampire Runner" id="36c1-433c-600a-002d" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="dc0b-cefa-5034-2348" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Thrall Lineman" hidden="false" id="0ffa-5f83-8cad-abfe">
+      <categoryLinks>
+        <categoryLink targetId="f4d4-00ec-e871-9632" id="aeb3-b266-f059-3f87" primary="false" name="Thrall Lineman"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="a23e-408d-680e-12f5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="9ddd-7154-32f6-70d2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1880-16ab-88c9-49a8" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="8b6d-bc18-9607-042f" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="2c9a-4306-2aad-2850" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Thrall Lineman" id="c683-f7ae-b394-162f" hidden="false" type="profile" targetId="9b2e-79e0-b07a-2cdc"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vampire Blitzer" hidden="false" id="072d-c49a-1e7c-5191">
+      <categoryLinks>
+        <categoryLink targetId="3664-0fa1-4f27-736c" id="fec2-d7ab-de0f-7e1f" primary="false" name="Vampire Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9673-8ee8-406e-5e79" primary="false" name="Positional"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="6366-8af9-b227-a7de" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="0938-2ed6-e386-af5b" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="d6a4-205b-3fef-388c" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="33db-11c3-b8b9-5493" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="397e-7ce5-d3a8-7d6c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Vampire Blitzer" id="4753-0137-58ba-4d71" hidden="false" type="profile" targetId="fa08-30bf-18f8-b358"/>
+        <infoLink name="Bloodlust (X+)* (Passive)" id="c7e6-008c-b1a5-404e" hidden="false" type="rule" targetId="c562-61cd-9947-a08a"/>
+        <infoLink name="Hypnotic Gaze (Active)" id="4a44-8d5d-88f2-d953" hidden="false" type="rule" targetId="a73b-6a6f-17f0-d772"/>
+        <infoLink name="Juggernaut (Active)" id="a12e-98ca-1674-d40d" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+        <infoLink name="Regeneration (Passive)" id="acaf-2736-a642-ec9c" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fb62-3fc9-f728-bf0c"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vargheist" hidden="false" id="ed62-51ca-aa1f-b089">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="501e-c1c9-f62c-555e" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="1684-9864-8114-12ad" id="332f-0343-1318-e7a2" primary="false" name="Vargheist"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="7493-c63b-a0f4-8080" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="6260-338e-db48-9d13" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="9c1c-81ac-baae-6d17" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="9431-02bd-21d1-fc79" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="f1d1-a187-c2a5-60a8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Vargheist" id="10b9-4a16-5969-b61b" hidden="false" type="profile" targetId="dc65-796f-8e0c-1d06"/>
+        <infoLink name="Bloodlust (X+)* (Passive)" id="ddce-615e-192d-8e0a" hidden="false" type="rule" targetId="c562-61cd-9947-a08a"/>
+        <infoLink name="Claws (Passive)" id="5d38-fdc4-9d19-9df4" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>
+        <infoLink name="Frenzy* (Active)" id="a68f-0ddd-0482-42b9" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Regeneration (Passive)" id="023f-70b9-68c8-8f89" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Loner (X+)* (Passive)" id="1443-e7f3-d292-fb78" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.e82b-325f-56c3-ff73"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vampire Runner" hidden="false" id="78d5-4eab-b302-b1e4">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="d5ea-8694-96fd-a1af" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="36c1-433c-600a-002d" id="4370-87f4-5a32-861c" primary="false" name="Vampire Runner"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="6899-84ea-bcbf-3e90" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="6a1d-7872-045a-6f06" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="ebe4-3204-0c1e-1d57" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="99fb-30a1-ec86-45ab" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="cd16-5b57-cff9-51cc" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="bf34-a073-15c4-2526" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Vampire Runner" id="bee2-c325-d2dc-7722" hidden="false" type="profile" targetId="23b9-ae1f-9c98-3a59"/>
+        <infoLink name="Bloodlust (X+)* (Passive)" id="a93b-b594-b892-bff3" hidden="false" type="rule" targetId="c562-61cd-9947-a08a"/>
+        <infoLink name="Hypnotic Gaze (Active)" id="9ba6-51d6-622d-7441" hidden="false" type="rule" targetId="a73b-6a6f-17f0-d772"/>
+        <infoLink name="Regeneration (Passive)" id="2cd2-893b-5374-8d6a" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vampire Thrower" hidden="false" id="379c-8223-dc57-6083">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="dcb3-5c3a-9c9f-322a" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="cdb6-6993-4cf6-02d3" id="b708-c5f1-9acf-b685" primary="false" name="Vampire Thrower"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="2f13-a8d2-b815-e5b2" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="8dd0-9013-8d9c-9b19" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="7de6-64d1-534a-2711" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="1724-bce7-6598-e1f4" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3c4d-87b5-51a6-83e3" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="2521-d7c0-a475-2f7a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Vampire Thrower" id="2c48-0869-6812-0fac" hidden="false" type="profile" targetId="e6f5-cd39-0898-493f"/>
+        <infoLink name="Bloodlust (X+)* (Passive)" id="2ed6-30b0-951f-5ce7" hidden="false" type="rule" targetId="c562-61cd-9947-a08a"/>
+        <infoLink name="Hypnotic Gaze (Active)" id="f6cb-ef6a-89f5-3744" hidden="false" type="rule" targetId="a73b-6a6f-17f0-d772"/>
+        <infoLink name="Regeneration (Passive)" id="1bd5-b63a-a05e-a001" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Pass (Active)" id="16c6-1eab-58fa-0390" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="bc3c-cb8a-d931-28b6">
+      <entryLinks>
+        <entryLink import="true" name="Masters of Undeath" hidden="false" id="7081-25c2-e764-dd2e" type="selectionEntry" targetId="4ce9-c686-aec9-b623">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="459a-ea68-3796-aa9d" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d820-0c7e-dbb9-b37f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="a282-fc4b-e8f9-20ac" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="47d5-80ab-dbcd-c1ca" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="adc3-a5f5-93ff-3a83" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="9013-395d-d2ca-0408">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="ddc5-5ce4-f3a9-12b9" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7cb8-56cc-8f32-d93a" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Sylvanian Spotlight" hidden="false" id="06b2-af3a-863d-00c6" type="selectionEntry" targetId="9070-d888-956b-b3f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad6c-a1a5-394b-d9e2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="141a-9bbd-9bd7-2622" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="b205-3680-fd04-abb7" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Thrall Lineman" hidden="false" id="6536-9367-3cf0-259c" type="selectionEntry" targetId="0ffa-5f83-8cad-abfe" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d0c8-9ff6-af6a-345c" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vampire Blitzer" hidden="false" id="692d-64ef-dad1-e487" type="selectionEntry" targetId="072d-c49a-1e7c-5191" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="b903-af4d-f915-50b8" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vampire Runner" hidden="false" id="e68a-e604-9799-50fb" type="selectionEntry" targetId="78d5-4eab-b302-b1e4" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6121-cbc1-5d36-2ed4" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vampire Thrower" hidden="false" id="9441-50cd-b1ca-cf8f" type="selectionEntry" targetId="379c-8223-dc57-6083" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="600b-04e0-93f9-9b18" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vargheist" hidden="false" id="8f03-faf1-80fb-6ac1" type="selectionEntry" targetId="ed62-51ca-aa1f-b089" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="ab2b-bf72-4c9d-9eb6" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
