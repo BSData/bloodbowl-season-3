@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fafd-b15d-0669-a69c" name="Wood Elf" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Wood Elf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3de4-2569-9d3c-9953">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Lineman**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wood Elf Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e1db-2948-5433-685b">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Safe Pair of Hands</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Thrower**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wood Elf Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f209-f6c3-7bbd-ec65">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch, Dodge, Sprint</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Elf**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wardancer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ad54-fd9d-a25d-5e5d">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Dodge, Leap</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">130,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Elf**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Loren Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f3cf-dfc6-34e4-847f">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">2</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">11+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Loner (4+), Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-mate</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Treeman**</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Wood Elf Thrower" id="9cf8-2e96-d19f-d5cf" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9854-a5e0-22cd-0204" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Wood Elf Lineman" id="4b56-0a22-2172-d4bf" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="d75c-50bd-4cf4-f3b3" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Wood Elf Catcher" id="d7f3-b605-a68c-4748" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="97aa-2ca0-f6bb-b54e" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Wardancer" id="dcb6-3e97-80af-e94f" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9f17-8346-3ca6-b635" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Loren Forest Treeman" id="adc1-eca1-f1a8-5131" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f4d1-a02a-7dc6-1a78" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Wood Elf Lineman" hidden="false" id="0890-7eb1-a341-09bd">
+      <categoryLinks>
+        <categoryLink targetId="4b56-0a22-2172-d4bf" id="1bd8-cb81-1e44-d13a" primary="false" name="Wood Elf Lineman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0f87-fbe7-35cb-7f42" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="8cd3-29cc-b1e7-03c6" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="c483-1234-38f8-b60d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="a30f-9b76-a5dd-43d2" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="030d-f681-5a22-1eb5" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Wood Elf Lineman" id="3627-875f-cbfc-3fe4" hidden="false" type="profile" targetId="3de4-2569-9d3c-9953"/>
+      </infoLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wood Elf Thrower" hidden="false" id="099d-cc6c-d1f8-44f7">
+      <categoryLinks>
+        <categoryLink targetId="9cf8-2e96-d19f-d5cf" id="396e-a896-494d-6e2e" primary="false" name="Wood Elf Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="e073-ee53-0d61-54c8" primary="false" name="Positional"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Wood Elf Thrower" id="f746-082d-10cb-84ec" hidden="false" type="profile" targetId="e1db-2948-5433-685b"/>
+        <infoLink name="Pass (Active)" id="9d64-6288-f079-e85d" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Safe Pair of Hands (Active)" id="5509-2f48-d3bb-273c" hidden="false" type="rule" targetId="03c1-9b60-198b-adef"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="97de-3e69-24a1-fb51" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="85ec-92ba-47ea-639c" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="3a7d-8cce-dfbf-b98c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="20d0-d83a-8682-6bbe" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1300-db2c-4463-c9ca" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="af8d-616b-fbf2-b30d" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.8273-6297-5860-c1ce"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wood Elf Catcher" hidden="false" id="c365-4fd7-8c60-36a6">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="dbfa-6e06-acea-9c0f" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="d7f3-b605-a68c-4748" id="8263-1bf2-6df9-da6e" primary="false" name="Wood Elf Catcher"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Wood Elf Catcher" id="d93e-8e3a-1f24-6dbf" hidden="false" type="profile" targetId="f209-f6c3-7bbd-ec65"/>
+        <infoLink name="Catch (Active)" id="ee95-9f11-562b-a54a" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dodge (Active)" id="08d5-3731-7aa6-422e" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Sprint (Active)" id="bbc1-fa24-8bc0-a17d" hidden="false" type="rule" targetId="27c8-91f7-235f-c531"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c745-414c-74c6-9207" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="b223-275c-8b87-729e" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="c2a5-d855-759c-43bd" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="5f5e-7575-aa6c-38bc" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="aa02-a901-5bdb-7660" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="bf2e-8c8d-7be5-069b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.be8c-ebf4-021c-1083"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Loren Forest Treeman" hidden="false" id="e76d-c0a7-92a7-3bd3">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="2caa-7ca4-1b4d-7c94" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="adc1-eca1-f1a8-5131" id="9c22-8836-626e-0bce" primary="false" name="Loren Forest Treeman"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Loren Forest Treeman" id="14bb-7635-5655-ef20" hidden="false" type="profile" targetId="f3cf-dfc6-34e4-847f"/>
+        <infoLink name="Loner (X+)* (Passive)" id="77e0-bf9b-de94-8d1f" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="abff-5299-996e-4f74" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Stand Firm (Active)" id="d395-474b-52cd-a50d" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+        <infoLink name="Strong Arm (Active)" id="b770-322d-b3fa-9151" hidden="false" type="rule" targetId="c1df-8664-e3cd-9611"/>
+        <infoLink name="Take Root* (Passive)" id="8845-fba7-80c5-e150" hidden="false" type="rule" targetId="a512-ffe3-23ce-c7ea"/>
+        <infoLink name="Thick Skull (Passive)" id="ce6c-dbab-32b3-732c" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Throw Team-mate (Active)" id="364d-0396-b04c-d800" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="bc59-4d70-e359-ab3b" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="9f79-e36d-a996-2028" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3307-07e4-433d-4a10" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="78a7-f639-cc7e-67b3" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Agility" hidden="false" id="a73a-f26a-6d65-be48" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="4ad9-b0bc-5279-67a8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.9bbc-0b62-5ed8-c316"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="120000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wardancer" hidden="false" id="07cd-917d-46cf-43ed">
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="8ada-2465-aabf-ec2c" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink name="Wardancer" hidden="false" id="eaa8-fd3f-e01f-aeb9" targetId="dcb6-3e97-80af-e94f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Wardancer" id="476e-50f8-ade4-1dd7" hidden="false" type="profile" targetId="ad54-fd9d-a25d-5e5d"/>
+        <infoLink name="Block (Active)" id="47c6-57f9-abf9-9666" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Dodge (Active)" id="8a29-c7da-1372-0443" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Leap (Active)" id="4257-f49c-d7f8-f2ec" hidden="false" type="rule" targetId="ea91-91c0-9d4f-9828"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="24b5-1aa0-2d80-3e71" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="548b-3f7c-b6fe-d8d9" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="7a71-ed34-9154-bf46" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="afef-1843-83d4-b4d9" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="0d05-6cd8-b7a7-03c9" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="bf6c-c0b3-f6fe-bf54" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.45fc-f179-e755-23e4"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="130000"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Loren Forest Treeman" hidden="false" id="8e91-3b96-d2d4-f732" type="selectionEntry" targetId="e76d-c0a7-92a7-3bd3" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="b31c-4e24-40d3-8832" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wardancer" hidden="false" id="761b-ede9-1b2c-377f" type="selectionEntry" targetId="07cd-917d-46cf-43ed" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1396-b346-8817-5dfa" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wood Elf Catcher" hidden="false" id="cdef-9c95-65cf-4520" type="selectionEntry" targetId="c365-4fd7-8c60-36a6" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="55ac-e830-87d7-b9d4" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wood Elf Thrower" hidden="false" id="e93c-cb9d-667e-7d7b" type="selectionEntry" targetId="099d-cc6c-d1f8-44f7" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="e7f1-b119-ab34-e9a0" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wood Elf Lineman" hidden="false" id="2f69-393c-ac55-f931" type="selectionEntry" targetId="0890-7eb1-a341-09bd" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="2b31-ae0e-b8cc-4981" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="a012-6462-8684-a69c">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="9cd8-0a90-9fea-bb1e" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="b0e6-1eb4-7013-c99a" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Woodland League" hidden="false" id="e7af-46dc-1355-c810" type="selectionEntry" targetId="6c75-8f97-472e-204c"/>
+            <entryLink import="true" name="Elven Kingdoms League" hidden="false" id="0a45-617d-8ded-835f" type="selectionEntry" targetId="31ad-4a7b-7a5b-c6ea"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b79-8945-05d4-a3aa"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b1b-86df-3f76-02cd"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="545f-f6c6-3910-e7bc-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="545f-f6c6-3910-e7bc-max" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e895-bbd8-b569-0541" name="Underworld Denizen" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Goblin Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f513-b54c-9360-ee63">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADM</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Snotling Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d306-50ab-c4a4-27b0">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Insignificant, Right Stuff, Sidestep, Stunty, Titchy</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADM</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">15,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Snotling**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skaven Clanrat" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6e26-6374-54f2-003f">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin)</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Skaven**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skaven Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5964-8b4f-534d-c470">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Pass, Sure Hands</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMP</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Skaven**, **Thrower**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gutter Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7b03-b102-c0d7-49b3">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">9</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Dodge, Stab</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADGM</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Runner**, **Skaven**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skaven Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="aab5-b4b6-e386-8212">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Block, Strip Ball</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Skaven**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1469-7d31-5466-0252">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rat Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="781e-f44a-451c-2860">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animal Savagery, Frenzy, Loner (4+), Mighty Blow, Prehensile Tail</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">SM</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">150,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Skaven**</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Goblin Lineman" id="4c52-a260-108e-995d" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="bfd4-4f14-ef23-f1bd" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Gutter Runner" id="175a-6281-3712-7eb4" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="900d-9f51-63e7-099e" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Skaven Blitzer" id="0043-fcde-568d-97ef" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="aa5f-d48f-01f4-2a79" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Skaven Clanrat" id="dcec-4719-2873-0668" hidden="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="bc24-247f-f7cd-c1a1" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Skaven Thrower" id="803b-4f94-3392-3019" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eaf8-04c3-f181-d35f" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Snotling Lineman" id="b807-a695-c618-429d" hidden="false">
+      <constraints>
+        <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="8117-9a8c-c816-8176" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Big Guy" id="f962-c2d6-bbe6-2276" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8b42-6592-1357-8dc5" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Goblin Lineman" hidden="false" id="a00f-bcdf-5da5-3d33">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4c52-a260-108e-995d" id="3f62-8985-a8ec-89b8" primary="false" name="Goblin Lineman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="fbf3-eb5b-8e49-135e" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="6803-e0f4-0851-dbd6" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="d1fc-b115-4e25-821d" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="688c-4615-87be-7b82" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3124-638b-6ac2-1ba3" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="cd85-43cf-9814-f247" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="e840-f39e-75d3-b8bf" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="1959-13c9-c39b-5b59" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Goblin Lineman" id="2b8c-ee9d-4f97-dbcb" hidden="false" type="profile" targetId="f513-b54c-9360-ee63"/>
+        <infoLink name="Dodge (Active)" id="677f-70a1-aa4a-76e3" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="f102-f517-ea4d-3299" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="e3d8-67c8-1e8a-9950" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Snotling Lineman" hidden="false" id="126c-30e3-fb9e-5b04">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="15000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="b807-a695-c618-429d" id="2b7d-b60b-1ced-4bb3" primary="false" name="Snotling Lineman"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="e1d3-e48d-34dc-fdb2" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="e769-b228-0071-df14" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="16b8-4dff-18ae-0821" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="c7b6-b074-54f7-3e6c" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="169b-dab2-1020-4cfb" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="9edb-1027-878b-7686" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Snotling Lineman" id="c77b-709b-dda7-378e" hidden="false" type="profile" targetId="d306-50ab-c4a4-27b0"/>
+        <infoLink name="Dodge (Active)" id="adc8-42b4-17a7-ca84" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="1e84-8d1b-567a-9ba5" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="632c-9b92-b730-d5a3" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Titchy* (Passive)" id="036a-a975-8982-15af" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
+        <infoLink name="Sidestep (Active)" id="cf1b-ca03-61b4-c138" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Insignificant* (Passive)" id="06ce-d3e5-f6ab-3018" hidden="false" type="rule" targetId="c58d-09fb-813a-534e"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skaven Clanrat" hidden="false" id="8e17-9aa4-4f20-a816">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="dcec-4719-2873-0668" id="d219-87ff-f245-662f" primary="false" name="Skaven Clanrat"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="2c4b-fa81-032a-53ba" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="adfa-ba70-d284-3432" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="1f34-099d-fa83-0739" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="c3fc-ab0b-065a-807c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="c583-243d-1f37-1c12" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="2531-5984-b682-1537" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Agility" hidden="false" id="2f5b-b1b1-5962-10dc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Skaven Clanrat" id="118e-921b-1fca-8e82" hidden="false" type="profile" targetId="6e26-6374-54f2-003f"/>
+        <infoLink name="Animosity (X)* (Active)" id="d7a1-a55e-5932-d37b" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skaven Thrower" hidden="false" id="0e70-69eb-9be4-b76a">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="803b-4f94-3392-3019" id="becf-543b-7007-b8f1" primary="false" name="Skaven Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="fb8f-8562-83dc-cedf" primary="false" name="Positional"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="45f6-5b57-3b97-33c5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="737f-15ff-2f1d-925c" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="077c-d419-5b42-2cca" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="02da-92ca-33fb-dc9e" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4807-607b-d73b-5bdd" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="1f38-3b2d-df53-7b82" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Agility" hidden="false" id="47ed-673e-60e4-84c4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="398e-ae66-6cdb-d3e1" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Skaven Thrower" id="56f6-de39-62ff-86e5" hidden="false" type="profile" targetId="5964-8b4f-534d-c470"/>
+        <infoLink name="Animosity (X)* (Active)" id="1f0e-0208-1be3-99f3" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+        <infoLink name="Pass (Active)" id="809b-cbe7-4703-c600" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Sure Hands (Active)" id="c139-af1d-365b-5572" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gutter Runner" hidden="false" id="06cb-ac51-6f5c-bb1d">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="175a-6281-3712-7eb4" id="93bb-9b20-0632-5c83" primary="false" name="Gutter Runner"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="df79-dab4-0a1a-3b71" primary="false" name="Positional"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0d91-16cc-5e62-b571" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f76d-fa61-910e-e42d" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="8d3b-afb8-cba3-ea1a" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="1298-9f20-85ee-6628" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="2696-4e46-e8d9-3afd" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="9455-e1ce-104c-d92f" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="b412-7e1b-574d-46ae" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Gutter Runner" id="f3b1-1158-37fb-f0d9" hidden="false" type="profile" targetId="7b03-b102-c0d7-49b3"/>
+        <infoLink name="Dodge (Active)" id="7f8a-c34d-d1e5-c96c" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Animosity (X)* (Active)" id="fb3c-d592-4bd2-2340" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+        <infoLink name="Stab (Active)" id="b2ae-a8a1-bb0f-4a53" hidden="false" type="rule" targetId="26c3-7c06-95b0-973b"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skaven Blitzer" hidden="false" id="8001-461a-59cc-4414">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="49ff-af91-34fc-fe4a" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="0043-fcde-568d-97ef" id="e012-c1cb-2c41-dbf3" primary="false" name="Skaven Blitzer"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="632c-1466-a280-a44d" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="7933-7810-231d-db45" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="General" hidden="false" id="4b5b-1b0d-508f-edc0" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="7019-0d36-6029-1ace" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0bde-bdc3-c040-8ed9" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="4b74-79af-a1a3-ee77" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="c1cf-94e0-0a22-a730" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Skaven Blitzer" id="666f-a7c2-4ecc-2731" hidden="false" type="profile" targetId="aab5-b4b6-e386-8212"/>
+        <infoLink name="Block (Active)" id="db91-8b76-49d8-37b8" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Animosity (X)* (Active)" id="e62c-b77b-715f-0139" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
+        <infoLink name="Strip Ball (Active)" id="d5c1-7fb6-c56d-1f23" hidden="false" type="rule" targetId="e805-e82f-a03e-99a9"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.8af2-7a8b-ed7d-8a54"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Troll" hidden="false" id="b163-eb1f-3ff5-ae20">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="1e0f-bb9a-01ee-7348" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink targetId="f962-c2d6-bbe6-2276" id="6a6f-5adb-c34a-58d4" primary="false" name="Big Guy"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="811b-7a76-1e03-637f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="2034-4e2d-0327-3ec4" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="ffec-8c1d-964c-df7d" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b3ce-c77b-8e69-0552" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="cc9f-7c39-7fc4-5bf4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="f567-48e2-3b7b-5e4e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="c2fd-f2c9-56c6-1c1d" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Troll" id="6428-dfa6-4e38-edb0" hidden="false" type="profile" targetId="1469-7d31-5466-0252"/>
+        <infoLink name="Loner (X+)* (Passive)" id="28de-9803-8896-72e8" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Always Hungry* (Active)" id="1be5-5f44-4c49-c9ec" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
+        <infoLink name="Mighty Blow (Active)" id="b675-b1b1-4fcc-4683" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Projectile Vomit (Active)" id="f92f-8069-3389-5cb1" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
+        <infoLink name="Really Stupid (Passive)" id="8190-a607-fbc8-e1d9" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="8840-ccd0-4670-c1cf" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Throw Team-mate (Active)" id="1176-ab4a-e753-b50b" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rat Ogre" hidden="false" id="efb9-0205-1109-3352">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="150000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Positional" hidden="false" id="6e05-ba9c-c3bd-547f" targetId="0c44-468c-6a37-e6c8" primary="false"/>
+        <categoryLink name="Big Guy" hidden="false" id="0cd2-6794-6473-510c" targetId="f962-c2d6-bbe6-2276" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="259d-2197-368b-837d" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="3921-c34b-b594-c1a9" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="743d-0c33-bb4a-7356" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4e93-f5a7-0d4a-3e1f" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="ecea-5511-8c41-9b2a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="9f2a-8f9c-6c10-5ed0" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Rat Ogre" id="10cf-bf5b-df1f-271d" hidden="false" type="profile" targetId="781e-f44a-451c-2860"/>
+        <infoLink name="Loner (X+)* (Passive)" id="a7e5-250e-fcea-67c2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Animal Savagery* (Passive)" id="4f98-4feb-19cb-a25f" hidden="false" type="rule" targetId="6820-cb49-ce8b-6357"/>
+        <infoLink name="Mighty Blow (Active)" id="e696-6e45-ce60-fc24" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Frenzy* (Active)" id="89ca-6946-6faa-4ad5" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Prehensile Tail (Active)" id="328e-eddd-92ab-c18e" hidden="false" type="rule" targetId="6290-be3e-96b3-05f2"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.285a-a4da-1ac5-8ba1"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="c482-af86-998f-ac82">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="3139-3e38-7259-69df-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3139-3e38-7259-69df-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Underworld Challenge" hidden="false" id="3205-f2f8-79fe-6807" type="selectionEntry" targetId="fdab-28ae-ae4b-eac1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d8d-c1e3-bf95-c6be-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d8d-c1e3-bf95-c6be-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="284b-3c64-84b2-be6a" primary="true" name="Team Management"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="b9e1-a2de-d13d-c3c2">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="fca3-9282-63f1-d87a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Bribery &amp; Corruption" hidden="false" id="f6d1-816e-3c2b-6111" type="selectionEntry" targetId="e4b5-6057-7d9c-2e20">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f99-1bf7-43e2-99aa-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f99-1bf7-43e2-99aa-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="ed9d-5aba-f737-2866-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ed9d-5aba-f737-2866-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Goblin Lineman" hidden="false" id="e439-de8d-32bc-d815" type="selectionEntry" targetId="a00f-bcdf-5da5-3d33" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="3c6d-d5fc-2714-cf58" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Snotling Lineman" hidden="false" id="d584-fb13-7df0-2884" type="selectionEntry" targetId="126c-30e3-fb9e-5b04" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="43e3-54a8-ddc4-660d" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skaven Clanrat" hidden="false" id="f816-02f8-7d6a-f1d3" type="selectionEntry" targetId="8e17-9aa4-4f20-a816" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d0b1-d566-5eea-b921" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skaven Thrower" hidden="false" id="194f-a494-bced-fb3c" type="selectionEntry" targetId="0e70-69eb-9be4-b76a" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="7f07-1893-3708-f612" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gutter Runner" hidden="false" id="a669-1636-f835-d77e" type="selectionEntry" targetId="06cb-ac51-6f5c-bb1d" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="089e-f8e4-c053-7bca" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skaven Blitzer" hidden="false" id="dcf3-4a08-79e8-485b" type="selectionEntry" targetId="8001-461a-59cc-4414" sortIndex="6">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6872-e21d-bbbf-0469" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Troll" hidden="false" id="74aa-3c57-4836-568b" type="selectionEntry" targetId="b163-eb1f-3ff5-ae20" sortIndex="7">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="c21c-f53e-a61f-6fe6" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rat Ogre" hidden="false" id="fd83-b224-edb1-43f8" type="selectionEntry" targetId="efb9-0205-1109-3352" sortIndex="8">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="c676-68c1-8a05-d8e4" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

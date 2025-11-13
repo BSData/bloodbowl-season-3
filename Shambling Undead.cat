@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f5b0-a314-d66f-220d" name="Shambling Undead" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="ec39-86b2-c504-ec05">
+      <entryLinks>
+        <entryLink import="true" name="Masters of Undeath" hidden="false" id="8081-93bc-41e8-a96a" type="selectionEntry" targetId="4ce9-c686-aec9-b623">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd6e-7e4b-eed7-9a4f" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbc7-e081-84d0-ce51" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="7fb2-32f8-7bc4-d490" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="32d5-984a-f198-d2d7" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="40c1-bff7-8143-2794" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="8768-94af-765a-6b0a">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="6df8-7c93-ad8f-b4a9" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="46c9-0bf0-c87f-7f9e" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Sylvanian Spotlight" hidden="false" id="7d73-042c-54f4-ce1a" type="selectionEntry" targetId="9070-d888-956b-b3f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="729b-a401-6ba7-c0a7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16a3-febe-3adb-40be" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Team Management" hidden="false" id="3fe0-068b-3a72-f3c1" targetId="9e9f-1d0d-a83d-4cba" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Skeleton Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7a2c-9df1-b2a8-374d">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Regeneration, Thick Skull</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**, **Skeleton**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zombie Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="8005-11a1-3316-d849">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Eye Gouge, Regeneration, Unsteady</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**, **Undead**, **Zombie**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghoul Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6d91-1ef3-9e68-9f1d">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Ghoul**, **Runner**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wight Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="37cc-332b-6fa6-0b11">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Regeneration, Tackle, Thick Skull</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**, **Skeleton**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mummy" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="37cb-29e2-995e-b848">
+      <characteristics>
+        <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">3</characteristic>
+        <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+        <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Regeneration</characteristic>
+        <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+        <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+        <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">125,000</characteristic>
+        <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af"/>
+        <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Blocker**, **Human**, **Undead**</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Ghoul Runner" id="aee9-0b39-083f-107a" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a132-a27c-0152-327c" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Mummy" id="fd94-97a5-82d4-7818" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="16c4-f350-25ae-9aac" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Skeleton Lineman" id="ab10-e643-8464-734b" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="2ecc-a61b-a3f5-d01e" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Wight Blitzer" id="9086-f679-1dcf-a1fb" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="09a1-6aee-1c2f-31cb" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Zombie Lineman" id="fa4a-aa25-396f-5f32" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="87d2-cf3e-00c9-d7b5" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Zombie Lineman" hidden="false" id="8ef0-6917-6cee-3cea">
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="31c7-d1ef-4a25-4344" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="a2df-a009-969a-2bd0" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="637b-cfc3-90fc-82d2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="36d8-054b-b256-6772" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="d2b6-577c-846d-9f8c" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="c45e-d55d-7869-b56a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Zombie Lineman" id="c203-6551-1cf2-2ebe" hidden="false" type="profile" targetId="8005-11a1-3316-d849"/>
+        <infoLink name="Regeneration (Passive)" id="6afa-ad7f-e057-13d8" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Eye Gouge (Active)" id="9fb7-c091-51b3-caa6" hidden="false" type="rule" targetId="d295-290e-5694-0ff1"/>
+        <infoLink name="Unsteady* (Passive)" id="dae5-2702-e0d3-2e72" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.38a5-ea0d-6d11-7ea8"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="fa4a-aa25-396f-5f32" id="732b-d645-cc02-f301" primary="false" name="Zombie Lineman"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ghoul Runner" hidden="false" id="194f-b36e-aeb2-0f2b">
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1df3-1cd7-ee28-4714" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="d69b-c6f0-0580-482e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="252b-cc75-0f98-f6eb" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="c862-13c7-4281-d291" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="297e-2411-adfc-c118" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="bacd-8991-ba66-2100" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="5f18-14de-2717-0bdb" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Ghoul Runner" id="c744-3c41-2a7b-8d60" hidden="false" type="profile" targetId="6d91-1ef3-9e68-9f1d"/>
+        <infoLink name="Regeneration (Passive)" id="e8db-4aad-5388-eb57" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Dodge (Active)" id="d4fc-d087-ebaf-d1b1" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="f3d4-bb30-41b7-1f85" primary="false" name="Positional"/>
+        <categoryLink targetId="aee9-0b39-083f-107a" id="754b-c03a-60ac-7f74" primary="false" name="Ghoul Runner"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wight Blitzer" hidden="false" id="16ce-45c6-3539-27fb">
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0828-e7a2-bc55-e3e8" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="e6e4-5a72-75e4-bb74" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="21f4-5a48-f6d5-b127" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="c489-fef7-5a45-cc71" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="9b9e-f2fa-53c7-daed" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="22ab-94f9-0562-d60c" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Wight Blitzer" id="fd82-5494-9eac-7593" hidden="false" type="profile" targetId="37cc-332b-6fa6-0b11"/>
+        <infoLink name="Regeneration (Passive)" id="b420-af1b-1923-968c" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Thick Skull (Passive)" id="e8c8-036f-2728-6552" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Block (Active)" id="67ea-289b-249a-8774" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Tackle (Active)" id="afca-f2d1-b87e-0791" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.730f-16ec-313f-88ce"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="a46b-e388-7b76-a405" primary="false" name="Positional"/>
+        <categoryLink targetId="9086-f679-1dcf-a1fb" id="6fab-14f2-8bd7-c6a2" primary="false" name="Wight Blitzer"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mummy" hidden="false" id="ffcb-b69c-6219-b568">
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="9cd3-85f7-8ce4-973c" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="6705-abc1-e57e-6c8a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="82ee-0f0b-16dc-e91c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="93e2-718e-c223-3e06" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="bfe8-2b51-d0ef-4a82" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Mummy" id="e74b-894d-472b-c70e" hidden="false" type="profile" targetId="37cb-29e2-995e-b848"/>
+        <infoLink name="Regeneration (Passive)" id="fbcb-795c-ec7a-9115" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Mighty Blow (Active)" id="9dd1-a75f-0ddc-ed77" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="99da-7c03-6626-e9a8" primary="false" name="Positional"/>
+        <categoryLink targetId="fd94-97a5-82d4-7818" id="b1de-bd15-9554-2280" primary="false" name="Mummy"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="125000"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skeleton Lineman" hidden="false" id="5b23-87c1-c8b1-bd14">
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ca6b-0e47-39da-d959" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="8304-ea1a-7128-d53d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1aa0-d283-eae5-a7c0" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="e4e0-7e43-1f1a-2e23" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="73bf-6062-c6c5-eeab" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="a245-425a-a6f2-d0b7" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Skeleton Lineman" id="4950-0017-b096-e38c" hidden="false" type="profile" targetId="7a2c-9df1-b2a8-374d"/>
+        <infoLink name="Regeneration (Passive)" id="867d-43b9-55e9-50bf" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Thick Skull (Passive)" id="ec33-2809-888d-0073" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="ab10-e643-8464-734b" id="f9aa-5d83-98e8-da49" primary="false" name="Skeleton Lineman"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Skeleton Lineman" hidden="false" id="2e46-dffe-9555-2533" type="selectionEntry" targetId="5b23-87c1-c8b1-bd14" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="06cb-d3ed-c1a8-46a1" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zombie Lineman" hidden="false" id="4665-ae91-b70d-af08" type="selectionEntry" targetId="8ef0-6917-6cee-3cea" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="65e3-8a19-df4f-fca5" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ghoul Runner" hidden="false" id="c9a0-0b75-6117-3d8b" type="selectionEntry" targetId="194f-b36e-aeb2-0f2b" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1465-220f-35f2-c37a" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wight Blitzer" hidden="false" id="a811-5f78-7cb7-0d27" type="selectionEntry" targetId="16ce-45c6-3539-27fb" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1979-2dec-d240-db47" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mummy" hidden="false" id="cb48-a662-40a3-44c2" type="selectionEntry" targetId="ffcb-b69c-6219-b568" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="93e9-6363-146b-2d27" primary="true" name="Player"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
