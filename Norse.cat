@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="79c1-803a-8113-1fa6" name="Norse" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Norse Raider" id="30cf-e747-af57-e4c1" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="45e8-2746-07ca-1c46" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Beer Boar" id="4d17-7e85-3951-a0be" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6541-b850-e696-7e9d" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Norse Berserker" id="4b97-5583-83a6-1610" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0442-d7d3-ab39-88b7" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Valkyrie" id="d848-4696-8079-39a5" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a76e-26b1-18db-83e5" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Yhetee" id="e02d-b71e-4564-2725" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f49f-eafd-7520-99fb" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ulfwerener" id="a9ae-b997-9556-ffcb" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7917-64a6-a866-ebf7" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Norse Raider" hidden="false" id="c961-3fe4-3c8f-030e">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1c90-0b58-686b-0f8b" primary="true" name="Player"/>
+        <categoryLink targetId="30cf-e747-af57-e4c1" id="aaeb-d129-b357-5967" primary="false" name="Norse Raider"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Norse Raider" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4070-8075-5b84-a6b3">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Drunkard, Thick Skull, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">APS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="cf27-e004-717c-397a" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="0c1b-2be7-2f97-5447" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0139-6204-8448-06b2" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="30c8-c9c1-8dc0-00b4" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="552a-f806-d359-2355" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Agility" hidden="false" id="1121-ee40-f5b0-0403" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="d4ee-79fb-5c76-a0ad" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Drunkard* (Passive)" id="73ba-47e8-2bd7-f566" hidden="false" type="rule" targetId="4709-fca0-da94-48ed"/>
+        <infoLink name="Thick Skull (Passive)" id="c696-2f5f-8a46-dd4a" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Unsteady* (Passive)" id="f0b5-bca6-78ef-4d45" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Yhetee" hidden="false" id="2b45-1205-08cd-8aa1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d8c5-fe75-576b-4565" primary="true" name="Player"/>
+        <categoryLink targetId="e02d-b71e-4564-2725" id="9cce-7066-b8c3-5b95" primary="false" name="Yhetee"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Yhetee" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d282-cb7a-a45d-cf96">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Claws, Disturbing Presence, Frenzy, Loner (4+), Unchannelled Fury</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Yhetee**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="f588-a57c-9601-b165" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="e17c-f113-e3c9-6fd7" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="9d88-50bd-fa18-1036" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="7477-e06a-00b8-d76f" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="e6fa-ef0f-5ca6-d048" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Claws (Passive)" id="32e3-d5b9-16cb-643a" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>
+        <infoLink name="Disturbing Presence* (Active)" id="e7bf-e2e6-06db-7831" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>
+        <infoLink name="Frenzy* (Active)" id="f7a6-f798-9bbb-9e2c" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Loner (X+)* (Passive)" id="0d74-afaa-5144-6c00" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Unchannelled Fury* (Active)" id="aab8-2182-7aab-1269" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.e82b-325f-56c3-ff73"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.6f4e-09ba-73c2-9fcc"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ulfwerener" hidden="false" id="8a10-8cef-a0a8-3690">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="2fdb-fc9c-3b8f-0b95" primary="true" name="Player"/>
+        <categoryLink targetId="a9ae-b997-9556-ffcb" id="6dde-64b1-9f24-ecb9" primary="false" name="Ulfwerener"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ulfwerener" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="cc96-9f33-3408-8eb4">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Frenzy, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">105,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="715a-671d-33b2-f6d9" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="37b4-7a0e-79a3-4238" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="f517-01bd-0ad7-8b21" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="10d1-5e4f-cabf-0d40" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f975-44cb-193a-e014" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frenzy* (Active)" id="51b6-88a2-8123-ac18" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Unsteady* (Passive)" id="2407-fbf9-20ee-a788" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Valkyrie" hidden="false" id="97d7-fb03-78e1-5784">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5719-9807-164b-4ae7" primary="true" name="Player"/>
+        <categoryLink targetId="d848-4696-8079-39a5" id="782d-9b3b-bfb4-eb0e" primary="false" name="Valkyrie"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Valkyrie" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a0cb-2013-5bc3-b8b7">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch, Dauntless, Pass, Strip Ball</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="9a09-89f4-0eac-a692" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="62bf-3b2e-0d90-2f56" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="afaf-a74a-4c41-16f7" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="266c-e1c4-0b28-0665" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="12a8-394f-9ae6-f75c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="e072-829e-9c2b-ebd6" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Catch (Active)" id="d0c0-1fac-6ba1-5c2c" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Dauntless (Active)" id="9a16-efaf-1f63-846c" hidden="false" type="rule" targetId="9d4e-5fe7-813b-967c"/>
+        <infoLink name="Pass (Active)" id="6aaf-b113-af0e-7e45" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Strip Ball (Active)" id="5119-e686-b558-0792" hidden="false" type="rule" targetId="e805-e82f-a03e-99a9"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.8af2-7a8b-ed7d-8a54"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Norse Berserker" hidden="false" id="645b-9c38-4547-96d2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="8886-7b18-f2a3-878d" primary="true" name="Player"/>
+        <categoryLink targetId="4b97-5583-83a6-1610" id="5e23-cc1d-5f95-f7fa" primary="false" name="Norse Berserker"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Norse Berserker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d76b-7839-cbc5-beba">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Frenzy, Jump Up</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c4fb-e206-08d5-23fe" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="afff-a252-4387-80e8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="65dc-41cc-5a8b-b95a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="50b7-d935-0ea5-bc0a" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="ac9f-3e34-a49c-5f7a" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Agility" hidden="false" id="e900-8389-4b37-9cfe" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="9861-15cf-edb7-6a93" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Frenzy* (Active)" id="d334-1d66-45fa-afe5" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Jump Up (Active)" id="ccb8-cf04-28d7-726e" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Beer Boar" hidden="false" id="0c29-8616-37bb-41a4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9b4e-2c23-eaca-1eed" primary="true" name="Player"/>
+        <categoryLink targetId="4d17-7e85-3951-a0be" id="7f97-527e-344d-9d5f" primary="false" name="Beer Boar"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Beer Boar" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5492-a67e-5aa4-4548">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">-</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, No Ball, Pick-me-up, Stunty, Titchy</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">-</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">20,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Animal**, **Special**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="422f-48d2-eaad-6998" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="a5c7-a748-2eb2-695b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="d7ff-8d08-fd81-31d1" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="No Ball* (Passive)" id="efb9-2ab0-d6e2-028c" hidden="false" type="rule" targetId="dd36-c391-8047-23cf"/>
+        <infoLink name="Pick-Me-Up (Active)" id="634c-4705-fea6-dd8b" hidden="false" type="rule" targetId="365c-d909-6cb3-2b5b"/>
+        <infoLink name="Stunty* (Passive)" id="7a52-afa6-1ca1-926d" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Titchy* (Passive)" id="7e2a-c0c7-15eb-24ff" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="cd11-e4d2-8f20-228b">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="35f7-5696-07ce-13cf" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="feb4-d131-7267-1894" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83e0-c81a-4956-7881-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e0-c81a-4956-7881-max" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Chaos Clash" hidden="false" id="e45d-0617-6a81-2df8" type="selectionEntry" targetId="59e3-4dbf-4f7b-9276">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71db-2a55-7172-f89a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Old World Classic" hidden="false" id="09d5-6572-923b-ee2d" type="selectionEntry" targetId="3d18-00d7-c09b-d261">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49ee-d813-2cd2-4e6e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8490-1b4e-6ba3-1d33-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8490-1b4e-6ba3-1d33-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="c12f-8fb1-2597-9bd1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="03ca-0f0d-738d-6378" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7925-874d-3dd7-dcc7-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7925-874d-3dd7-dcc7-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Favoured of Khorne" hidden="true" id="ed12-b1dd-eb70-b224" type="selectionEntry" targetId="fff5-8bb0-409e-4125">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6287-fac5-adea-1293-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6287-fac5-adea-1293-max" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="59e3-4dbf-4f7b-9276" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Favoured of ..." id="3caf-218e-15a1-6398" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Beer Boar" hidden="false" id="7086-8934-4245-a62c" type="selectionEntry" targetId="0c29-8616-37bb-41a4" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Yhetee" hidden="false" id="343a-7fdc-f475-028b" type="selectionEntry" targetId="2b45-1205-08cd-8aa1" sortIndex="6">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ulfwerener" hidden="false" id="b12e-e9a7-4469-a7f3" type="selectionEntry" targetId="8a10-8cef-a0a8-3690" sortIndex="5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="105000"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="a9ae-b997-9556-ffcb" id="9a77-8d1a-7160-351c" primary="false" name="Ulfwerener"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Valkyrie" hidden="false" id="c537-85e7-3487-7f5e" type="selectionEntry" targetId="97d7-fb03-78e1-5784" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Norse Raider" hidden="false" id="c859-ce51-021c-5a55" type="selectionEntry" targetId="c961-3fe4-3c8f-030e" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Norse Berserker" hidden="false" id="7da4-0a78-1fb2-1d4e" type="selectionEntry" targetId="645b-9c38-4547-96d2" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>

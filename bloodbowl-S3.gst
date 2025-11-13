@@ -1588,9 +1588,9 @@ A player with this Trait may not attempt to Intercept a Pass.</description>
       <comment>Special Rule</comment>
       <description>During the Start of Drive Sequence, after both teams have set up their players, a team with this special rule can set up and additional D3 **Lineman** players from their Reserves Box on the pitch, following all the usual rules for setting up players. This allows this team to have more than the usual maximum of 11 players on the pitch.</description>
     </rule>
-    <rule name="Pick-Me-Up (Active)" id="365c-d909-6cb3-2b5b" hidden="false">
+    <rule name="Pick-me-up (Active)" id="365c-d909-6cb3-2b5b" hidden="false">
       <description>At the end of each of the opposition&apos;s Turns, roll a D6 for each Prone team-mate within 3 squares of one or more Standing players with this Trait. On a 5+, the Prone player may immediately stand up. Should a player with this Trait stand up as a result of a team-mate using this Trait, they may not also use this Trait during the same Turn.</description>
-      <alias>Pick-Me-Up</alias>
+      <alias>Pick-me-up</alias>
     </rule>
     <rule name="Plague Ridden (Passive)" id="2984-d832-8d05-c67d" hidden="false">
       <description>Once per game, when a player with this Trait causes a Casualty against an opposition player as a result of a Block Action, and that player suffers a Dead result on their Casualty roll and is not saved by an Apothecary, you may immediately add one new **Lineman** player from your team&apos;s Team Roster to your Reserves Box. This may cause your team to have more than 16 players for the remainder of the game.
