@@ -5,9 +5,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADM</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
@@ -20,9 +20,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Insignificant, Right Stuff, Sidestep, Stunty, Titchy</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADM</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
@@ -35,9 +35,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin)</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
@@ -50,9 +50,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Pass, Sure Hands</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMP</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
@@ -65,9 +65,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">9</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Dodge, Stab</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADGM</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
@@ -80,9 +80,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animosity (Goblin), Block, Strip Ball</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
@@ -95,9 +95,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
@@ -110,9 +110,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Animal Savagery, Frenzy, Loner (4+), Mighty Blow, Prehensile Tail</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">SM</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
@@ -151,16 +151,6 @@
     <categoryEntry name="Snotling Lineman" id="b807-a695-c618-429d" hidden="false">
       <constraints>
         <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="8117-9a8c-c816-8176" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Troll" id="6aab-ef17-87ee-e011" hidden="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4bbf-f314-c446-5143" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Rat Ogre" id="e365-6232-6363-4c54" hidden="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d326-2405-ac51-5534" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
     <categoryEntry name="Big Guy" id="f962-c2d6-bbe6-2276" hidden="false">
@@ -373,7 +363,6 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Positional" hidden="false" id="1e0f-bb9a-01ee-7348" targetId="0c44-468c-6a37-e6c8" primary="false"/>
-        <categoryLink targetId="6aab-ef17-87ee-e011" id="2158-4a6b-2257-ae70" primary="false" name="Troll"/>
         <categoryLink targetId="f962-c2d6-bbe6-2276" id="6a6f-5adb-c34a-58d4" primary="false" name="Big Guy"/>
       </categoryLinks>
       <entryLinks>
@@ -412,7 +401,6 @@
       <categoryLinks>
         <categoryLink name="Positional" hidden="false" id="6e05-ba9c-c3bd-547f" targetId="0c44-468c-6a37-e6c8" primary="false"/>
         <categoryLink name="Big Guy" hidden="false" id="0cd2-6794-6473-510c" targetId="f962-c2d6-bbe6-2276" primary="false"/>
-        <categoryLink targetId="e365-6232-6363-4c54" id="7abe-c380-f450-0be9" primary="false" name="Rat Ogre"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="259d-2197-368b-837d" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">

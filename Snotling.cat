@@ -5,9 +5,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Insignificant, Right Stuff, Sidestep, Stunty, Titchy</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
@@ -20,9 +20,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Pogo, Right Stuff, Sidestep, Stunty</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
@@ -35,9 +35,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Sidestep, Sprint, Stunty</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
@@ -50,9 +50,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bombardier, Dodge, Right Stuff, Secret Weapon, Sidestep, Stunty, Titchy</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">ADP</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
@@ -65,9 +65,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dirty Player, Juggernaut, Mighty Blow, Really Stupid, Stand Firm</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
@@ -80,9 +80,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>

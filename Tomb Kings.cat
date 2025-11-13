@@ -5,9 +5,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Regeneration, Thick Skull</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
@@ -20,9 +20,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Regeneration, Sure Hands, Thick Skull</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
@@ -35,9 +35,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Regeneration, Thick Skull</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
@@ -50,9 +50,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Brawler, Decay, Regeneration</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
@@ -258,12 +258,12 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e34b-530b-953e-19c4" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Tomb King Thrower" hidden="false" id="57c0-a9e9-c3f3-0f63" type="selectionEntry" targetId="d74a-070b-2ba9-eeeb" sortIndex="2">
+    <entryLink import="true" name="Tomb Kings Thrower" hidden="false" id="57c0-a9e9-c3f3-0f63" type="selectionEntry" targetId="d74a-070b-2ba9-eeeb" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6cf7-bd01-1f7e-d589" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Tomb King Blitzer" hidden="false" id="29b2-f429-bde4-7c66" type="selectionEntry" targetId="4aec-afb2-d9a0-74c1" sortIndex="3">
+    <entryLink import="true" name="Tomb Kings Blitzer" hidden="false" id="29b2-f429-bde4-7c66" type="selectionEntry" targetId="4aec-afb2-d9a0-74c1" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6e33-df88-d389-5bd7" primary="true" name="Player"/>
       </categoryLinks>

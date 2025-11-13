@@ -5,9 +5,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">G</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
@@ -20,9 +20,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (2+), Hypnotic Gaze, Regeneration</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
@@ -35,9 +35,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (2+), Hypnotic Gaze, Pass, Regeneration</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
@@ -50,9 +50,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (3+), Hypnotic Gaze, Juggernaut, Regeneration</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d"/>
@@ -65,9 +65,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bloodlust (3+), Claws, Frenzy, Loner (4+), Regeneration</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>

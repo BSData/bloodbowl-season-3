@@ -47,9 +47,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
@@ -62,9 +62,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Stunty</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
@@ -77,9 +77,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Pass, Sure Hands</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GP</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
@@ -92,9 +92,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Break Tackle</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
@@ -107,9 +107,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Taunt, Thick Skull, Unsteady</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
@@ -122,9 +122,9 @@
       <characteristics>
         <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
         <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
-        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5</characteristic>
-        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5</characteristic>
-        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10</characteristic>
+        <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+        <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+        <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
         <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Always Hungry, Loner (4+), Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
         <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
         <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
