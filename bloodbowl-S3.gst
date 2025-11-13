@@ -1865,6 +1865,12 @@ If a team has a choice of any alignment, they can choose from any of the followi
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Swarming" hidden="false" id="b2f3-aacd-c386-8944">
+      <comment>Team Special Rules</comment>
+      <infoLinks>
+        <infoLink name="Swarming" id="6ad7-2642-cf13-56e0" hidden="false" type="rule" targetId="9b44-f5b3-b98e-1bd5"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Team Re-Rolls" hidden="false" id="18e0-709a-8d63-a381" type="selectionEntry" targetId="9350-0bc7-c2fc-7af5">
