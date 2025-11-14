@@ -2256,7 +2256,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <categoryLink targetId="82fd-d32b-a2e0-5e91" id="c236-7a60-74c8-81a9" primary="true" name="Inducements"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Star Players" id="3c94-96b2-ec0e-b0da" hidden="false">
+        <selectionEntryGroup name="Star Player" id="3c94-96b2-ec0e-b0da" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e101-5128-919c-6391" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="385c-94c8-25a9-f819" includeChildSelections="false"/>
@@ -2301,6 +2301,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c101-97a0-b764-d077" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="b184-dbe3-fc72-7f99" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Anqi Panqi" hidden="true" id="4664-2170-2226-a7be">
               <costs>
@@ -2343,6 +2346,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e15e-78ba-f636-175a" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="7d57-42b4-7086-700a" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Barik Farblast" hidden="true" id="5bd2-5576-84a4-2c74">
               <costs>
@@ -2392,6 +2398,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2c7e-1b6e-1fb2-8a98" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="8382-98c7-ec02-8d55" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Bilerot Vomitflesh" hidden="true" id="358b-e4cc-4d1a-afa0">
               <costs>
@@ -2436,6 +2445,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="407d-aa8e-bacf-b7cd" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="0686-cca1-3745-a494" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Boa Kon&apos;ssstriktr" hidden="true" id="7f88-973c-145e-b1ad">
               <costs>
@@ -2480,6 +2492,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="62a2-d517-e0f9-ad86" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="713e-e0bb-01ca-6562" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Bomber Dribblesnot" hidden="true" id="e88f-331e-ca63-6403">
               <profiles>
@@ -2529,6 +2544,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fa01-be0e-79ff-a99b" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="1512-09b7-a829-ce5b" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Captain Karina von Riesz" hidden="true" id="7151-e7bd-4bfb-d054">
               <costs>
@@ -2572,6 +2590,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="aa4c-b5c9-585e-c559" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="bd81-a58c-8e3e-6209" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Cindy Piewhistle" hidden="true" id="bc9a-eb73-eead-89df">
               <costs>
@@ -2620,6 +2641,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bbb2-88d8-ea9d-b724" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="df7b-7d34-c1bf-286f" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Count Luthor von Drakenborg" hidden="true" id="adcf-b2db-760a-ece9">
               <costs>
@@ -2662,51 +2686,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3ebf-08c4-c913-dcf0" includeChildSelections="true"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Crumbleberry" hidden="false" id="cb85-e60d-9db1-ce88">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="250000"/>
-              </costs>
-              <profiles>
-                <profile name="Crumbleberry" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="d50c-5565-1280-39d8">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">5</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">5+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">7+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dodge, Lethal Flight, Loner (4+), Right Stuff, Stunty, Sure Hands</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Halfling**, **Lineman**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Dodge (Active)" id="f8c4-e76e-58c9-6bdd" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
-                <infoLink name="Lethal Flight (Active)" id="a072-083c-1146-c715" hidden="false" type="rule" targetId="e561-c980-89af-2f71"/>
-                <infoLink name="Loner (X+)* (Passive)" id="d5f9-d837-d396-d7d2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Right Stuff* (Passive)" id="68e3-1085-52ec-f607" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
-                <infoLink name="Stunty* (Passive)" id="b1cb-5432-2791-2270" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
-                <infoLink name="Sure Hands (Active)" id="d9fa-6b02-39fd-5675" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
-                <infoLink name="I&apos;ll Carry You" id="9105-e6bf-8803-495f" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="0" field="c4da-96df-1abd-13be">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="fea2-9704-0478-53cd" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="1" field="cfff-218a-b003-6860">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="fea2-9704-0478-53cd" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="cfff-218a-b003-6860" includeChildSelections="true"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1d2a-9ac5-37e5-1172" includeChildSelections="true"/>
-              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="a5be-1ed1-6ca8-0351" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Deeproot Strongbranch" hidden="true" id="7d94-21ed-f9ae-c7e0">
               <profiles>
@@ -2753,106 +2735,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f98-245c-3c1a-d29e" includeChildSelections="true"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Dribl" hidden="true" id="039d-4b74-dc36-6767">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="230000"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9e52-21d6-b650-0f2e" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="1" field="031c-cb18-6a49-dffb">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="55ea-602e-4ca4-cf8e" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile name="Dribl" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="6eeb-411d-c634-470b">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">8</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">8+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dirty Player, Dodge, Loner (4+), Quick Foul, Sidestep, Sneaky Git, Stunty</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">230,000 (for Dribl &amp; Drull)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">A Sneaky Pair</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Skink**, **Special**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Dirty Player (Active)" id="ce63-60f1-1a54-946e" hidden="false" type="rule" targetId="b9d6-feed-f5da-6864"/>
-                <infoLink name="Dodge (Active)" id="37bd-2d2b-f2b9-90df" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
-                <infoLink name="Loner (X+)* (Passive)" id="e298-d4b0-18af-9e53" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Quick Foul (Active)" id="836f-a419-d3dc-4c70" hidden="false" type="rule" targetId="10f6-086d-9bcf-7e6e"/>
-                <infoLink name="Sidestep (Active)" id="6264-f06a-a7f2-b78c" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
-                <infoLink name="Sneaky Git (Active)" id="8014-91ed-acb4-50b3" hidden="false" type="rule" targetId="55b8-f8cc-b103-d0a9"/>
-                <infoLink name="Stunty* (Passive)" id="c059-ffc6-8c63-478f" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
-                <infoLink name="A Sneaky Pair" id="4686-95c4-7a19-5a94" hidden="false" type="rule" targetId="04c2-46de-ff4d-9b2a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="031c-cb18-6a49-dffb" includeChildSelections="true" includeChildForces="true">
-                  <comment>Must select Dribl if Drull in roster</comment>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="60d2-71d9-0473-4945" includeChildSelections="true"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Drull" hidden="true" id="55ea-602e-4ca4-cf8e">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="230000"/>
-              </costs>
-              <profiles>
-                <profile name="Drull" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="d6d4-8593-3e4d-126b">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">8</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">8+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dodge, Loner (4+), Sidestep, Stab, Stunty</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">230,000 (for Dribl &amp; Drull)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">A Sneaky Pair</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Skink**, **Special**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Dodge (Active)" id="6b44-ef48-f6cf-0bf2" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
-                <infoLink name="Loner (X+)* (Passive)" id="c5f9-6348-fac1-7774" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Sidestep (Active)" id="cd1e-f5db-9ed9-a228" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
-                <infoLink name="Stab (Active)" id="6086-4052-5a18-e29c" hidden="false" type="rule" targetId="26c3-7c06-95b0-973b"/>
-                <infoLink name="Stunty* (Passive)" id="0f17-e406-e963-c0d1" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
-                <infoLink name="A Sneaky Pair" id="c5cf-8ef1-d380-3789" hidden="false" type="rule" targetId="04c2-46de-ff4d-9b2a"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9e52-21d6-b650-0f2e" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="1" field="841c-3fce-e295-d8a1">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="039d-4b74-dc36-6767" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="0" field="c4da-96df-1abd-13be">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="039d-4b74-dc36-6767" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                  <comment>The 230,000 GP cost pays for both Dribl &amp; Drull</comment>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="841c-3fce-e295-d8a1" includeChildSelections="true" includeChildForces="true">
-                  <comment>Must select Drull if Dribl in roster</comment>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9cb4-0c29-9c1c-7ea2" includeChildSelections="true"/>
-              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="5a64-a15f-3842-2035" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Eldril Sidewinder" hidden="true" id="e9ae-4a41-37e1-64bb">
               <costs>
@@ -2896,6 +2781,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4d5b-10eb-5608-18a7" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="5671-0417-a9c3-c7bb" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Estelle la Veneaux" hidden="true" id="3ecf-70c4-88a3-b606">
               <costs>
@@ -2938,6 +2826,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fa3b-8c97-2419-693c" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="302c-eac4-942f-b2da" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Fungus the Loon" hidden="true" id="a7ce-5c4f-71a9-76a2">
               <costs>
@@ -2986,6 +2877,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5d85-bb21-3255-c829" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="db1d-b84b-bd0d-8a40" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Glart Smashrip" hidden="true" id="cfd3-2889-ce53-47b3">
               <costs>
@@ -3029,6 +2923,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9613-cc09-ffbf-6a74" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="16b4-109b-cf11-dc3a" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Gloriel Summerbloom" hidden="true" id="1daa-e237-3677-d624">
               <costs>
@@ -3072,6 +2969,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2c6e-db19-a3dc-9b60" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="a170-55cc-1af5-c4cb" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Glotl Stop" hidden="true" id="2b98-9424-6a8e-06fb">
               <profiles>
@@ -3116,45 +3016,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b405-8da9-d7e9-b1b2" includeChildSelections="true"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Grak" hidden="false" id="fea2-9704-0478-53cd">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="250000"/>
-              </costs>
-              <profiles>
-                <profile name="Grak" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="a82d-cbf1-0141-2918">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">5</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">5</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">4+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">10+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Bone Head, Kick Team-mate, Loner (4+), Mighty Blow, Thick Skull</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Big Guy**, **Ogre**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Bone Head* (Passive)" id="20a8-9e1a-9e30-b2b8" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
-                <infoLink name="Kick Team-mate (Passive)" id="d17f-c48a-f6d0-56ef" hidden="false" type="rule" targetId="03f5-2b56-bcea-abf3"/>
-                <infoLink name="Loner (X+)* (Passive)" id="b3f9-79c1-6c53-8ac7" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Mighty Blow (Active)" id="e1a7-70ad-dd5a-0844" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
-                <infoLink name="Thick Skull (Passive)" id="5112-ddd7-1bee-7174" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
-                <infoLink name="I&apos;ll Carry You" id="8fa7-3ea3-b1f9-2ec9" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="f340-27c9-a4c7-bef8" includeChildSelections="true"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b5b9-355e-95fa-c549" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="1" field="f340-27c9-a4c7-bef8">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="cb85-e60d-9db1-ce88" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="6054-78de-7a5a-98e2" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grashnak Blackhoof" hidden="true" id="9933-24ec-7656-73b9">
               <costs>
@@ -3198,6 +3062,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1f22-391e-8dc9-05b3" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="c7ec-7ca8-fd49-5d5f" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Gretchen Wächter" hidden="true" id="ed53-2b01-97a1-ebd1">
               <costs>
@@ -3244,6 +3111,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e1a-1a55-1d49-f6e5" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="6936-b3cb-b6ca-1935" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Griff Oberwald" hidden="true" id="efc1-fbf1-ea49-df37">
               <costs>
@@ -3287,6 +3157,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5088-bf4b-0971-2b73" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="ac1e-9228-7efc-e239" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grim Ironjaw" hidden="true" id="d349-2e27-1de0-fd34">
               <costs>
@@ -3331,6 +3204,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d4c1-bd21-f9b9-4268" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="1ee0-ab5a-36af-f765" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Grombrindal" hidden="true" id="e178-b5d3-08ed-79fe">
               <costs>
@@ -3382,6 +3258,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="964d-9b51-602d-78ec" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="cf1f-3b9e-e98c-69bb" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Guffle Pusmaw" hidden="true" id="bfd0-3b6d-9791-7fb4">
               <costs>
@@ -3425,6 +3304,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f1d9-e183-e7ea-0b6b" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="f5d6-256c-6ca9-5907" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="H&apos;Thark the Unstoppable" hidden="true" id="01d2-2649-11f7-623f">
               <costs>
@@ -3476,6 +3358,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2889-b2e6-4461-74a2" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="3b18-776a-e7e7-6005" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Hakflem Skuttlespike" hidden="true" id="d7c4-e7ab-15ff-f49b">
               <costs>
@@ -3518,6 +3403,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e138-7a31-7ec2-2173" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="5cb3-9de8-e827-7581" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Helmut Wulf" hidden="true" id="d6df-eaa7-da31-37c8">
               <costs>
@@ -3561,6 +3449,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9d88-0522-d840-f8bb" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="fade-c8b6-c6e0-fb5a" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Ivan &apos;the Animal&apos; Deathshroud" hidden="true" id="f71b-efde-a68b-4789">
               <costs>
@@ -3606,6 +3497,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="acfa-4bb1-1458-900c" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="7605-b02f-6b65-7c4f" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Ivar Eriksson" hidden="true" id="6a71-5528-9fc5-c99b">
               <costs>
@@ -3647,6 +3541,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9142-d706-1f26-cba2" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="6c25-4ed6-abf2-8098" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Jeremiah Kool" hidden="true" id="70cf-7900-ab31-f5e7">
               <costs>
@@ -3693,6 +3590,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8177-eb41-4ead-8462" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="8290-ef35-0386-9cc8" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Jordell Freshbreeze" hidden="true" id="bf53-2d4a-f76c-a45d">
               <costs>
@@ -3742,6 +3642,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6c4e-45b6-d0b3-0fa2" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="76f8-000e-708e-70c7" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Josef Bugman" hidden="true" id="b931-1050-d6fd-1f8e">
               <costs>
@@ -3791,6 +3694,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f975-5609-114e-9b0c" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="d809-c60e-aaca-9dea" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Karla von Kill" hidden="true" id="ce48-8e27-c9ef-9ed8">
               <costs>
@@ -3838,6 +3744,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7468-951c-4d0f-9731" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="364e-ffc6-7f0d-ec3d" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Kiroth Krakeneye" hidden="true" id="36b8-63e8-8be5-7eba">
               <costs>
@@ -3874,6 +3783,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="405b-4dbf-f9ed-7755" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="0d5d-4393-59c1-9bfe" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Kreek Rustgouger" hidden="true" id="c796-c9b5-c7c4-2c71">
               <costs>
@@ -3917,6 +3829,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ddf-7bce-f27f-64fb" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="3259-d385-6223-6ad2" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Lord Borak the Despoiler" hidden="true" id="3b51-42d5-74d9-9397">
               <costs>
@@ -3956,49 +3871,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b9ea-dea9-ee62-95a8" includeChildSelections="true"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Lucien Swift" hidden="true" id="d12a-647a-a124-aab3">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="300000"/>
-              </costs>
-              <profiles>
-                <profile name="Lucien Swift" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="a45f-d366-8768-5aa1">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">7</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">3</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">2+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">3+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Block, Loner (4+), Mighty Blow, Tackle</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Blitzer**, **Elf**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Block (Active)" id="8694-4a27-a165-6636" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
-                <infoLink name="Loner (X+)* (Passive)" id="50db-7a3e-0e47-dce2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Mighty Blow (Active)" id="ca8c-228b-0e48-9a42" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
-                <infoLink name="Tackle (Active)" id="a50b-4b20-c247-8d24" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
-                <infoLink name="Working in Tandem" id="31d0-35a5-8bbb-66f4" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="31ad-4a7b-7a5b-c6ea" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="1" field="65a6-436f-4d58-ccf0">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="852b-5a02-b0fb-3232" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="65a6-436f-4d58-ccf0" includeChildSelections="true" includeChildForces="true"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c265-72ff-4fe8-78f1" includeChildSelections="true"/>
-              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="c03e-aa82-d4d7-497b" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Maple Highgrove" hidden="true" id="9d10-0522-2735-03a8">
               <costs>
@@ -4043,6 +3918,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4841-f56c-3e05-ce8a" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="ae79-d23c-fd93-ed01" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Max Spleenripper" hidden="true" id="accb-009a-419d-287b">
               <costs>
@@ -4084,6 +3962,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7320-1af7-95a9-816b" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="ef6e-969b-e953-aae3" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Morg &apos;n&apos; Thorg" hidden="false" id="77f8-714f-d52e-fded">
               <costs>
@@ -4129,6 +4010,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fdeb-57dd-4cc9-8f32" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="f711-4c56-dacd-c569" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Nobbla Blackwart" hidden="true" id="c2de-cc7f-95f3-6e73">
               <costs>
@@ -4179,6 +4063,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3238-4600-6667-f62d" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="ca87-054c-613b-8482" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Puggy Baconbreath" hidden="true" id="e3da-ec73-769a-087e">
               <costs>
@@ -4227,6 +4114,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1489-e534-116e-b252" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="6dc4-c8eb-0668-7fa1" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Rashnak Backstabber" hidden="true" id="11c4-1600-e108-3c44">
               <costs>
@@ -4269,6 +4159,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="aa27-37c9-e90d-5e0b" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="2405-91ec-7588-3032" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Ripper Bolgrot" hidden="true" id="1551-3424-78d6-b165">
               <costs>
@@ -4317,6 +4210,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e472-3345-2e9b-49f4" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="0508-106c-0f72-1bcf" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Rodney Roachbait" hidden="true" id="9674-c6ff-9610-a8c9">
               <profiles>
@@ -4362,6 +4258,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9014-a852-2adf-b246" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="ad3e-23fe-c91a-4270" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Rowana Forestfoot" hidden="true" id="de98-d662-e31e-ecee">
               <costs>
@@ -4406,6 +4305,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2c53-9825-83d4-5f35" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="e3f2-233e-ab79-7bb3" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Roxanna Darknail" hidden="true" id="c921-ba2e-6985-3596">
               <costs>
@@ -4449,6 +4351,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e8e9-9959-2d14-7bbd" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="638f-0a82-b8fa-49b1" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Rumbelow Sheepskin" hidden="true" id="5962-28d1-bf35-cd06">
               <profiles>
@@ -4492,6 +4397,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7178-8599-3ef4-bf40" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="41bf-36ca-3044-43bd" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Scrappa Sorehead" hidden="true" id="d66b-a5be-7206-cf26">
               <costs>
@@ -4542,6 +4450,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="edb1-1213-27b4-83ef" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="c663-bc0d-aefb-81e5" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Scyla Anfingrimm" hidden="true" id="4bee-ab49-d9ee-02af">
               <costs>
@@ -4586,6 +4497,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5b07-a540-52fc-bcff" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="75b9-e1a1-8b9c-996f" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Skitter Stab-Stab" hidden="true" id="8e2a-d849-beaf-d5a1">
               <profiles>
@@ -4628,6 +4542,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="91a2-a8c8-adb3-57a2" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="5037-3ec9-9be0-f092" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Skrorg Snowpelt" hidden="true" id="a90f-2603-acf2-e6a5">
               <costs>
@@ -4676,6 +4593,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f37-13b7-1fe0-468d" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="c0c0-6f9a-13be-6cb0" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Skrull Halfheight" hidden="true" id="6d9f-57f7-9e67-8cea">
               <costs>
@@ -4725,6 +4645,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0199-bb7f-6cd4-0912" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="687b-2436-2ba7-1295" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Swiftvine Glimmershard" hidden="true" id="357a-5662-a62f-2eb3">
               <costs>
@@ -4768,6 +4691,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bc76-01f5-1cf9-75a1" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="d084-f575-d94a-9d17" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="The Black Gobbo" hidden="true" id="85bb-43cc-2df3-e89d">
               <costs>
@@ -4818,6 +4744,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ddff-7bcb-4bb9-c858" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="8e3d-66e1-b507-6729" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="The Mighty Zug" hidden="true" id="17ab-4f08-1e2c-c814">
               <costs>
@@ -4864,6 +4793,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d20a-014d-8e3f-f99e" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="8de6-e205-c35d-647d" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Thorsson Stoutmead" hidden="true" id="b874-fbde-7c23-e4eb">
               <costs>
@@ -4910,56 +4842,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="909b-25bc-bc2c-bb7d" includeChildSelections="true"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Valen Swift" hidden="true" id="852b-5a02-b0fb-3232">
-              <costs>
-                <cost name="TV" typeId="c4da-96df-1abd-13be" value="300000"/>
-              </costs>
-              <profiles>
-                <profile name="Valen Swift" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="0b43-298a-9b05-dd01">
-                  <characteristics>
-                    <characteristic name="MA" typeId="058c-934f-3f3c-2746">7</characteristic>
-                    <characteristic name="ST" typeId="c399-7974-2be0-1209">3</characteristic>
-                    <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">2+</characteristic>
-                    <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">2+</characteristic>
-                    <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
-                    <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Accurate, Loner (4+), Nerves of Steel, Pass, Safe Pass, Sure Hands</characteristic>
-                    <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
-                    <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
-                    <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Elf**, **Thrower**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="0414-2a30-001d-69e1" includeChildSelections="true" includeChildForces="true"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7712-4e3d-261a-e494" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="1" field="0414-2a30-001d-69e1">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d12a-647a-a124-aab3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="0" field="c4da-96df-1abd-13be">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d12a-647a-a124-aab3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="31ad-4a7b-7a5b-c6ea" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink name="Accurate (Active)" id="3f0a-ed06-a3ad-575b" hidden="false" type="rule" targetId="74e5-41fe-b941-88de"/>
-                <infoLink name="Loner (X+)* (Passive)" id="dd4a-2715-b415-f551" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
-                <infoLink name="Nerves of Steel (Active)" id="c460-e6fe-5776-a8cb" hidden="false" type="rule" targetId="b7d6-484c-fffd-8eb4"/>
-                <infoLink name="Pass (Active)" id="089e-4f84-3ea1-1d10" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
-                <infoLink name="Safe Pass (Active)" id="e235-cbc5-34b6-5251" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
-                <infoLink name="Sure Hands (Active)" id="8018-d900-52fa-60c6" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
-                <infoLink name="Working in Tandem" id="e31c-e58e-fd0e-7e61" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
-              </infoLinks>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="6dc0-1acf-5d01-5b85" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Varag Ghoul-Chewer" hidden="true" id="7c03-9811-e5c0-bd3e">
               <profiles>
@@ -5004,6 +4889,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d2e-7c59-b532-5d99" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="2acf-d970-f481-d208" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Wilhelm Chaney" hidden="true" id="2e03-705e-fb56-2f69">
               <costs>
@@ -5047,6 +4935,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="99ff-2553-441a-6044" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="be10-3bef-6a22-dda4" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Willow Rosebark" hidden="true" id="2c0f-ebea-5a00-ea0c">
               <costs>
@@ -5088,6 +4979,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4460-e78e-3579-121d" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="53ee-a902-c1fc-ed11" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Withergrasp Doubledrool" hidden="true" id="0a28-02e5-5b9b-5751">
               <costs>
@@ -5132,6 +5026,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8153-9075-e674-84fb" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="7ab6-19ad-c233-719e" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Zolcath the Zoat" hidden="true" id="4916-f22a-911b-a795">
               <costs>
@@ -5181,6 +5078,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0c95-4001-7e88-715b" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="8061-bb21-17a3-b141" primary="false" name="Player"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Zzharg Madeye" hidden="true" id="0d5a-40fe-88ee-9807">
               <costs>
@@ -5224,6 +5124,248 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b862-ff56-f569-62e9" includeChildSelections="true"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="69f8-eb37-db8c-47de" id="fe78-9ff5-8a29-976d" primary="false" name="Player"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Grak &amp; Crumbleberry" hidden="false" id="8ceb-10bb-2f5f-75c7">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="250000"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a312-aabe-c169-fddd" includeChildSelections="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grak" hidden="false" id="02d7-606a-5565-1bc6">
+                  <profiles>
+                    <profile name="Grak" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="5216-0ccf-b59d-24b9">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">5</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">5</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">4+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">10+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Bone Head, Kick Team-mate, Loner (4+), Mighty Blow, Thick Skull</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Big Guy**, **Ogre**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Bone Head* (Passive)" id="23f1-634c-e832-d97b" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+                    <infoLink name="I&apos;ll Carry You" id="1335-7f51-43db-14e5" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
+                    <infoLink name="Kick Team-mate (Passive)" id="f681-6140-945e-bfa4" hidden="false" type="rule" targetId="03f5-2b56-bcea-abf3"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="097d-e0b7-bfe2-216e" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Mighty Blow (Active)" id="9038-67f8-ef4d-3570" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+                    <infoLink name="Thick Skull (Passive)" id="6fbd-8348-8a44-b7dc" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7800-113e-d6bf-6983-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7800-113e-d6bf-6983-max" includeChildSelections="false"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="a6fd-b710-be79-fae9" primary="false" name="Player"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Crumbleberry" hidden="false" id="4c2d-0bf9-2a56-3282">
+                  <profiles>
+                    <profile name="Crumbleberry" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="d50c-5565-1280-39d8">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">5</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">5+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">7+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dodge, Lethal Flight, Loner (4+), Right Stuff, Stunty, Sure Hands</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Halfling**, **Lineman**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Dodge (Active)" id="f8c4-e76e-58c9-6bdd" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+                    <infoLink name="I&apos;ll Carry You" id="9105-e6bf-8803-495f" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
+                    <infoLink name="Lethal Flight (Active)" id="a072-083c-1146-c715" hidden="false" type="rule" targetId="e561-c980-89af-2f71"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="d5f9-d837-d396-d7d2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Right Stuff* (Passive)" id="68e3-1085-52ec-f607" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+                    <infoLink name="Stunty* (Passive)" id="b1cb-5432-2791-2270" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+                    <infoLink name="Sure Hands (Active)" id="d9fa-6b02-39fd-5675" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00e5-c841-b731-c20f-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00e5-c841-b731-c20f-max" includeChildSelections="false"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="ea4d-08ce-0bd6-efbd" primary="false" name="Player"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Dribl &amp; Drull" hidden="true" id="0d75-491f-3930-1ae4">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="230000"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="9e52-21d6-b650-0f2e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d6a3-5e61-45f7-3548" includeChildSelections="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Dribl" hidden="false" id="54c8-9a9c-663a-bb33">
+                  <profiles>
+                    <profile name="Dribl" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="9ac0-170b-5f00-6026">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">8</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">8+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dirty Player, Dodge, Loner (4+), Quick Foul, Sidestep, Sneaky Git, Stunty</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">230,000 (for Dribl &amp; Drull)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">A Sneaky Pair</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Skink**, **Special**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="A Sneaky Pair" id="c363-4fd4-8433-beb7" hidden="false" type="rule" targetId="04c2-46de-ff4d-9b2a"/>
+                    <infoLink name="Dirty Player (Active)" id="6aee-f828-dcfa-18b5" hidden="false" type="rule" targetId="b9d6-feed-f5da-6864"/>
+                    <infoLink name="Dodge (Active)" id="fa00-1092-2785-3845" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="8270-a610-c654-fde8" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Quick Foul (Active)" id="465f-96f3-da2a-981d" hidden="false" type="rule" targetId="10f6-086d-9bcf-7e6e"/>
+                    <infoLink name="Sidestep (Active)" id="5d3b-b2ad-1c1d-1985" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+                    <infoLink name="Sneaky Git (Active)" id="0b72-faf8-8a4c-5cff" hidden="false" type="rule" targetId="55b8-f8cc-b103-d0a9"/>
+                    <infoLink name="Stunty* (Passive)" id="cc04-1422-4e2a-e4d3" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e70-b0d0-080b-d51e-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e70-b0d0-080b-d51e-max" includeChildSelections="false"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="aa2f-cb27-1dc3-c15a" primary="false" name="Player"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Drull" hidden="false" id="a0f1-1aff-d976-58be">
+                  <profiles>
+                    <profile name="Drull" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="d6d4-8593-3e4d-126b">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">8</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">2</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">3+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">4+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">8+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dodge, Loner (4+), Sidestep, Stab, Stunty</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">230,000 (for Dribl &amp; Drull)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">A Sneaky Pair</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Skink**, **Special**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="A Sneaky Pair" id="c5cf-8ef1-d380-3789" hidden="false" type="rule" targetId="04c2-46de-ff4d-9b2a"/>
+                    <infoLink name="Dodge (Active)" id="6b44-ef48-f6cf-0bf2" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="c5f9-6348-fac1-7774" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Sidestep (Active)" id="cd1e-f5db-9ed9-a228" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+                    <infoLink name="Stab (Active)" id="6086-4052-5a18-e29c" hidden="false" type="rule" targetId="26c3-7c06-95b0-973b"/>
+                    <infoLink name="Stunty* (Passive)" id="0f17-e406-e963-c0d1" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3af9-4087-10d4-fb35-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3af9-4087-10d4-fb35-max" includeChildSelections="false"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="6332-b8d5-d06b-c8a9" primary="false" name="Player"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Lucien &amp; Valen Swift" hidden="true" id="3a7c-6a26-4626-2233">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="300000"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="31ad-4a7b-7a5b-c6ea" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6b2b-913b-2249-bc21" includeChildSelections="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Lucien Swift" hidden="false" id="358e-3f8d-66af-7db7">
+                  <profiles>
+                    <profile name="Lucien Swift" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="f2be-19ee-9d9a-9b61">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">7</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">3</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">2+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">3+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Block, Loner (4+), Mighty Blow, Tackle</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Blitzer**, **Elf**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Block (Active)" id="5fdc-69d1-6db4-2770" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="8f28-f96b-c85d-c732" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Mighty Blow (Active)" id="f8ef-048a-6960-2dff" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+                    <infoLink name="Tackle (Active)" id="8291-a162-735f-49f9" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
+                    <infoLink name="Working in Tandem" id="8082-b6be-ada1-ad2c" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="408a-45c3-e50f-61a5" primary="false" name="Player"/>
+                  </categoryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbbf-9c5e-85a0-5efb-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbbf-9c5e-85a0-5efb-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Valen Swift" hidden="false" id="292e-fd9d-6d56-64f4">
+                  <categoryLinks>
+                    <categoryLink targetId="69f8-eb37-db8c-47de" id="20c7-9b2a-fb09-e9c1" primary="false" name="Player"/>
+                  </categoryLinks>
+                  <profiles>
+                    <profile name="Valen Swift" typeId="66d1-f293-11ac-eb1c" typeName="Star Player" hidden="false" id="0b43-298a-9b05-dd01">
+                      <characteristics>
+                        <characteristic name="MA" typeId="058c-934f-3f3c-2746">7</characteristic>
+                        <characteristic name="ST" typeId="c399-7974-2be0-1209">3</characteristic>
+                        <characteristic name="AG" typeId="65e7-7b57-e82f-0e52">2+</characteristic>
+                        <characteristic name="PA" typeId="f65d-f6b7-783d-5a3e">2+</characteristic>
+                        <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
+                        <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Accurate, Loner (4+), Nerves of Steel, Pass, Safe Pass, Sure Hands</characteristic>
+                        <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
+                        <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Elf**, **Thrower**</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Accurate (Active)" id="3f0a-ed06-a3ad-575b" hidden="false" type="rule" targetId="74e5-41fe-b941-88de"/>
+                    <infoLink name="Loner (X+)* (Passive)" id="dd4a-2715-b415-f551" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+                    <infoLink name="Nerves of Steel (Active)" id="c460-e6fe-5776-a8cb" hidden="false" type="rule" targetId="b7d6-484c-fffd-8eb4"/>
+                    <infoLink name="Pass (Active)" id="089e-4f84-3ea1-1d10" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+                    <infoLink name="Safe Pass (Active)" id="e235-cbc5-34b6-5251" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
+                    <infoLink name="Sure Hands (Active)" id="8018-d900-52fa-60c6" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
+                    <infoLink name="Working in Tandem" id="e31c-e58e-fd0e-7e61" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d6a-cc2b-01c5-0e47-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d6a-cc2b-01c5-0e47-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
