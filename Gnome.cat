@@ -33,21 +33,29 @@
         <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8977-65a9-f066-a02d-min" includeChildSelections="true"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8977-65a9-f066-a02d-max" includeChildSelections="true"/>
       </constraints>
-      <entryLinks>
-        <entryLink import="true" name="Woodland League" hidden="false" id="0829-5f51-f2fa-6d0e" type="selectionEntry" targetId="6c75-8f97-472e-204c">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98df-526d-21ed-9ad2" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Halfling Thimble Cup" hidden="false" id="b052-7fc6-cf01-5e7b" type="selectionEntry" targetId="a414-eded-2c3f-26bb">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ba-e0e6-4629-4b5b" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <categoryLinks>
         <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="83d6-b0d7-6b77-8864" primary="true" name="Team Management"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="f7b2-1006-b5af-a7f3" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Woodland League" hidden="false" id="0829-5f51-f2fa-6d0e" type="selectionEntry" targetId="6c75-8f97-472e-204c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98df-526d-21ed-9ad2" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Halfling Thimble Cup" hidden="false" id="b052-7fc6-cf01-5e7b" type="selectionEntry" targetId="a414-eded-2c3f-26bb">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ba-e0e6-4629-4b5b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="307c-75f7-4631-81f8-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="307c-75f7-4631-81f8-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
