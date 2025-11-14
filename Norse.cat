@@ -299,7 +299,7 @@
       <infoLinks>
         <infoLink name="Dodge (Active)" id="d7ff-8d08-fd81-31d1" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
         <infoLink name="No Ball* (Passive)" id="efb9-2ab0-d6e2-028c" hidden="false" type="rule" targetId="dd36-c391-8047-23cf"/>
-        <infoLink name="Pick-Me-Up (Active)" id="634c-4705-fea6-dd8b" hidden="false" type="rule" targetId="365c-d909-6cb3-2b5b"/>
+        <infoLink name="Pick-me-up (Active)" id="634c-4705-fea6-dd8b" hidden="false" type="rule" targetId="365c-d909-6cb3-2b5b"/>
         <infoLink name="Stunty* (Passive)" id="7a52-afa6-1ca1-926d" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
         <infoLink name="Titchy* (Passive)" id="7e2a-c0c7-15eb-24ff" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
       </infoLinks>
@@ -362,7 +362,15 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Favoured of ..." id="3caf-218e-15a1-6398" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+        <infoLink name="Favoured of ..." id="3caf-218e-15a1-6398" hidden="true" type="rule" targetId="84ac-f521-708b-c779">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="59e3-4dbf-4f7b-9276" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </selectionEntries>

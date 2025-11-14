@@ -143,7 +143,7 @@
             <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
             <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
-            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bombardier, Dodge, Secret Weapon, Stunty</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DP</characteristic>
@@ -241,7 +241,7 @@
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Ball &amp; Chain, No Ball, Secret Weapon, Stunty</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
-            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75,000</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">70,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Special**</characteristic>
           </characteristics>
