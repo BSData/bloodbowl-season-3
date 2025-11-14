@@ -203,13 +203,13 @@
         <entryLink import="true" name="Primary Skill" hidden="false" id="f2b9-0491-6fa7-c512" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
           <entryLinks>
             <entryLink import="true" name="General" hidden="false" id="eed8-a866-3011-b784" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-            <entryLink import="true" name="Devious" hidden="false" id="a30d-8f25-d30b-e360" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="504a-251c-ac26-e3ab" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
         <entryLink import="true" name="Secondary Skill" hidden="false" id="7b9c-b6df-95ab-34d5" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
           <entryLinks>
             <entryLink import="true" name="Agility" hidden="false" id="19ab-c6d4-5ab6-888e" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
-            <entryLink import="true" name="Strength" hidden="false" id="504a-251c-ac26-e3ab" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Devious" hidden="false" id="a30d-8f25-d30b-e360" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
