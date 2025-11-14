@@ -1710,6 +1710,9 @@ On a 1-3, this player rages incoherently but nothing really happens. Their activ
       <alias>Hatred (X)</alias>
       <alias>Hatred (**Troll**)* (Passive)</alias>
       <alias>Hatred (**Troll**)</alias>
+      <alias>Hatred (**Big Guy**)</alias>
+      <alias>Hatred (**Undead**)</alias>
+      <alias>Hatred (**Dwarf**)</alias>
       <description>Whenever this player performs a Block Action against a player with the same keyword as that shown in brackets, this player may re-roll a single Player Down result.</description>
     </rule>
     <rule name="Secret Weapon* (Passive)" id="2dfd-63dd-cf29-9818" hidden="false">
