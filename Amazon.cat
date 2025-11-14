@@ -229,28 +229,18 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6b25-d0d5-f394-8f32" primary="true" name="Player"/>
         <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="01fd-1ff7-b565-ddb3" primary="false" name="Mercenary"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="e548-7208-145b-8689">
-          <costs>
-            <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="340d-1583-c665-23b7" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Skills" id="0adc-60fe-693a-450f" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="General" hidden="false" id="a80f-6feb-4ba2-c5c1" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-                <entryLink import="true" name="Passing" hidden="false" id="387f-22e6-58ad-b640" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2957-28e8-15d0-4d8d-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2957-28e8-15d0-4d8d-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="312c-5aef-f3e6-7770" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="2773-8ee5-b048-cf58" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.f7fd-b955-21d7-90d4"/>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.20e9-6c45-24be-0559"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="[Mercenary] Piranha Warrior" hidden="false" id="84d5-128f-78d8-3806">
       <costs>
@@ -285,28 +275,18 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="bf2b-c46d-7f0c-705b" primary="true" name="Player"/>
         <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="21c1-06ae-c4d0-b8c8" primary="false" name="Mercenary"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="cfa9-8942-3746-bb5c">
-          <costs>
-            <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e93-5606-550e-d8cc" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Skills" id="dfb3-a87e-a7f7-adc5" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Agility" hidden="false" id="e74a-3b4e-a2ba-249b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
-                <entryLink import="true" name="General" hidden="false" id="b7a2-ee16-ca9b-f24b" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1332-e09f-187c-8f24-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1332-e09f-187c-8f24-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="a2d2-42b8-051c-9cc9" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="672b-80a5-c886-7aa9" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.fcc9-3efe-db4e-206d"/>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.f7fd-b955-21d7-90d4"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="[Mercenary] Jaguar Warrior" hidden="false" id="9146-f0f2-14cc-936c">
       <costs>
@@ -339,28 +319,18 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d1a1-6998-f1e7-b24a" primary="true" name="Player"/>
         <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="aff8-8047-2cfc-167f" primary="false" name="Mercenary"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="6d15-78d0-2868-b0a3">
-          <costs>
-            <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="601c-d403-7bcc-d99e" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Skills" id="e4fb-92c5-7c8c-7a0b" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="General" hidden="false" id="1524-6f08-242e-be9f" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-                <entryLink import="true" name="Strength" hidden="false" id="b3bd-ff01-d847-6763" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03a5-4d89-2574-94fc-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03a5-4d89-2574-94fc-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ebec-8759-175f-db93" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="71f2-a369-5b92-b5b2" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.7533-595e-a73c-af53"/>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.d523-4a5c-ff6b-32ea"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="[Mercenary] Eagle Warrior" hidden="false" id="1c88-eca1-85e2-af83">
       <costs>
@@ -391,27 +361,17 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fe95-547e-112b-b036" primary="true" name="Player"/>
         <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="bc06-b375-f976-14ca" primary="false" name="Mercenary"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="a61f-94aa-ad44-1eb9">
-          <costs>
-            <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c0c-82c9-4823-d839" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Skills" id="b958-cf89-e767-ead7" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="General" hidden="false" id="afcb-f72a-c037-ec1e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a52-2dca-14c7-0c2f-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a52-2dca-14c7-0c2f-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b1dc-0008-db01-b3eb" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="d6a1-9785-533d-f405" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.f7fd-b955-21d7-90d4"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>

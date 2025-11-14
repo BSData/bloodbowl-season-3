@@ -939,6 +939,21 @@
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="New Group" id="c6d8-1cc6-977d-945b" hidden="false"/>
+    <selectionEntryGroup name="Primary Skills" id="dc86-edd9-0a88-e349" hidden="false">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f736-af5d-6518-102e-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f736-af5d-6518-102e-max" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Agility" hidden="true" id="a95f-fba2-6b26-8fb4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+        <entryLink import="true" name="Devious" hidden="true" id="c2ae-e6fe-a49f-8292" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+        <entryLink import="true" name="General" hidden="true" id="7533-595e-a73c-af53" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+        <entryLink import="true" name="Mutation" hidden="true" id="9d41-fa7a-6643-3975" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+        <entryLink import="true" name="Passing" hidden="true" id="498b-73f8-d029-b39e" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+        <entryLink import="true" name="Strength" hidden="true" id="d523-4a5c-ff6b-32ea" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+      </entryLinks>
+      <comment>Mercenary Skill Choices</comment>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Catch (Active)" id="098e-6fa4-284c-49ca" hidden="false">
@@ -1911,6 +1926,15 @@ If a team has a choice of any alignment, they can choose from any of the followi
       <infoLinks>
         <infoLink name="Swarming" id="6ad7-2642-cf13-56e0" hidden="false" type="rule" targetId="9b44-f5b3-b98e-1bd5"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="60c7-3250-93b6-e53f">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5c6-d069-f98d-a568" includeChildSelections="false"/>
+      </constraints>
+      <comment>Mercenary Upgrade</comment>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
