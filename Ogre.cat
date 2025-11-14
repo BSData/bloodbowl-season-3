@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2288-066b-b8d7-55d7" name="Ogre" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="b977-46c1-02bb-a007">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="bf20-77c9-ce7f-d25a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="2415-f375-a9c4-6b96-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2415-f375-a9c4-6b96-max" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="efcf-3efd-ce66-e552" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Badlands Brawl" hidden="false" id="0b6d-daf9-bb7f-db9e" type="selectionEntry" targetId="1eb9-891a-5a20-b694">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c67c-7583-4005-7fc9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Worlds Edge Superleague" hidden="false" id="fb98-1917-1e9d-b408" type="selectionEntry" targetId="a8a2-1453-da6f-731c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4066-b137-7622-831d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8674-3052-45ab-b3c5-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8674-3052-45ab-b3c5-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="213d-38ac-7f4a-5a14">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="235f-426b-03ea-7d4e" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="fe50-213a-7706-2aa3-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fe50-213a-7706-2aa3-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Brawlin&apos; Brutes" hidden="false" id="9393-4367-8ae0-7a15" type="selectionEntry" targetId="0d8a-9c12-8664-38e8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9dd2-5006-d4ff-d06d-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dd2-5006-d4ff-d06d-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Low Cost Linemen" hidden="false" id="d395-75fa-8b7c-cb2f" type="selectionEntry" targetId="c2c1-b518-69c8-5c91">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6577-11f3-5169-28ed-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6577-11f3-5169-28ed-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Gnoblar Lineman" id="3a1e-2c90-7460-6265" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="52e7-0920-62b2-c917" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ogre Runt Punter" id="7bcf-7594-b902-7a18" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="61c4-c986-3546-9079" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ogre Blocker" id="d7d7-a162-7912-ca6f" hidden="false">
+      <constraints>
+        <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="cc81-3703-c80e-d06b" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Gnoblar Lineman" hidden="false" id="7cb3-9ecc-9983-63ef">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="ed42-0169-8d26-6860" primary="true" name="Player"/>
+        <categoryLink targetId="3a1e-2c90-7460-6265" id="c197-7c6b-c2eb-fdbf" primary="false" name="Gnoblar Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gnoblar Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9d19-2a4a-7cd1-75d4">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">1</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Right Stuff, Sidestep, Stunty, Titchy</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AD</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">G</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">15,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Gnoblar**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="fb16-d30c-f570-089e" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="abee-ccd8-ac04-8a08" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="004a-6ff9-ceab-e9c8" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="f6b9-0182-6a6b-fcec" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="585f-cfdb-3e20-73f7" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="8ee7-75bb-712c-8fb9" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="c3f2-7f4e-2d04-02ef" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Sidestep (Active)" id="88ab-de3b-7a88-d113" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="4de7-c2f3-e307-b2f0" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Titchy* (Passive)" id="0a27-b80e-e0d8-0e8d" hidden="false" type="rule" targetId="da89-0d47-98a8-44cf"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ogre Blocker" hidden="false" id="b9ce-abd5-8aa4-7a59">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d31a-8ffa-95c7-09b2" primary="true" name="Player"/>
+        <categoryLink targetId="d7d7-a162-7912-ca6f" id="e1c8-ffb9-f340-b2ca" primary="false" name="Ogre Blocker"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ogre Blocker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="08c1-729f-42fb-ae9d">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADGP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Blocker**, **Ogre**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="fd08-a658-f699-8089" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="3cbc-5921-7b60-427e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="bed7-a459-d5a1-e690" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="f1c8-bddb-33e6-9b54" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="f542-62f1-2958-b12a" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0ad2-1ae2-dc3f-bf69" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="9066-0308-36e4-1048" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Bone Head* (Passive)" id="fd5a-9d9f-54f5-0d28" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Mighty Blow (Active)" id="3a9a-3d0f-04b0-04f2" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Thick Skull (Passive)" id="4db6-ddec-ec8a-1bab" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Throw Team-mate (Active)" id="fd92-d1ec-da12-4fbb" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ogre Runt Punter" hidden="false" id="28b5-6390-de36-a7c6">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="46f3-ebd6-2669-e855" primary="true" name="Player"/>
+        <categoryLink targetId="7bcf-7594-b902-7a18" id="a7c7-87d1-6ff1-a005" primary="false" name="Ogre Runt Punter"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ogre Runt Punter" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="64c1-9ae8-3195-00c3">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Kick Team-mate, Mighty Blow, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">PS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">145,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="8c3d-3c74-97d1-8974" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="09d7-7d44-ef83-cfd9" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="5ad4-17c7-61a5-2d18" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="b8b5-7f82-b293-0259" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="dd5a-6efe-e198-a101" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="ea85-ce09-31e6-138c" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Passing" hidden="false" id="9a34-96df-4b12-608f" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Bone Head* (Passive)" id="ebdb-1b8b-3021-7ea7" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Kick Team-mate (Passive)" id="39e7-95b7-3212-29ad" hidden="false" type="rule" targetId="03f5-2b56-bcea-abf3"/>
+        <infoLink name="Mighty Blow (Active)" id="8323-ae40-170a-7824" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Thick Skull (Passive)" id="14e5-186c-3f7a-231d" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Gnoblar Lineman" hidden="false" id="fdc7-6699-69c7-c53f" type="selectionEntry" targetId="7cb3-9ecc-9983-63ef" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="15000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ogre Blocker" hidden="false" id="4b3f-16e1-19d5-6bea" type="selectionEntry" targetId="b9ce-abd5-8aa4-7a59" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ogre Runt Punter" hidden="false" id="1b34-ee7f-61d9-d738" type="selectionEntry" targetId="28b5-6390-de36-a7c6" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="145000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>

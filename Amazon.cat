@@ -192,22 +192,22 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Eagle Warrior" hidden="false" id="5c5f-c210-6154-44e7" type="selectionEntry" targetId="a80b-5e2a-39bd-fd79">
+    <entryLink import="true" name="Eagle Warrior" hidden="false" id="5c5f-c210-6154-44e7" type="selectionEntry" targetId="a80b-5e2a-39bd-fd79" sortIndex="1">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5151-49cf-8257-1503" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Jaguar Warrior" hidden="false" id="796c-bffd-24a8-5f60" type="selectionEntry" targetId="d542-666c-fbd9-a321">
+    <entryLink import="true" name="Jaguar Warrior" hidden="false" id="796c-bffd-24a8-5f60" type="selectionEntry" targetId="d542-666c-fbd9-a321" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7bea-ba6c-0504-fc51" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Piranha Warrior" hidden="false" id="0b04-c7e6-7ab5-666f" type="selectionEntry" targetId="bd65-f508-b2c8-198d">
+    <entryLink import="true" name="Piranha Warrior" hidden="false" id="0b04-c7e6-7ab5-666f" type="selectionEntry" targetId="bd65-f508-b2c8-198d" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fd71-37e8-285e-aa98" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Python Warrior" hidden="false" id="d23a-6440-f9ae-226f" type="selectionEntry" targetId="33bc-fce4-fca6-5738">
+    <entryLink import="true" name="Python Warrior" hidden="false" id="d23a-6440-f9ae-226f" type="selectionEntry" targetId="33bc-fce4-fca6-5738" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9cc3-0979-532a-afa7" primary="true" name="Player"/>
       </categoryLinks>

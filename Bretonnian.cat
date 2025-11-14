@@ -206,22 +206,22 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Bretonnian Squire" hidden="false" id="3ca4-8b3c-4b57-ff53" type="selectionEntry" targetId="5d84-138c-8886-8fe1">
+    <entryLink import="true" name="Bretonnian Squire" hidden="false" id="3ca4-8b3c-4b57-ff53" type="selectionEntry" targetId="5d84-138c-8886-8fe1" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Bretonnian Knight Thrower" hidden="false" id="7313-4be5-ff04-1681" type="selectionEntry" targetId="2c66-02ad-249f-8b0d">
+    <entryLink import="true" name="Bretonnian Knight Thrower" hidden="false" id="7313-4be5-ff04-1681" type="selectionEntry" targetId="2c66-02ad-249f-8b0d" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="80000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Grail Knight" hidden="false" id="7bf4-a530-7889-4734" type="selectionEntry" targetId="ecce-538e-ee93-baa0">
+    <entryLink import="true" name="Grail Knight" hidden="false" id="7bf4-a530-7889-4734" type="selectionEntry" targetId="ecce-538e-ee93-baa0" sortIndex="4">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="95000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Bretonnian Knight Catcher" hidden="false" id="42d5-8cf6-3869-5068" type="selectionEntry" targetId="fec1-c1eb-6173-3e6c">
+    <entryLink import="true" name="Bretonnian Knight Catcher" hidden="false" id="42d5-8cf6-3869-5068" type="selectionEntry" targetId="fec1-c1eb-6173-3e6c" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
       </costs>

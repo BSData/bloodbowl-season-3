@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="a2a0-3311-0c44-5f11" name="Gnome" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Gnome Lineman" id="0b90-2fc6-9d30-60c8" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="c106-6db0-7f27-9ad1" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Woodland Fox" id="87ab-620b-77de-5e18" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f98a-9510-c4e7-9d54" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Gnome Illusionist" id="389b-be4b-458d-36c9" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4e52-c241-8852-b8f9" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Gnome Beastmaster" id="9638-cce9-0f89-6a5d" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8ad5-4673-2c67-6372" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Altern Forest Treeman" id="119d-2903-984f-b88c" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="843e-9891-6483-2fd3" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="9607-7258-7e1b-0e88">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8977-65a9-f066-a02d-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8977-65a9-f066-a02d-max" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="83d6-b0d7-6b77-8864" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Team League" id="f7b2-1006-b5af-a7f3" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Woodland League" hidden="false" id="0829-5f51-f2fa-6d0e" type="selectionEntry" targetId="6c75-8f97-472e-204c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98df-526d-21ed-9ad2" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Halfling Thimble Cup" hidden="false" id="b052-7fc6-cf01-5e7b" type="selectionEntry" targetId="a414-eded-2c3f-26bb">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ba-e0e6-4629-4b5b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="307c-75f7-4631-81f8-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="307c-75f7-4631-81f8-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Gnome Lineman" hidden="false" id="2a32-43ed-4f72-4c28">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="20fc-e1b6-ac6f-4dab" primary="true" name="Player"/>
+        <categoryLink targetId="0b90-2fc6-9d30-60c8" id="0f88-6bcb-1e31-361c" primary="false" name="Gnome Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gnome Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d5af-81c0-ed8f-4d65">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">7+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Jump Up, Right Stuff, Stunty, Wrestle</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Gnome**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Jump Up (Active)" id="cd82-835a-faf6-57c4" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+        <infoLink name="Right Stuff* (Passive)" id="367f-b479-f8fe-eeca" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="0a70-bc9d-dec7-8be5" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Wrestle (Active)" id="19cf-7ad0-4c7c-6d66" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="65c1-492c-253b-0a90" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="5bc8-37a1-4852-df0f" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4f94-3109-ee75-d556" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="4489-952e-e704-43ca" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="c0a6-c8c0-614f-4882" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="efec-134f-8cc5-dfe2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Woodland Fox" hidden="false" id="2fc8-d9d3-d17b-6d65">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d38c-ef5e-0a58-b6d7" primary="true" name="Player"/>
+        <categoryLink targetId="87ab-620b-77de-5e18" id="d775-a3cc-9ebd-cc49" primary="false" name="Woodland Fox"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Woodland Fox" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6260-621a-5f5f-addc">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">-</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">6+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, My Ball, Sidestep, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">-</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Animal**, **Runner**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="440a-1af1-b1f4-db11" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="My Ball* (Passive)" id="a4fd-92a7-be10-8b1f" hidden="false" type="rule" targetId="2ae2-059d-39ab-0d1d"/>
+        <infoLink name="Sidestep (Active)" id="a705-766c-c0b9-581c" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+        <infoLink name="Stunty* (Passive)" id="f04b-f8cf-5b24-edd0" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="6ffb-696b-107c-532b" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="be75-2ee3-c214-5534" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gnome Illusionist" hidden="false" id="38db-ed63-614b-5b28">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="f780-a037-7f01-4606" primary="true" name="Player"/>
+        <categoryLink targetId="389b-be4b-458d-36c9" id="04a1-64e1-0ecd-1160" primary="false" name="Gnome Illusionist"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gnome Illusionist" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4480-f4cf-cc9a-9296">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">7+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Jump Up, Stunty, Trickster, Wrestle</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Gnome**, **Special**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Jump Up (Active)" id="55e8-c922-82ff-b291" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+        <infoLink name="Stunty* (Passive)" id="4f72-e661-33fd-5a24" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Trickster (Active)" id="0e72-ffaa-8c88-7f1f" hidden="false" type="rule" targetId="da1b-40ee-5c05-38c2"/>
+        <infoLink name="Wrestle (Active)" id="a768-c754-c55b-d25c" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="9c32-b96c-20c8-34b0" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="afb3-545c-287f-c5ed" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="7611-0b0d-9401-e09b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="7fe9-6cb3-5be9-5b18" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="01ef-e0ef-8afc-6a20" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="ae1d-a5a0-8f61-d98d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gnome Beastmaster" hidden="false" id="1ecd-600e-6f58-5f04">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="ecda-0a0c-78ed-c521" primary="true" name="Player"/>
+        <categoryLink targetId="9638-cce9-0f89-6a5d" id="6fd2-a00d-d94b-3fca" primary="false" name="Gnome Beastmaster"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gnome Beastmaster" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b156-f832-4416-0c08">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Guard, Jump Up, Stunty, Wrestle</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">55,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Gnome**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Guard (Active)" id="a08a-e3d4-9bd7-3af5" hidden="false" type="rule" targetId="6772-a834-2b47-9255"/>
+        <infoLink name="Jump Up (Active)" id="f296-1ee3-fc39-c183" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+        <infoLink name="Stunty* (Passive)" id="3ee6-7469-7266-9068" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Wrestle (Active)" id="e6cb-e6a3-8290-5898" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0910-705f-ca61-c255"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="e213-784a-e2f9-aeeb" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="73d2-8537-af02-4615" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="475a-2b3b-019e-9e84" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="d36d-d15e-36e7-9c05" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="b7b6-840a-e7ca-564c" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="d2e8-2e67-1468-b95d" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="e6a9-c78a-1f00-ce8e">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="fa94-2473-0d2d-85ad" primary="true" name="Player"/>
+        <categoryLink targetId="119d-2903-984f-b88c" id="fafd-2bce-bdec-134a" primary="false" name="Altern Forest Treeman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Altern Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="966e-2b62-0fa0-986c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">2</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">6</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">11+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-mate, Timmm-ber!</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Treeman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mighty Blow (Active)" id="0bae-6951-6694-f57c" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Stand Firm (Active)" id="5d1a-67e4-3bd7-4883" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+        <infoLink name="Strong Arm (Active)" id="a19e-f796-89b1-a187" hidden="false" type="rule" targetId="c1df-8664-e3cd-9611"/>
+        <infoLink name="Take Root* (Passive)" id="efe9-b367-bc62-7d8d" hidden="false" type="rule" targetId="a512-ffe3-23ce-c7ea"/>
+        <infoLink name="Thick Skull (Passive)" id="0355-22b0-86a3-bb6f" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Throw Team-mate (Active)" id="8753-1c62-517b-4a9b" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+        <infoLink name="Timmm-ber! (Passive)" id="046e-879c-0e61-806e" hidden="false" type="rule" targetId="926b-0f53-110d-d32d"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.9bbc-0b62-5ed8-c316"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="32e4-e6da-a314-b327" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="7f49-26ee-3826-b784" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3c78-5f3d-8870-048a" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="b789-f948-28c1-9d34" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="93ca-a6a3-342c-c195" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="General" hidden="false" id="012b-88ab-1503-1782" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Altern Forest Treeman" hidden="false" id="4d67-6a6e-68e7-707b" type="selectionEntry" targetId="e6a9-c78a-1f00-ce8e" sortIndex="5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="120000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Woodland Fox" hidden="false" id="c40f-263c-d584-c70d" type="selectionEntry" targetId="2fc8-d9d3-d17b-6d65" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Gnome Lineman" hidden="false" id="c0a1-1c32-44a5-92b4" type="selectionEntry" targetId="2a32-43ed-4f72-4c28" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Gnome Illusionist" hidden="false" id="be4f-f479-f184-d8a6" type="selectionEntry" targetId="38db-ed63-614b-5b28" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Gnome Beastmaster" hidden="false" id="2931-fe56-1807-dd07" type="selectionEntry" targetId="1ecd-600e-6f58-5f04" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="55000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>

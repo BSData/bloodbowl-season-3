@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="dde6-2729-97d5-390e" name="Khorne" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Bloodborn Marauder" id="46fd-c16d-575a-d9c4" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="b3c1-27bf-229a-6bce" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Khorngor" id="ad8b-59e5-df84-df76" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="509b-8082-f464-406b" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Bloodseeker" id="f25c-0f43-bfca-f26f" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="0117-06eb-0086-a31a" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Bloodspawn" id="d45f-ce8d-754a-53ae" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8a74-bef4-320d-a3dd" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="a5c1-cc22-823e-5100">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="d2ec-100a-daa3-1d4d" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="0e22-a6fb-83f4-cda6-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0e22-a6fb-83f4-cda6-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Chaos Clash" hidden="false" id="f6e6-63e0-5f4f-c24a" type="selectionEntry" targetId="59e3-4dbf-4f7b-9276">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb7c-4d95-0976-efba-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb7c-4d95-0976-efba-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="0bec-11d5-18dc-a9d3">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="3161-2684-7db7-9b2a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Brawlin&apos; Brutes" hidden="false" id="24ee-25d1-572f-6a2c" type="selectionEntry" targetId="0d8a-9c12-8664-38e8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b03-aff1-0de9-05ab-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b03-aff1-0de9-05ab-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Khorne" hidden="false" id="93a2-4566-a04c-0646" type="selectionEntry" targetId="fff5-8bb0-409e-4125">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b384-46bb-d027-decb-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b384-46bb-d027-decb-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Favoured of ..." id="8bbb-0fbf-7026-1797" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="6a41-2e4d-243b-e77c-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6a41-2e4d-243b-e77c-max" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Bloodborn Marauder" hidden="false" id="a2c2-d4de-48b8-125f">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="4af4-ed9a-b737-41a7" primary="true" name="Player"/>
+        <categoryLink targetId="46fd-c16d-575a-d9c4" id="5b05-7c6f-f59b-c585" primary="false" name="Bloodborn Marauder"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodborn Marauder" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4550-b989-18bb-c63a">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Frenzy</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b3ec-3260-bf07-2ebf" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="f291-6e77-fb68-0902" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="1ea3-964c-2b94-97f5" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="2e74-1119-45ed-0c1c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="a290-b998-f43d-a867" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="c1f8-ee64-02bf-345a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Agility" hidden="false" id="3dd3-bccd-8067-0af4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frenzy* (Active)" id="6143-5d65-86ae-608b" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Khorngor" hidden="false" id="0bee-89ec-fb07-89cc">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="1d13-586f-1848-8de5" primary="true" name="Player"/>
+        <categoryLink targetId="ad8b-59e5-df84-df76" id="6a18-258f-d660-0fb3" primary="false" name="Khorngor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Khorngor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6721-7d00-872d-b990">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Horns, Juggernaut, Jump Up, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">70,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Beastman**, **Runner**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="7d9e-1980-71a5-08df" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="f8de-2a1e-45cb-f44e" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="3269-b0b2-6c9e-01a0" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="9cb4-31ff-e8d0-ddb0" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="b54d-21c0-7908-1588" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="378d-9c3b-a814-f3b7" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="d67c-8862-de0a-ce9b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Agility" hidden="false" id="673f-fe0d-a8b9-0d16" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Horns (Active)" id="7980-9e03-2735-c655" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+        <infoLink name="Juggernaut (Active)" id="e389-a5ec-ff7d-e84c" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+        <infoLink name="Jump Up (Active)" id="9ccf-f09d-34ac-76ab" hidden="false" type="rule" targetId="bddd-f778-43af-92d6"/>
+        <infoLink name="Thick Skull (Passive)" id="d5dc-548d-db0b-dd1c" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b392-9974-2af9-bcf0"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fb62-3fc9-f728-bf0c"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bloodseeker" hidden="false" id="2993-9d84-225c-b475">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="7efd-2f14-7b74-5ee8" primary="true" name="Player"/>
+        <categoryLink targetId="f25c-0f43-bfca-f26f" id="3bec-651f-20d3-5596" primary="false" name="Bloodseeker"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodseeker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b58b-e787-7469-c998">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Frenzy</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">105,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="0ddd-0f72-3ada-fcfc" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="7a5f-e706-ae63-05dc" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="7e1e-7fba-c3a1-4c80" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="1b0f-0deb-ea3e-5164" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="d862-2148-5f26-8d36" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="6fc6-934e-157b-62d2" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="37a3-62e4-e187-2779" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frenzy* (Active)" id="7347-233b-a398-03b3" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bloodspawn" hidden="false" id="8edd-84bd-a99f-d169">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="9318-cb18-fc30-b523" primary="true" name="Player"/>
+        <categoryLink targetId="d45f-ce8d-754a-53ae" id="68c7-2ec8-c2e0-8f98" primary="false" name="Bloodspawn"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloodspawn" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f1e1-1e48-7498-eefb">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Claws, Frenzy, Loner (4+), Mighty Blow, Unchannelled Fury</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">MS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">160,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Spawn**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b251-4f95-a053-5524" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Mutation" hidden="false" id="6e3c-d4fc-5d77-3316" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+            <entryLink import="true" name="Strength" hidden="false" id="dd4d-5aad-5fb7-2b75" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="17aa-a930-5a32-66f2" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="6653-af5d-f029-6f2f" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="cc6c-585b-0a28-73e4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Claws (Passive)" id="93fb-9788-6dc8-f28e" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>
+        <infoLink name="Frenzy* (Active)" id="75ff-35d2-4783-8034" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Loner (X+)* (Passive)" id="9f9d-b3d4-2721-3a83" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="1825-44e5-f7a1-16d3" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Unchannelled Fury* (Active)" id="2d7d-11e0-a3c8-142c" hidden="false" type="rule" targetId="454e-a6ad-7d72-438f"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.e82b-325f-56c3-ff73"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bloodseeker" hidden="false" id="3834-d57b-3408-6653" type="selectionEntry" targetId="2993-9d84-225c-b475" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="105000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Khorngor" hidden="false" id="aa39-a9cd-2df1-2cec" type="selectionEntry" targetId="0bee-89ec-fb07-89cc" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="70000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Bloodspawn" hidden="false" id="41c5-756d-bb31-5ae3" type="selectionEntry" targetId="8edd-84bd-a99f-d169" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="160000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Bloodborn Marauder" hidden="false" id="e29d-3e6f-8655-b86a" type="selectionEntry" targetId="a2c2-d4de-48b8-125f" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>

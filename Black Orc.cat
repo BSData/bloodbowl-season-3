@@ -161,17 +161,17 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Black Orc" hidden="false" id="aa25-4fde-b7e8-1054" type="selectionEntry" targetId="b5c8-3bea-90ed-706b">
+    <entryLink import="true" name="Black Orc" hidden="false" id="aa25-4fde-b7e8-1054" type="selectionEntry" targetId="b5c8-3bea-90ed-706b" sortIndex="2">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Trained Troll" hidden="false" id="8129-8b0f-9927-94d5" type="selectionEntry" targetId="74d2-834c-1c02-c0a5">
+    <entryLink import="true" name="Trained Troll" hidden="false" id="8129-8b0f-9927-94d5" type="selectionEntry" targetId="74d2-834c-1c02-c0a5" sortIndex="3">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="115000"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Goblin Bruiser" hidden="false" id="8424-3c11-9aa7-aeaa" type="selectionEntry" targetId="d8be-e0f1-bf86-b6ae">
+    <entryLink import="true" name="Goblin Bruiser" hidden="false" id="8424-3c11-9aa7-aeaa" type="selectionEntry" targetId="d8be-e0f1-bf86-b6ae" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="45000"/>
       </costs>

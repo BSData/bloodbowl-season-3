@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e0ad-e04c-eef1-b9a6" name="Necromantic Horror" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Zombie Lineman" id="c106-9e14-0f65-173d" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="d606-89e9-7aa1-d6c7" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Ghoul Runner" id="a2aa-2c48-23cd-89c6" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="5da5-38d9-9874-72e8" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Wraith" id="cce2-017f-a1d5-58d2" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9ece-a302-b48c-6c87" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Flesh Golem" id="6a5b-d66a-9561-8908" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="97d5-5460-d0d1-65ed" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Werewolf" id="3b50-c3ca-f2d6-4891" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9507-4e9f-ef69-6db2" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Zombie Lineman" hidden="false" id="8cbe-5198-372f-ece5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="ec89-ad13-15e0-5834" primary="true" name="Player"/>
+        <categoryLink targetId="c106-9e14-0f65-173d" id="c5f0-ffe8-5fea-b2d1" primary="false" name="Zombie Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Zombie Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="139e-f1d0-e57f-51f3">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Eye Gouge, Regeneration, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**, **Undead**, **Zombie**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Eye Gouge (Active)" id="af1c-127e-18ba-af4c" hidden="false" type="rule" targetId="d295-290e-5694-0ff1"/>
+        <infoLink name="Regeneration (Passive)" id="3996-70ce-9db3-7456" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Unsteady* (Passive)" id="5861-0ee4-1785-e297" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.38a5-ea0d-6d11-7ea8"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="3db1-84dc-83e7-4098" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="a4d5-c1cb-74b5-b7d2" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Devious" hidden="false" id="40a9-b5a6-559d-97a7" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="389e-c7db-1b4d-6bad" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="9b67-4b7f-a2b8-3f2b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Strength" hidden="false" id="27df-cc40-ae57-dc1d" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ghoul Runner" hidden="false" id="b111-4766-0970-1f47">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="fa27-b4f7-5341-c6db" primary="true" name="Player"/>
+        <categoryLink targetId="a2aa-2c48-23cd-89c6" id="9ef8-e211-ea62-a950" primary="false" name="Ghoul Runner"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ghoul Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d3bf-e2bb-0eac-21c0">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Regeneration</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">75,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Ghoul**, **Runner**, **Undead**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="da72-d3dd-2809-1755" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Regeneration (Passive)" id="033b-5456-be02-9840" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="930d-8d81-01b8-6fcf" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="5649-fec2-2c01-4e03" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="a6fb-0a55-ffc2-a9cc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="f7e1-4a82-1579-2801" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="874b-ca05-3b23-49a0" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="2531-8975-9f88-bcb3" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Devious" hidden="false" id="caae-bfb8-f481-3b5b" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="11b1-28e7-6b55-24d6">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="7a41-3b24-4c2a-1237" primary="true" name="Player"/>
+        <categoryLink targetId="cce2-017f-a1d5-58d2" id="3d23-5183-20a5-fb42" primary="false" name="Wraith"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Wraith" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="0ff8-868b-5b81-e614">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">-</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, Foul Appearance, No Ball, Regeneration, Sidestep</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Undead**, **Wraith**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="512e-dfc0-d3ee-3c33" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Foul Appearance* (Passive)" id="9966-7308-fc05-d9ee" hidden="false" type="rule" targetId="efba-85d4-8842-adb5"/>
+        <infoLink name="No Ball* (Passive)" id="8de4-a22c-d98d-119f" hidden="false" type="rule" targetId="dd36-c391-8047-23cf"/>
+        <infoLink name="Regeneration (Passive)" id="d882-29e6-dc2c-8fab" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Sidestep (Active)" id="733e-3386-ed4d-0908" hidden="false" type="rule" targetId="f58b-2d8b-99e7-2b1c"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.07a8-cbbc-5267-9a61"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="b425-714c-3c90-b8c6" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="01b5-74df-f542-a99f" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="a8ee-8cf8-8eeb-0096" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="03a7-a73c-c07e-48a1" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="c375-2aa3-498b-0256" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="4cd5-94d0-6e50-de9d" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flesh Golem" hidden="false" id="4f5e-507d-4704-cb20">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="78a6-2132-7e4e-26c0" primary="true" name="Player"/>
+        <categoryLink targetId="6a5b-d66a-9561-8908" id="a03d-4889-3c36-dceb" primary="false" name="Flesh Golem"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Flesh Golem" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e664-ea02-ca37-13bc">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Regeneration, Stand Firm, Thick Skull, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Construct**, **Undead**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Regeneration (Passive)" id="0976-6adb-ee20-74cc" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Stand Firm (Active)" id="d0eb-678d-1ef9-1b4c" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+        <infoLink name="Thick Skull (Passive)" id="8b7d-e798-ca6e-208e" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+        <infoLink name="Unsteady* (Passive)" id="d7ad-9483-41af-72d5" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="f2b9-0491-6fa7-c512" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="eed8-a866-3011-b784" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="504a-251c-ac26-e3ab" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="7b9c-b6df-95ab-34d5" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="19ab-c6d4-5ab6-888e" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Devious" hidden="false" id="a30d-8f25-d30b-e360" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Werewolf" hidden="false" id="86db-14ce-a48c-be24">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="2bfb-1a2d-20ca-40c7" primary="true" name="Player"/>
+        <categoryLink targetId="3b50-c3ca-f2d6-4891" id="6eb0-dafd-743d-2bf5" primary="false" name="Werewolf"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Werewolf" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d231-2277-3229-36c7">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Claws, Frenzy, Regeneration</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DPS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Undead**, **Werewolf**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Claws (Passive)" id="ece4-4adb-9a95-1b2b" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>
+        <infoLink name="Frenzy* (Active)" id="0857-da8a-f102-40a3" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
+        <infoLink name="Regeneration (Passive)" id="3f5d-9a79-fde5-6ae2" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="132b-e065-7108-5da8" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="5f67-eeac-f6c8-0dff" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="f235-a6a1-be3e-2628" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="6850-73fc-7266-844d" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="ab29-f579-bd9b-cda4" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="fdc0-c9dd-6b92-2ed6" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Devious" hidden="false" id="1f77-348d-25fe-0938" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Zombie Lineman" hidden="false" id="a93c-1c82-183a-1a2e" type="selectionEntry" targetId="8cbe-5198-372f-ece5" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Ghoul Runner" hidden="false" id="cf29-e689-f91a-4e97" type="selectionEntry" targetId="b111-4766-0970-1f47" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Wraith" hidden="false" id="73c9-e9c6-856c-56a2" type="selectionEntry" targetId="11b1-28e7-6b55-24d6" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="85000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Flesh Golem" hidden="false" id="191c-a7c5-f69b-d41c" type="selectionEntry" targetId="4f5e-507d-4704-cb20" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Werewolf" hidden="false" id="7ad2-59d0-649a-5210" type="selectionEntry" targetId="86db-14ce-a48c-be24" sortIndex="5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="120000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="04f1-3e5e-22c7-7327">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="79b7-96b6-d6f5-4a95" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="cdb5-e062-53a3-9dd6-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cdb5-e062-53a3-9dd6-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Sylvanian Spotlight" hidden="false" id="16ba-9fe8-f86d-2ca0" type="selectionEntry" targetId="9070-d888-956b-b3f0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="08a4-9b94-85c3-eb62-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08a4-9b94-85c3-eb62-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="2ec4-8ba3-eaa7-ea9a">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="6cf8-c2c1-6cc8-8c6d" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7ed4-6ec8-7d53-57e9-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7ed4-6ec8-7d53-57e9-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Masters of Undeath" hidden="false" id="65a2-5721-7a91-5f12" type="selectionEntry" targetId="4ce9-c686-aec9-b623">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="295b-e54e-4628-7d47-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="295b-e54e-4628-7d47-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

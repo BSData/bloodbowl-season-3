@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b5fe-fd79-2dee-8038" name="Nurgle" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Rotter Lineman" id="d67e-c3f7-2515-f20d" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="3297-df52-f03c-c158" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Pestigor" id="7414-afb6-739c-1ac8" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8e90-063a-c7b6-2325" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Rotspawn" id="f6a8-ca71-699e-c36d" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="036b-1afb-e2c3-1f4d" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Bloater" id="b8ba-c3e0-eb99-5c78" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="6b9c-c1e6-d2f1-8ae7" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="dad6-3d09-e280-383a">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="e95f-f81b-7626-9195-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e95f-f81b-7626-9195-max" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="068c-4dbf-f9f1-f835" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Chaos Clash" hidden="false" id="2b37-72b0-fe55-07b4" type="selectionEntry" targetId="59e3-4dbf-4f7b-9276">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2a3-e3a0-b0a1-5fc2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2a3-e3a0-b0a1-5fc2-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="025f-4dcb-cb07-02a0">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="9e9e-9fba-64b0-abc4-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9e9e-9fba-64b0-abc4-max" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="8f83-d460-128a-e627" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Brawlin&apos; Brutes" hidden="false" id="6d92-3c75-d308-c0aa" type="selectionEntry" targetId="0d8a-9c12-8664-38e8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4428-1aeb-b90c-7f1b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4428-1aeb-b90c-7f1b-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Favoured of Nurgle" hidden="false" id="280f-a212-0e09-5efd" type="selectionEntry" targetId="d66c-3805-c337-bbb6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be6f-c640-9b5a-db83-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be6f-c640-9b5a-db83-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Favoured of ..." id="1923-c3a7-c6b9-f0d0" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Rotter Lineman" hidden="false" id="4570-2ed8-a26d-3f10">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="60be-d1eb-c7e4-f4be" primary="true" name="Player"/>
+        <categoryLink targetId="d67e-c3f7-2515-f20d" id="eda0-957a-a745-5303" primary="false" name="Rotter Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rotter Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b00a-023d-e381-1628">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">5</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Decay, Plague Ridden</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">DGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">40,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Decay* (Passive)" id="2a5f-b833-ff40-5d18" hidden="false" type="rule" targetId="8cc8-2b98-e566-6f05"/>
+        <infoLink name="Plague Ridden (Passive)" id="e20a-023a-2a43-0bc9" hidden="false" type="rule" targetId="2984-d832-8d05-c67d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="f412-24c2-b2b4-f3ee" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="cd7a-ccfd-b453-0e68" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="75dc-95ed-3828-5486" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="3c36-8f58-e757-86af" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="167d-64ab-01e8-103b" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="b7e5-920f-d6c8-972b" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Agility" hidden="false" id="7b4c-d920-e80f-65e2" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pestigor" hidden="false" id="4388-e69b-dcf5-35d3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="01f0-0a16-398b-38ea" primary="true" name="Player"/>
+        <categoryLink targetId="7414-afb6-739c-1ac8" id="8732-5e8d-fe0c-9475" primary="false" name="Pestigor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Pestigor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ca3d-6de0-22fe-ab4d">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Horns, Plague Ridden, Regeneration, Steady Footing, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">ADP</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">70,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Beastman**, **Runner**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="fa3c-8156-1490-68ee" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="2f9e-5dc3-7395-5b21" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="fd2b-44e6-c8ef-bacf" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="f985-e129-f7ba-a192" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1d3f-087a-86e6-bdfd" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="64b4-3285-94d9-d45d" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="bd3f-6ace-2534-0b39" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="Passing" hidden="false" id="e8ac-ab05-dd1a-7b50" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Horns (Active)" id="4d66-03db-b83a-682f" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
+        <infoLink name="Plague Ridden (Passive)" id="84bf-922d-45a4-fc83" hidden="false" type="rule" targetId="2984-d832-8d05-c67d"/>
+        <infoLink name="Regeneration (Passive)" id="1812-b71d-a0d4-a6bf" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Steady Footing (Active)" id="4a5a-c807-cd56-cef8" hidden="false" type="rule" targetId="6a53-7189-b23e-1778"/>
+        <infoLink name="Thick Skull (Passive)" id="707c-71d0-2a46-e05d" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b392-9974-2af9-bcf0"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.09ba-cd46-c151-4e45"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bloater" hidden="false" id="8ced-ef60-7f38-1bce">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="b597-730f-dfba-33ab" primary="true" name="Player"/>
+        <categoryLink targetId="b8ba-c3e0-eb99-5c78" id="7c98-a566-7c7f-98e2" primary="false" name="Bloater"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloater" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="2f3b-5d51-51a0-e0b4">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Disturbing Presence, Foul Appearance, Plague Ridden, Regeneration, Stand Firm, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GMS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Human**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ad53-24d7-dc10-7110" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="e750-f580-c925-b26a" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="2137-9024-d2a2-3c78" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="b850-0448-1176-4f00" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="c89b-ce93-0b20-259d" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="a9f9-c6f5-cabe-6294" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="8a82-c270-2627-9671" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Disturbing Presence* (Active)" id="ce93-b1b8-eb1c-c0f3" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>
+        <infoLink name="Foul Appearance* (Passive)" id="4b5c-6f71-5972-8eb6" hidden="false" type="rule" targetId="efba-85d4-8842-adb5"/>
+        <infoLink name="Plague Ridden (Passive)" id="47a5-6278-f30a-0a84" hidden="false" type="rule" targetId="2984-d832-8d05-c67d"/>
+        <infoLink name="Regeneration (Passive)" id="fc04-5e0c-a4ed-bff5" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Stand Firm (Active)" id="dce8-ef0b-70e1-30ae" hidden="false" type="rule" targetId="b299-5d1e-b26c-cd3b"/>
+        <infoLink name="Unsteady* (Passive)" id="affa-45d2-0e67-9678" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.6f4e-09ba-73c2-9fcc"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.07a8-cbbc-5267-9a61"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rotspawn" hidden="false" id="71a6-08b3-5421-9eb7">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="3329-f861-b0f6-14b7" primary="true" name="Player"/>
+        <categoryLink targetId="f6a8-ca71-699e-c36d" id="90e8-1fee-6887-287a" primary="false" name="Rotspawn"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rotspawn" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e4fa-91f7-10ab-391c">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">4</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Disturbing Presence, Foul Appearance, Loner (4+), Mighty Blow, Pick-me-up, Plague Ridden, Really Stupid, Regeneration, Tentacles</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">DGM</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Spawn**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="c03c-737a-8ee6-b47b" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="653c-b39a-9494-34b2" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="713b-403e-a911-b109" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Devious" hidden="false" id="a0aa-f71c-cee0-b749" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="General" hidden="false" id="ebc2-e5d7-45df-4275" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Mutation" hidden="false" id="168f-b70b-9449-8424" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Disturbing Presence* (Active)" id="5ae2-6fd1-c05f-2e19" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>
+        <infoLink name="Foul Appearance* (Passive)" id="282e-19e0-1b3a-44e4" hidden="false" type="rule" targetId="efba-85d4-8842-adb5"/>
+        <infoLink name="Loner (X+)* (Passive)" id="b4c5-912b-557d-b6f4" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="474b-ec57-dcff-c30f" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Pick-me-up (Active)" id="ef6c-6ce6-bdab-2bff" hidden="false" type="rule" targetId="365c-d909-6cb3-2b5b"/>
+        <infoLink name="Plague Ridden (Passive)" id="9311-e59f-5ee5-d10c" hidden="false" type="rule" targetId="2984-d832-8d05-c67d"/>
+        <infoLink name="Really Stupid (Passive)" id="7a8d-ffcc-3c2b-4140" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="3c07-9009-2cba-9977" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Tentacles (Active)" id="4465-de7c-26ff-757b" hidden="false" type="rule" targetId="8804-93c3-e4bd-78ee"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.6f4e-09ba-73c2-9fcc"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.07a8-cbbc-5267-9a61"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.e774-3a70-5f83-8a6e"/>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bloater" hidden="false" id="4c4c-a2e5-4743-e7fc" type="selectionEntry" targetId="8ced-ef60-7f38-1bce" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Pestigor" hidden="false" id="386f-fb7b-679a-3e31" type="selectionEntry" targetId="4388-e69b-dcf5-35d3" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="70000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Rotter Lineman" hidden="false" id="078f-fecf-d12d-af14" type="selectionEntry" targetId="4570-2ed8-a26d-3f10" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Rotspawn" hidden="false" id="b339-8b56-5045-9faf" type="selectionEntry" targetId="71a6-08b3-5421-9eb7" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>

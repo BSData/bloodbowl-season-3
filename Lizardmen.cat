@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="14be-6c15-533c-080f" name="Lizardmen" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="0b18-7e3f-1dc7-7f7b">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="e17f-c9a4-5df3-bebc-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e17f-c9a4-5df3-bebc-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Lustrian Superleague" hidden="false" id="932c-700e-1901-a1e5" type="selectionEntry" targetId="9e52-21d6-b650-0f2e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e262-fb27-73bc-6298-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e262-fb27-73bc-6298-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="bd70-332f-2477-d9d4" primary="true" name="Team Management"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Skink Lineman" id="93a8-5dce-eb25-c537" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="91ec-8d59-654a-5427" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Saurus Blocker" id="a66b-2c13-934d-b11f" hidden="false">
+      <constraints>
+        <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="4d5d-b82b-0b10-913a" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Kroxigor" id="27b8-0660-c307-9aff" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="054f-e9ed-c718-afd5" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Chameleon Skink" id="7316-a362-4157-faca" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="893a-45b0-20d3-990b" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Chameleon Skink" hidden="false" id="b7a7-f295-4475-2458">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="90f5-9d10-af6c-92f1" primary="true" name="Player"/>
+        <categoryLink targetId="7316-a362-4157-faca" id="5ba1-13f7-f885-0046" primary="false" name="Chameleon Skink"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Chameleon Skink" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e8b9-876b-8778-88c4">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, On the Ball, Shadowing, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GDS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">70,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lizardman**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="3233-32af-33b7-440e" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="On the Ball (Active)" id="6043-8c56-9956-1420" hidden="false" type="rule" targetId="8a2f-7e41-b532-e70a"/>
+        <infoLink name="Shadowing (Active)" id="75dc-c318-9ccb-512b" hidden="false" type="rule" targetId="5263-3b6c-910f-3a9d"/>
+        <infoLink name="Stunty* (Passive)" id="140b-8f73-084f-f82a" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a279-db7f-7aab-d126"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.9218-8f39-e528-6b51"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="a6db-99b6-dca0-0555" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="0654-6778-4eaf-a3f0" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Agility" hidden="false" id="ae42-dad1-39d2-0641" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="13c7-d1d4-268f-6a62" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="b84d-0404-08e5-a803" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Devious" hidden="false" id="dbf4-589a-baf2-cc89" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+            <entryLink import="true" name="Strength" hidden="false" id="7f11-14b5-74dc-4f14" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kroxigor" hidden="false" id="4655-d31b-69bf-ce34">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="5e26-2829-4e29-d24d" primary="true" name="Player"/>
+        <categoryLink targetId="27b8-0660-c307-9aff" id="80ae-1afe-c667-74dd" primary="false" name="Kroxigor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kroxigor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="95e3-5cc2-d80e-b9bc">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">5</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Mighty Blow, Prehensile Tail, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Lizardman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bone Head* (Passive)" id="ef57-9056-be58-7780" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
+        <infoLink name="Loner (X+)* (Passive)" id="e001-0d99-a8e3-5b77" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
+        <infoLink name="Mighty Blow (Active)" id="609e-cbbc-3ad8-5260" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Prehensile Tail (Active)" id="ee0e-329c-35c5-9c89" hidden="false" type="rule" targetId="6290-be3e-96b3-05f2"/>
+        <infoLink name="Thick Skull (Passive)" id="6f44-dbe4-0257-4777" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.285a-a4da-1ac5-8ba1"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="050b-5631-82a2-0fb5" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="0278-1300-6a5f-bc02" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1483-fc1d-50fe-87d5" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="3543-8fcd-460f-b3df" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Agility" hidden="false" id="5704-283b-3b6b-943a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Saurus Blocker" hidden="false" id="17de-3ec1-3c2c-a2ef">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="6445-c672-4e73-e9ea" primary="true" name="Player"/>
+        <categoryLink targetId="a66b-2c13-934d-b11f" id="d08b-7082-8836-1fbd" primary="false" name="Saurus Blocker"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Saurus Blocker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a26b-415f-7a4d-f364">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">4</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">6+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Juggernaut, Unsteady</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">GS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Lizardman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Juggernaut (Active)" id="e8e6-046b-16cc-7aba" hidden="false" type="rule" targetId="783a-8b57-b4c3-4344"/>
+        <infoLink name="Unsteady* (Passive)" id="b741-650d-61d1-875b" hidden="false" type="rule" targetId="4a28-69c3-1789-3f44"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fb62-3fc9-f728-bf0c"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="e808-fe7f-8e4a-0597" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="51ff-36bd-3fa9-eb5b" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="General" hidden="false" id="1675-16e8-ddd0-30de" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="0b84-491d-5874-8a1b" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="f7d1-009d-98d0-e37d" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skink Lineman" hidden="false" id="fb01-599f-739e-ec22">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d10e-2152-67d1-5f47" primary="true" name="Player"/>
+        <categoryLink targetId="93a8-5dce-eb25-c537" id="1cd5-11ce-de6f-66ed" primary="false" name="Skink Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Skink Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d8c8-7f2e-1a7f-f29a">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">2</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">3+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Dodge, Stunty</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">A</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GDPS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">60,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Lineman**, **Lizardman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="2479-9c1b-c389-8e98" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Stunty* (Passive)" id="915f-9752-ebc7-28bc" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="35e9-8fad-1c5f-0a43" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="828b-7177-ab33-8b08" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="cc9e-a29a-6acc-f272" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="General" hidden="false" id="173b-ac38-7df5-544c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="2047-5ee9-1cf4-9ec5" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="e7df-65a7-2442-6424" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Devious" hidden="false" id="43f0-c156-2760-0fa5" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Skink Lineman" hidden="false" id="77b1-4f76-0e3a-5af5" type="selectionEntry" targetId="fb01-599f-739e-ec22" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="60000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Chameleon Skink" hidden="false" id="cabb-b1ed-5a4d-3eb2" type="selectionEntry" targetId="b7a7-f295-4475-2458" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="70000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Saurus Blocker" hidden="false" id="609b-9cfa-f247-2717" type="selectionEntry" targetId="17de-3ec1-3c2c-a2ef" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Kroxigor" hidden="false" id="1bf4-3ea7-6dfb-1d1b" type="selectionEntry" targetId="4655-d31b-69bf-ce34" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="140000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
