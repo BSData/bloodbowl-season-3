@@ -5,6 +5,11 @@
     <categoryEntry name="Team Management" id="9e9f-1d0d-a83d-4cba" hidden="false"/>
     <categoryEntry name="Positional" id="0c44-468c-6a37-e6c8" hidden="false"/>
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
+    <categoryEntry name="Mercenary" id="39c8-1c0f-e5a3-fcec" hidden="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="a646-1650-b75d-faa7" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -61,6 +66,18 @@
         <characteristicType name="AV" id="9779-1941-8866-e9e0"/>
         <characteristicType name="Skills &amp; Traits" id="1150-0800-4502-fc58"/>
         <characteristicType name="Keywords" id="7355-feed-529c-f26b"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Mercenary" id="077c-ac54-5405-df9a" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="MA" id="7939-b28d-2e0a-6e1b"/>
+        <characteristicType name="ST" id="0866-6794-1621-20c0"/>
+        <characteristicType name="AG" id="fc53-0e81-c1af-bfe9"/>
+        <characteristicType name="PA" id="100c-6d61-eb7e-f394"/>
+        <characteristicType name="AV" id="155c-2184-23a2-685d"/>
+        <characteristicType name="Skills &amp; Traits" id="f819-7bc9-5e79-7238"/>
+        <characteristicType name="Primary" id="5c3d-dee0-28d7-3307"/>
+        <characteristicType name="Keywords" id="8876-7402-9164-3947"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
