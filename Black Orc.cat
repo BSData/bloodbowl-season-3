@@ -36,7 +36,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">45,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -84,7 +84,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Orc**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Orc**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -129,7 +129,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -159,6 +159,133 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="[Mercenary] Black Orc" hidden="false" id="3c67-0eaf-fc92-b178">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="d24c-b043-4ca0-848f" primary="true" name="Player"/>
+        <categoryLink targetId="9099-e37b-2076-fede" id="176f-1138-4979-92ce" primary="false" name="Black Orc"/>
+        <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="7a67-c413-2292-457d" primary="false" name="Mercenary"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Black Orc" typeId="077c-ac54-5405-df9a" typeName="Mercenary" hidden="false" id="2f85-1673-b570-ce55">
+          <characteristics>
+            <characteristic name="MA" typeId="7939-b28d-2e0a-6e1b">4</characteristic>
+            <characteristic name="ST" typeId="0866-6794-1621-20c0">4</characteristic>
+            <characteristic name="AG" typeId="fc53-0e81-c1af-bfe9">4+</characteristic>
+            <characteristic name="PA" typeId="100c-6d61-eb7e-f394">5+</characteristic>
+            <characteristic name="AV" typeId="155c-2184-23a2-685d">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="f819-7bc9-5e79-7238">Brawler, Grab</characteristic>
+            <characteristic name="Primary" typeId="5c3d-dee0-28d7-3307">GS</characteristic>
+            <characteristic name="Keywords" typeId="8876-7402-9164-3947">**Blocker**, **Orc**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brawler (Active)" id="a6c8-b189-b97b-8ede" hidden="false" type="rule" targetId="d839-ffbd-92cc-0ec0"/>
+        <infoLink name="Grab (Active)" id="6cf1-9b4a-9067-8655" hidden="false" type="rule" targetId="ed62-ba8e-71c7-5a1d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="a39e-db72-45ce-e1c8" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="6232-95de-e3b7-b30a" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.f7fd-b955-21d7-90d4"/>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.31a8-34bd-4d79-5269"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.recursive.9256-339d-7987-49c4"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.recursive.ec3a-6308-b916-8e0b"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="[Mercenary] Goblin Bruiser" hidden="false" id="99db-ca53-14d3-2aad">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="e23a-1841-0520-c4b4" primary="true" name="Player"/>
+        <categoryLink targetId="8f41-548f-a896-c024" id="5135-91d8-46f5-f91d" primary="false" name="Goblin Bruiser"/>
+        <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="cceb-7764-91de-40c0" primary="false" name="Mercenary"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Goblin Bruiser" typeId="077c-ac54-5405-df9a" typeName="Mercenary" hidden="false" id="f677-5f38-1172-3772">
+          <characteristics>
+            <characteristic name="MA" typeId="7939-b28d-2e0a-6e1b">6</characteristic>
+            <characteristic name="ST" typeId="0866-6794-1621-20c0">2</characteristic>
+            <characteristic name="AG" typeId="fc53-0e81-c1af-bfe9">3+</characteristic>
+            <characteristic name="PA" typeId="100c-6d61-eb7e-f394">4+</characteristic>
+            <characteristic name="AV" typeId="155c-2184-23a2-685d">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="f819-7bc9-5e79-7238">Dodge, Right Stuff, Stunty, Thick Skull</characteristic>
+            <characteristic name="Primary" typeId="5c3d-dee0-28d7-3307">AD</characteristic>
+            <characteristic name="Keywords" typeId="8876-7402-9164-3947">**Goblin**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="5586-dc03-4d65-4b55" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="71f6-59c7-dc2a-d588" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.fcc9-3efe-db4e-206d"/>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.d38f-5d99-694f-98b4"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Dodge (Active)" id="c64e-b9f3-2506-f177" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
+        <infoLink name="Right Stuff* (Passive)" id="4bc8-df24-f6a8-6635" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
+        <infoLink name="Stunty* (Passive)" id="60ab-0cb6-322a-e55f" hidden="false" type="rule" targetId="b4d2-4954-1284-1167"/>
+        <infoLink name="Thick Skull (Passive)" id="b679-4b21-1b4c-79ba" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.recursive.fd3f-cc07-9cc8-98ea"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.recursive.3d15-f50c-c6e3-17e9"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="[Mercenary] Trained Troll" hidden="false" id="d1cb-0033-a242-6682">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="ecbe-bffc-db98-8d26" primary="true" name="Player"/>
+        <categoryLink targetId="bacb-4d83-6b12-7d67" id="7912-dee4-c2a4-49d4" primary="false" name="Trained Troll"/>
+        <categoryLink targetId="39c8-1c0f-e5a3-fcec" id="4f12-f9e0-3689-c46c" primary="false" name="Mercenary"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Trained Troll" typeId="077c-ac54-5405-df9a" typeName="Mercenary" hidden="false" id="b8c6-7dd2-d2ad-d626">
+          <characteristics>
+            <characteristic name="MA" typeId="7939-b28d-2e0a-6e1b">4</characteristic>
+            <characteristic name="ST" typeId="0866-6794-1621-20c0">5</characteristic>
+            <characteristic name="AG" typeId="fc53-0e81-c1af-bfe9">5+</characteristic>
+            <characteristic name="PA" typeId="100c-6d61-eb7e-f394">5+</characteristic>
+            <characteristic name="AV" typeId="155c-2184-23a2-685d">10+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="f819-7bc9-5e79-7238">Always Hungry, Mighty Blow, Projectile Vomit, Really Stupid, Regeneration, Throw Team-mate</characteristic>
+            <characteristic name="Primary" typeId="5c3d-dee0-28d7-3307">S</characteristic>
+            <characteristic name="Keywords" typeId="8876-7402-9164-3947">**Big Guy**, **Troll**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="3209-d17a-165c-c3f6" type="selectionEntry" targetId="60c7-3250-93b6-e53f">
+          <entryLinks>
+            <entryLink import="true" name="Primary Skills" hidden="false" id="b804-ae92-4c49-525e" type="selectionEntryGroup" targetId="dc86-edd9-0a88-e349">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden" affects="self.entries.31a8-34bd-4d79-5269"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Always Hungry* (Active)" id="3c1e-05f5-6f53-0d44" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
+        <infoLink name="Mighty Blow (Active)" id="5137-abdd-98d2-cfff" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
+        <infoLink name="Projectile Vomit (Active)" id="8f2c-76a8-6094-4538" hidden="false" type="rule" targetId="e7c5-e289-f998-ab71"/>
+        <infoLink name="Really Stupid (Passive)" id="e964-4f09-801d-1131" hidden="false" type="rule" targetId="07b6-8266-b73c-6a9f"/>
+        <infoLink name="Regeneration (Passive)" id="d65e-22b3-7423-8bfd" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
+        <infoLink name="Throw Team-mate (Active)" id="837d-34e8-1c99-d2a8" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.recursive.b7af-e07f-efc9-8aa4"/>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Black Orc" hidden="false" id="aa25-4fde-b7e8-1054" type="selectionEntry" targetId="b5c8-3bea-90ed-706b" sortIndex="2">
@@ -174,6 +301,21 @@
     <entryLink import="true" name="Goblin Bruiser" hidden="false" id="8424-3c11-9aa7-aeaa" type="selectionEntry" targetId="d8be-e0f1-bf86-b6ae" sortIndex="1">
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="45000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="[Mercenary] Black Orc" hidden="false" id="2b8d-4d30-f141-23f8" type="selectionEntry" targetId="3c67-0eaf-fc92-b178" sortIndex="5">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="120000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="[Mercenary] Goblin Bruiser" hidden="false" id="6aa2-71d9-54d3-b25d" type="selectionEntry" targetId="99db-ca53-14d3-2aad" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="75000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="[Mercenary] Trained Troll" hidden="false" id="d626-e2c3-92ac-9f67" type="selectionEntry" targetId="d1cb-0033-a242-6682" sortIndex="6">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="118000"/>
       </costs>
     </entryLink>
   </entryLinks>
