@@ -3156,7 +3156,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </infoLinks>
               <rules>
                 <rule name="Consummate Professional" id="7b58-11c2-dd44-1c8e" hidden="false">
-                  <description>Once per game, Griff may apply a +1 modifier to an Agility Test has has made. This modifier may be applied after the roll has been made.</description>
+                  <description>Once per game, Griff may apply a +1 modifier to an Agility Test he has made. This modifier may be applied after the roll has been made.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -3886,6 +3886,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <categoryLinks>
                 <categoryLink targetId="69f8-eb37-db8c-47de" id="c03e-aa82-d4d7-497b" primary="false" name="Player"/>
               </categoryLinks>
+              <rules>
+                <rule name="Lord of Chaos" id="359e-3de3-41c6-dc5c" hidden="false">
+                  <description>Once per game, when Lord Borak performs a Block Action he may re-roll a single Block Dice.</description>
+                </rule>
+              </rules>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Maple Highgrove" hidden="true" id="9d10-0522-2735-03a8">
               <costs>
@@ -4934,7 +4939,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </infoLinks>
               <rules>
                 <rule name="Savage Mauling" id="bfa2-6618-7c0e-171b" hidden="false">
-                  <description>Once per game, when Wilhelm makes and Injury Roll against an opposition player, he may choose to re-roll the result.</description>
+                  <description>Once per game, when Wilhelm makes an Injury Roll against an opposition player, he may choose to re-roll the result.</description>
                 </rule>
               </rules>
               <modifiers>
